@@ -10,7 +10,6 @@
 				<role descr="new state" f="prd" n="2"/>
 			</roles>
 			<example name="" src="" type="">
-				<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
 				<text>Lantas Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet menjadi Menkeh dan HAM.</text>
 				<arg f="" n="1">Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet</arg>
 				<rel f="">menjadi</rel>
@@ -32,6 +31,26 @@
 				<rel f="">menjadi</rel>
 				<arg f="" n="1">pertemuan semacam itu</arg>
 				<arg f="" n="2">alternatif ketika diskusi formal mencapai jalan buntu</arg>
+			</example>
+		</roleset>
+		<roleset id="menjadi.03" name="berubah keadaan (wujud, barang) lain; menjelma sebagai">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of decline" f="pag" n="0"/>
+				<role descr="thing decreasing" f="ppt" n="1"/>
+				<role descr="amount decreased by" f="ext" n="2"/>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point" f="prd" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Apalagi, dengan penghapusan upah lembur sejak tiga bulan terakhir, membuat penghasilan mereka dari Rp 750 ribu menjadi Rp 500 ribu.</text>
+				<arg f="" n="0">penghapusan upah lembur</arg>
+				<arg f="" n="1">penghasilan mereka</arg>
+				<arg f="" n="3">dari Rp 750 ribu</arg>
+				<rel f="">menjadi</rel>
+				<arg f="" n="4">Rp 500 ribu</arg>
 			</example>
 		</roleset>
 	</predicate>
