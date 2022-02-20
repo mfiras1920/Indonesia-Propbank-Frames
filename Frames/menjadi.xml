@@ -15,6 +15,18 @@
 				<rel f="">menjadi</rel>
 				<arg f="" n="2">Menkeh dan HAM</arg>
 			</example>
+			<example name="" src="" type="">
+				<text>Untunglah, selain para preman tersebut, tidak ada di antara pengunjung yang menjadi korban.</text>
+				<arg f="" n="1">selain para preman tersebut, tidak ada di antara pengunjung</arg>
+				<rel f="">menjadi</rel>
+				<arg f="" n="2">korban</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Rasul kemudian mengaku telah menjadi agen judi gelap ini sejak 10 bulan lampau.</text>
+				<arg f="" n="1">Rasul kemudian mengaku</arg>
+				<rel f="">menjadi</rel>
+				<arg f="" n="2">agen judi gelap</arg>
+			</example>
 		</roleset>
 		<roleset id="menjadi.02" name="dibuat (untuk)">
 			<aliases>
