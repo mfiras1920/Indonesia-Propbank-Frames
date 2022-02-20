@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menjadi">
+		<roleset id="menjadi.01" name="diangkat, dipilih (sebagai), menjabat pekerjaan (sebagai)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity changing" f="ppt" n="1"/>
+				<role descr="new state" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<inflection person="ns" tense="present" aspect="perfect" voice="active" form="participle"/>
+				<text>Lantas Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet menjadi Menkeh dan HAM.</text>
+				<arg f="" n="1">Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet</arg>
+				<rel f="">menjadi</rel>
+				<arg f="" n="2">Menkeh dan HAM</arg>
+			</example>
+		</roleset>
+		<roleset id="menjadi.02" name="dibuat (untuk)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+      		</aliases>
+			<roles>
+				<role descr="user" f="pag" n="0"/>
+				<role descr="thing used" f="ppt" n="1"/>
+				<role descr="purpose" f="prp" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati demikian, Arifin Panigoro tetap menilai pertemuan semacam itu bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu.</text>
+				<arg f="" n="0">Arifin Panigoro</arg>
+				<rel f="">menjadi</rel>
+				<arg f="" n="1">pertemuan semacam itu</arg>
+				<arg f="" n="2">alternatif ketika diskusi formal mencapai jalan buntu</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>
