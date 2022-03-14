@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ada">
+		<roleset id="ada.01" name="hadir, telah sedia">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">existing</alias>
+        		<alias framenet="Existence" pos="v" verbnet="">exist</alias>
+        		<alias framenet="" pos="j" verbnet="">existent</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing existing" f="pag" n="1">
+					<vnrole vncls="39.6" vntheta="agent"/>
+					<vnrole vncls="47.1-1" vntheta="theme"/>
+				</role>
+				<role descr="secondary attribute of arg1" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Untunglah , selain para preman tersebut , tidak ada di antara pengunjung yang menjadi korban .</text>
+				<arg f="dis" n="m">Untunglah</arg>
+				<arg f="adv" n="m">selain</arg>
+				<arg f="adv" n="m">para</arg>
+				<arg f="adv" n="m">preman</arg>
+				<arg f="adv" n="m">tersebut</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<rel f="">ada</rel>
+				<arg f="" n="1">di</arg>
+				<arg f="" n="1">antara</arg>
+				<arg f="" n="1">pengunjung</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">menjadi</arg>
+				<arg f="" n="1">korban</arg>
+			</example>
+		</roleset>
+		<roleset id="ada.02" name="mempunyai">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">have</alias>
+      		</aliases>
+			<roles>
+				<role descr="owner" f="pag" n="0">
+					<vnrole vncls="100.1" vntheta="pivot"/>
+					<vnrole vncls="39.4" vntheta="agent"/>
+				</role>
+				<role descr="possession" f="ppt" n="1">
+					<vnrole vncls="100.1" vntheta="theme"/>
+					<vnrole vncls="39.4" vntheta="patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Banyak anak-anak tak ada biaya untuk sekolah .</text>
+				<arg f="" n="0">Banyak</arg>
+				<arg f="" n="0">anak-anak</arg>
+				<arg f="neg" n="m">tak</arg>
+				<rel f="">ada</rel>
+				<arg f="" n="1">biaya</arg>
+				<arg f="prp" n="m">untuk</arg>
+				<arg f="prp" n="m">sekolah</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

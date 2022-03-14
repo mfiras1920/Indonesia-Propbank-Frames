@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ditemukan">
+		<roleset id="ditemukan.01" name="pasif menemukan">
+			<aliases>
+        		<alias framenet="Locating Becoming_aware" pos="v" verbnet="">find</alias>
+				<alias framenet="" pos="n" verbnet="">find</alias>
+				<alias framenet="" pos="n" verbnet="">finding</alias>
+      		</aliases>
+			<roles>
+				<role descr="finder" f="PAG" n="0">
+					<vnrole vncls="13.5.1" vntheta="Agent"/>
+					<vnrole vncls="84" vntheta="Agent"/>
+				</role>
+				<role descr="thing found" f="PPT" n="1">
+					<vnrole vncls="13.5.1" vntheta="Theme"/>
+					<vnrole vncls="84" vntheta="Theme"/>
+				</role>
+				<role descr="benefactive, found for" f="GOL" n="2">
+					<vnrole vncls="13.5.1" vntheta="Beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Saat tim yang terdiri dari anggota TNI /Polri dan Pertamina datang ke lokasi , tempat pengoplosan di pinggir sawah itu ditemukan bersama lima mobil tangki .</text>
+				<arg f="tmp" n="m">Saat</arg>
+				<arg f="tmp" n="m">tim</arg>
+				<arg f="tmp" n="m">yang</arg>
+				<arg f="tmp" n="m">terdiri</arg>
+				<arg f="tmp" n="m">dari</arg>
+				<arg f="tmp" n="m">anggota</arg>
+				<arg f="tmp" n="m">TNI</arg>
+				<arg f="tmp" n="m">/Polri</arg>
+				<arg f="tmp" n="m">dan</arg>
+				<arg f="tmp" n="m">Pertamina</arg>
+				<arg f="tmp" n="m">datang</arg>
+				<arg f="tmp" n="m">ke</arg>
+				<arg f="tmp" n="m">lokasi</arg>
+				<arg f="" n="1">tempat</arg>
+				<arg f="" n="1">pengoplosan</arg>
+				<arg f="" n="1">di</arg>
+				<arg f="" n="1">pinggir</arg>
+				<arg f="" n="1">sawah</arg>
+				<arg f="" n="1">itu</arg>
+				<rel f="">ditemukan</rel>
+				<arg f="com" n="m">bersama</arg>
+				<arg f="com" n="m">lima</arg>
+				<arg f="com" n="m">mobil</arg>
+				<arg f="com" n="m">tangki</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

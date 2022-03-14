@@ -1,0 +1,18 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tewas">
+		<roleset id="tewas.01" name="meninggal">
+			<aliases>
+        		
+      		</aliases>
+			<roles>
+				
+			</roles>
+			<example name="" src="" type="">
+				<text></text>
+				<arg f="" n=""></arg>
+				<rel f=""></rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berusia">
+		<roleset id="berusia.01" name="mempunyai umur">
+			<aliases>
+        		<alias framenet="Aging" pos="v" verbnet="">age</alias>
+				<alias framenet="" pos="n" verbnet="">aging</alias>
+				<alias framenet="" pos="j" verbnet="">aged</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of aging, agent" f="pag" n="0">
+					<vnrole vncls="45.4" vntheta="agent"/>
+				</role>
+				<role descr="entity getting old" f="ppt" n="1">
+					<vnrole vncls="45.4" vntheta="patient"/>
+				</role>
+				<role descr="attribute (how old)" f="ext" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pelaku penembakan diduga berambut panjang dengan tinggi sekitar 163 sentimeter , berusia 26 tahun .</text>
+				<arg f="" n="1">Pelaku</arg>
+				<arg f="" n="1">penembakan</arg>
+				<rel f="">berusia</rel>
+				<arg f="" n="2">26</arg>
+				<arg f="" n="2">tahun</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

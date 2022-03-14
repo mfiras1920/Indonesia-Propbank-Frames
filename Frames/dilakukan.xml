@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dilakukan">
+		<roleset id="dilakukan.01" name="mengerjakan (pasif) - dikerjakan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">perpetrate</alias>
+      		</aliases>
+			<roles>
+				<role descr="perp" f="pag" n="0"/>
+				<role descr="crime" f="ppt" n="1"/>
+				<role descr="victim" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pemantauan polisi juga tak melihat indikasi kekerasan yang dilakukan massa yang telah berada di Ibu Kota pada Kamis malam ( 2/12 ) .</text>
+				<arg f="" n="1">indikasi</arg>
+				<arg f="" n="1">kekerasan</arg>
+				<rel f="">dilakukan</rel>
+				<arg f="" n="0">massa</arg>
+				<arg f="" n="0">yang</arg>
+				<arg f="" n="0">telah</arg>
+				<arg f="" n="0">berada</arg>
+				<arg f="" n="0">di</arg>
+				<arg f="" n="0">Ibu</arg>
+				<arg f="" n="0">Kota</arg>
+				<arg f="" n="0">pada</arg>
+				<arg f="" n="0">Kamis</arg>
+				<arg f="" n="0">malam</arg>
+				<arg f="" n="0">(</arg>
+				<arg f="" n="0">2/12</arg>
+				<arg f="" n="0">)</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

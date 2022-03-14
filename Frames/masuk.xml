@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="masuk">
+		<roleset id="masuk.01" name="datang ke suatu tempat, tergolong, terhitung">
+			<aliases>
+        		<alias framenet="Becoming_a_member Path_shape Arriving" pos="v" verbnet="">enter</alias>
+				<alias framenet="" pos="n" verbnet="">entering</alias>
+				<alias framenet="arriving" pos="n" verbnet="">entrance</alias>
+				<alias framenet="Becoming_a_member Path_shape Arriving" pos="n" verbnet="">entry</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity entering" f="ppt" n="0">
+					<vnrole vncls="51.1-2" vntheta="theme"/>
+				</role>
+				<role descr="place or thing entered" f="loc" n="1">
+					<vnrole vncls="51.1-2" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Wartawan pun tak bisa masuk lantaran istri Pangdam masih dalam keadaan shock dan belum dapat ditemui siapa pun .</text>
+				<arg f="" n="0">Wartawan</arg>
+				<arg f="dis" n="m">pun</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="mod" n="m">bisa</arg>
+				<rel f="">masuk</rel>
+				<arg f="cau" n="m">lantaran</arg>
+				<arg f="cau" n="m">istri</arg>
+				<arg f="cau" n="m">Pangdam</arg>
+				<arg f="cau" n="m">masih</arg>
+				<arg f="cau" n="m">dalam</arg>
+				<arg f="cau" n="m">keadaan</arg>
+				<arg f="cau" n="m">shock</arg>
+				<arg f="cau" n="m">dan</arg>
+				<arg f="cau" n="m">belum</arg>
+				<arg f="cau" n="m">dapat</arg>
+				<arg f="cau" n="m">ditemui</arg>
+				<arg f="cau" n="m">siapa</arg>
+				<arg f="cau" n="m">pun</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek , ujar Perez kepada Telecinco .</text>
+				<arg f="" n="0">kualifikasi</arg>
+				<rel f="">masuk</rel>
+				<arg f="" n="1">ke</arg>
+				<arg f="" n="1">dalam</arg>
+				<arg f="" n="1">proyek</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

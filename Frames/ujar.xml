@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="">
+		<roleset id="" name="">
+			<aliases>
+        		<alias framenet="Spelling_and_pronouncing Text_creation Statement" pos="v" verbnet="">say</alias>
+      		</aliases>
+			<roles>
+				<role descr="Sayer" f="pag" n="0">
+					<vnrole vncls="37.7-1" vntheta="agent"/>
+					<vnrole vncls="78-1" vntheta="cause"/>
+				</role>
+				<role descr="Utterance" f="ppt" n="1">
+					<vnrole vncls="37.7-1" vntheta="topic"/>
+					<vnrole vncls="78-1" vntheta="topic"/>
+				</role>
+				<role descr="Hearer" f="gol" n="2">
+					<vnrole vncls="37.7-1" vntheta="recipient"/>
+					<vnrole vncls="78-1" vntheta="recipient"/>
+				</role>
+				<role descr="Attributive" f="adv" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek , ujar Perez kepada Telecinco .</text>
+				<arg f="" n="1">Dia</arg>
+				<arg f="" n="1">(</arg>
+				<arg f="" n="1">Kaka</arg>
+				<arg f="" n="1">)</arg>
+				<arg f="" n="1">adalah</arg>
+				<arg f="" n="1">salah</arg>
+				<arg f="" n="1">satu</arg>
+				<arg f="" n="1">pemain</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">layak</arg>
+				<arg f="" n="1">bermain</arg>
+				<arg f="" n="1">di</arg>
+				<arg f="" n="1">Real</arg>
+				<arg f="" n="1">Madrid</arg>
+				<arg f="" n="1">karena</arg>
+				<arg f="" n="1">punya</arg>
+				<arg f="" n="1">kualifikasi</arg>
+				<arg f="" n="1">masuk</arg>
+				<arg f="" n="1">ke</arg>
+				<arg f="" n="1">dalam</arg>
+				<arg f="" n="1">proyek</arg>
+				<rel f="">ujar</rel>
+				<arg f="" n="0">Perez</arg>
+				<arg f="" n="2">kepada</arg>
+				<arg f="" n="2">Telecinco</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

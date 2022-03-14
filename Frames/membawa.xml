@@ -1,0 +1,160 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membawa">
+		<roleset id="membawa.01" name="memegang, mengangkut">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">carry</alias>
+      		</aliases>
+			<roles>
+				<role descr="carrier" f="pag" n="0">
+					<vnrole vncls="11.4" vntheta="agent"/>
+					<vnrole vncls="54.2" vntheta="theme"/>
+					<vnrole vncls="54.3" vntheta="location"/>
+				</role>
+				<role descr="thing carried" f="ppt" n="1">
+					<vnrole vncls="11.4" vntheta="theme"/>
+					<vnrole vncls="54.2" vntheta="value"/>
+					<vnrole vncls="54.3" vntheta="value"/>
+				</role>
+				<role descr="instrument" f="mnr" n="2"/>
+				<role descr="'with' reflecting back on arg0" f="vsp" n="3"/>
+				<role descr="benefactive (predicted but not seen)" f="gol" n="4">
+					<vnrole vncls="54.2" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Penegasan Presiden Wahid tersebut disampaikan dalam keterangan pers , tiga jam sebelum pesawat yang membawa rombongan Presiden mendarat , Kamis ( 8/3 ) dini hari .</text>
+				<arg f="" n="0">pesawat</arg>
+				<rel f="">membawa</rel>
+				<arg f="" n="1">rombongan</arg>
+				<arg f="" n="1">Presiden</arg>
+				<arg f="prd" n="m">mendarat</arg>
+				<arg f="tmp" n="m">Kamis</arg>
+				<arg f="tmp" n="m">(</arg>
+				<arg f="tmp" n="m">8/3</arg>
+				<arg f="tmp" n="m">)</arg>
+				<arg f="tmp" n="m">dini</arg>
+				<arg f="tmp" n="m">hari</arg>
+			</example>
+		</roleset>
+		<roleset id="membawa.02" name="mengajak pergi">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">taking</alias>
+        		<alias framenet="Removing Ingest_substance Taking Bringing" pos="v" verbnet="">take</alias>
+      		</aliases>
+			<roles>
+				<role descr="Taker" f="pag" n="0">
+					<vnrole vncls="10.5" vntheta="agent"/>
+					<vnrole vncls="11.3" vntheta="instrument"/>
+				</role>
+				<role descr="thing taken" f="ppt" n="1">
+					<vnrole vncls="10.5" vntheta="theme"/>
+					<vnrole vncls="11.3" vntheta="theme"/>
+				</role>
+				<role descr="taken FROM, SOURCE of thing taken" f="dir" n="2">
+					<vnrole vncls="10.5" vntheta="source"/>
+				</role>
+				<role descr="destination" f="gol" n="3">
+					<vnrole vncls="11.3" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Ketika mobil polisi berbunyi , dua perampok itu segera membawa duit yang dibawa korban dan membawa lari mobil tersebut .</text>
+				<arg f="tmp" n="m">Ketika</arg>
+				<arg f="tmp" n="m">mobil</arg>
+				<arg f="tmp" n="m">polisi</arg>
+				<arg f="tmp" n="m">berbunyi</arg>
+				<arg f="" n="0">dua</arg>
+				<arg f="" n="0">perampok</arg>
+				<arg f="" n="0">itu</arg>
+				<arg f="tmp" n="m">segera</arg>
+				<rel f="">membawa</rel>
+				<arg f="" n="1">duit</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">dibawa</arg>
+				<arg f="" n="1">korban</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Ketika mobil polisi berbunyi , dua perampok itu segera membawa duit yang dibawa korban dan membawa lari mobil tersebut .</text>
+				<arg f="tmp" n="m">Ketika</arg>
+				<arg f="tmp" n="m">mobil</arg>
+				<arg f="tmp" n="m">polisi</arg>
+				<arg f="tmp" n="m">berbunyi</arg>
+				<arg f="" n="0">dua</arg>
+				<arg f="" n="0">perampok</arg>
+				<arg f="" n="0">itu</arg>
+				<arg f="tmp" n="m">segera</arg>
+				<rel f="">membawa</rel>
+				<arg f="" n="1">mobil</arg>
+				<arg f="" n="1">tersebut</arg>
+			</example>
+		</roleset>
+		<roleset id="membawa.03" name="mendatangkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="11.3-1">bring</alias>
+      		</aliases>
+			<roles>
+				<role descr="bringer" f="pag" n="0">
+					<vnrole vncls="11.3-1" vntheta="agent"/>
+				</role>
+				<role descr="thing brought" f="ppt" n="1">
+					<vnrole vncls="11.3-1" vntheta="theme"/>
+				</role>
+				<role descr="benefactive or destination brought-for, brought-to," f="gol" n="2">
+					<vnrole vncls="11.3-1" vntheta="destination"/>
+				</role>
+				<role descr="attribute, state after bringing, secondary action" f="prd" n="3"/>
+				<role descr="ablative, brought-from" f="dir" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Hewan legendaris itu dipercaya membawa nasib baik dan rejeki .</text>
+				<arg f="" n="0">Hewan</arg>
+				<arg f="" n="0">legendaris</arg>
+				<arg f="" n="0">itu</arg>
+				<rel f="">membawa</rel>
+				<arg f="" n="1">nasib</arg>
+				<arg f="" n="1">baik</arg>
+				<arg f="" n="1">dan</arg>
+				<arg f="" n="1">rejeki</arg>
+			</example>
+		</roleset>
+		<roleset id="membawa" name="menarik atau melibatkan">
+			<aliases>
+        		<alias framenet="Participation" pos="j" verbnet="">involved</alias>
+				<alias framenet="" pos="n" verbnet="">involvement</alias>
+				<alias framenet="" pos="v" verbnet="">involve</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of inclusion" f="PAG" n="0">
+					<vnrole vncls="107" vntheta="Agent"/>
+				</role>
+				<role descr="theme, thing being included into a group" f="ppt" n="1">
+					<vnrole vncls="107" vntheta="Theme"/>
+					<vnrole vncls="86.2-1" vntheta="co-theme"/>
+					<vnrole vncls="103" vntheta="Theme"/>
+				</role>
+				<role descr="group" f="ppt" n="2">
+					<vnrole vncls="107" vntheta="Goal"/>
+					<vnrole vncls="86.2-1" vntheta="Theme"/>
+					<vnrole vncls="103" vntheta="Pivot"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Jika FUD dimatikan , semakin banyak orang akan membawa nama rakyat untuk kepentingan pribadi .</text>
+				<arg f="adv" n="m">Jika</arg>
+				<arg f="adv" n="m">FUD</arg>
+				<arg f="adv" n="m">dimatikan</arg>
+				<arg f="" n="0">semakin</arg>
+				<arg f="" n="0">banyak</arg>
+				<arg f="" n="0">orang</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">membawa</rel>
+				<arg f="" n="1">nama</arg>
+				<arg f="" n="1">rakyat</arg>
+				<arg f="tmp" n="m">untuk</arg>
+				<arg f="tmp" n="m">kepentingan</arg>
+				<arg f="tmp" n="m">pribadi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

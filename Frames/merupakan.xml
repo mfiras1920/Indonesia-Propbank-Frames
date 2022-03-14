@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="merupakan">
+		<roleset id="merupakan.01" name="adalah, menjadi">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">constitute</alias>
+        		<alias framenet="" pos="n" verbnet="">constitution</alias>
+      		</aliases>
+			<roles>
+				<role descr="components (almost always plural)" f="PAG" n="0">
+					<vnrole vncls="55.5" vntheta="Agent"/>
+				</role>
+				<role descr="whole" f="PPT" n="1">
+					<vnrole vncls="55.5" vntheta="Theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara ini merupakan pencapaian pertama bagi MU dalam lima tahun terakhir .</text>
+				<arg f="tmp" n="m">Sementara</arg>
+				<arg f="" n="0">ini</arg>
+				<rel f="">merupakan</rel>
+				<arg f="" n="1">pencapaian</arg>
+				<arg f="" n="1">pertama</arg>
+				<arg f="" n="1">bagi</arg>
+				<arg f="" n="1">MU</arg>
+				<arg f="tmp" n="m">dalam</arg>
+				<arg f="tmp" n="m">lima</arg>
+				<arg f="tmp" n="m">tahun</arg>
+				<arg f="tmp" n="m">terakhir</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

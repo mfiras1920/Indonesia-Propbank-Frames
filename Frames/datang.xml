@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="datang">
+		<roleset id="datang.01" name="tiba di tempat yang dituju">
+			<aliases>
+        		<alias framenet="Arriving" pos="v" verbnet="">arrive</alias>
+        		<alias framenet="arriving" pos="n" verbnet="">arrival</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity in motion / 'comer'" f="PPT" n="1">
+					<vnrole vncls="51.1" vntheta="Theme"/>
+				</role>
+				<role descr="extent -- rare)" f="ext" n="2"/>
+				<role descr="start point -- also rare)" f="dir" n="3"/>
+				<role descr="end point, destination" f="LOC" n="4">
+					<vnrole vncls="51.1" vntheta="Destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Saat tim yang terdiri dari anggota TNI /Polri dan Pertamina datang ke lokasi , tempat pengoplosan di pinggir sawah itu ditemukan bersama lima mobil tangki .</text>
+				<arg f="tmp" n="m">Saat</arg>
+				<arg f="" n="1">tim</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">terdiri</arg>
+				<arg f="" n="1">dari</arg>
+				<arg f="" n="1">anggota</arg>
+				<arg f="" n="1">TNI</arg>
+				<arg f="" n="1">/Polri</arg>
+				<arg f="" n="1">dan</arg>
+				<arg f="" n="1">Pertamina</arg>
+				<rel f="">datang</rel>
+				<arg f="" n="4">ke</arg>
+				<arg f="" n="4">lokasi</arg>
+			</example>
+		</roleset>
+		<roleset id="datang.02" name="berasal">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">originate</alias>
+				<alias framenet="origin" pos="n" verbnet="">origin</alias>
+				<alias framenet="" pos="n" verbnet="">origination</alias>
+      		</aliases>
+			<roles>
+				<role descr="creator" f="pag" n="0"/>
+				<role descr="thing originated" f="ppt" n="1"/>
+				<role descr="source" f="dir" n="2"/>
+				<role descr="attribute of arg1" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Karena itu , Amien berharap , insiatif membentuk komisi tersebut datang dari F-PDIP MPR .</text>
+				<arg f="" n="1">insiatif</arg>
+				<arg f="" n="1">membentuk</arg>
+				<arg f="" n="1">komisi</arg>
+				<arg f="" n="1">tersebut</arg>
+				<rel f="">datang</rel>
+				<arg f="" n="2">dari</arg>
+				<arg f="" n="2">F-PDIP</arg>
+				<arg f="" n="2">MPR</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,91 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membuat">
+		<roleset id="membuat.01" name="menciptakan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">make</alias>
+				<alias framenet="" pos="n" verbnet="">make</alias>
+				<alias framenet="" pos="n" verbnet="">making</alias>
+      		</aliases>
+			<roles>
+				<role descr="creator" f="pag" n="0">
+					<vnrole vncls="26.1-1" vntheta="agent"/>
+				</role>
+				<role descr="creation" f="prd" n="1">
+					<vnrole vncls="26.1-1" vntheta="product"/>
+				</role>
+				<role descr="created-from, thing changed" f="vsp" n="2">
+					<vnrole vncls="26.1-1" vntheta="material"/>
+				</role>
+				<role descr="benefactive" f="gol" n="3">
+					<vnrole vncls="26.1-1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pria jebolan Institut Kesenian Jakarta itu membuat beberapa film pendek .</text>
+				<arg f="" n="0">Pria</arg>
+				<arg f="" n="0">jebolan</arg>
+				<arg f="" n="0">Institut</arg>
+				<arg f="" n="0">Kesenian</arg>
+				<arg f="" n="0">Jakarta</arg>
+				<arg f="" n="0">itu</arg>
+				<rel f="">membuat</rel>
+				<arg f="" n="1">beberapa</arg>
+				<arg f="" n="1">film</arg>
+				<arg f="" n="1">pendek</arg>	
+			</example>
+		</roleset>
+		<roleset id="membuat.02" name="mengerjakan">
+			<aliases>
+        		<alias framenet="Intentionally_act Intentionally_affect Ingest_substance Successful_action Take_place_of Resolve_problem" pos="v" verbnet="">do</alias>
+        		<alias framenet="Intentionally_act" pos="n" verbnet="">doing</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent, doer" f="pag" n="0"/>
+				<role descr="thing done" f="ppt" n="1"/>
+				<role descr="benefactive, done for or about" f="gol" n="2"/>
+				<role descr="instrumental" f="mnr" n="3"/>
+				<role descr="comitative, companion while doing" f="com" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Mereka membuat sketsa dan latar lukisan .</text>
+				<arg f="" n="0">Mereka</arg>
+				<rel f="">membuat</rel>
+				<arg f="" n="1">sketsa</arg>
+				<arg f="" n="1">dan</arg>
+				<arg f="" n="1">latar</arg>
+				<arg f="" n="1">lukisan</arg>
+			</example>
+		</roleset>
+		<roleset id="membuat.03" name="menyebabkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="27.1-1, 27.2">cause</alias>
+        		<alias framenet="" pos="n" verbnet="">causation</alias>
+      		</aliases>
+			<roles>
+				<role descr="forcer, causer" f="cau" n="0">
+					<vnrole vncls="27.1-1" vntheta="cause"/>
+					<vnrole vncls="27.2" vntheta="cause"/>
+				</role>
+				<role descr="impelled action" f="ppt" n="1">
+					<vnrole vncls="27.1-1" vntheta="theme"/>
+					<vnrole vncls="27.2" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kenaikan tingkat suku bunga deposito justru akan membuat naiknya suku bunga kredit .</text>
+				<arg f="" n="0">Kenaikan</arg>
+				<arg f="" n="0">tingkat</arg>
+				<arg f="" n="0">suku</arg>
+				<arg f="" n="0">bunga</arg>
+				<arg f="" n="0">deposito</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">membuat</rel>
+				<arg f="" n="1">naiknya</arg>
+				<arg f="" n="1">suku</arg>
+				<arg f="" n="1">bunga</arg>
+				<arg f="" n="1">kredit</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

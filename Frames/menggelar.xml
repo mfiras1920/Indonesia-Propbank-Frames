@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menggelar">
+		<roleset id="menggelar.01" name="membentangkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">put_up</alias>
+      		</aliases>
+			<roles>
+				<role descr="supplier" f="pag" n="0"/>
+				<role descr="supply, equipment" f="ppt" n="1"/>
+				<role descr="recipient, benefactive" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sambil menggelar poster dan spanduk , mereka menggelar orasi di depan Kantor DPRD setempat .</text>
+				<arg f="tmp" n="m">Sambil</arg>
+				<rel f="">menggelar</rel>
+				<arg f="" n="1">poster</arg>
+				<arg f="" n="1">dan</arg>
+				<arg f="" n="1">spanduk</arg>
+				<arg f="" n="0">mereka</arg>
+				<arg f="loc" n="m">di</arg>
+				<arg f="loc" n="m">depan</arg>
+				<arg f="loc" n="m">Kantor</arg>
+				<arg f="loc" n="m">DPRD</arg>
+				<arg f="loc" n="m">setempat</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Sambil menggelar poster dan spanduk , mereka menggelar orasi di depan Kantor DPRD setempat .</text>
+				<arg f="tmp" n="m">Sambil</arg>
+				<arg f="tmp" n="m">menggelar</arg>
+				<arg f="tmp" n="m">poster</arg>
+				<arg f="tmp" n="m">dan</arg>
+				<arg f="tmp" n="m">spanduk</arg>
+				<arg f="" n="0">mereka</arg>
+				<rel f="">menggelar</rel>
+				<arg f="" n="1">orasi</arg>
+				<arg f="loc" n="m">di</arg>
+				<arg f="loc" n="m">depan</arg>
+				<arg f="loc" n="m">Kantor</arg>
+				<arg f="loc" n="m">DPRD</arg>
+				<arg f="loc" n="m">setempat</arg>
+			</example>
+		</roleset>
+		<roleset id="menggelar.02" name="mempertontonkan, memperkenalkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">holding</alias>
+				<alias framenet="" pos="v" verbnet="">hold</alias>
+      		</aliases>
+			<roles>
+				<role descr="conductor" f="pag" n="0" />
+				<role descr="thing held" f="ppt" n="1" />
+				<role descr="with whom" f="com" n="2" />
+			</roles>
+			<example name="" src="" type="">
+				<text>Selepas menggelar orasi selama 30 menit , para pengunjuk rasa datang dengan menggunakan lima buah becak .</text>
+				<arg f="tmp" n="m">Selepas</arg>
+				<rel f="">menggelar</rel>
+				<arg f="" n="1">orasi</arg>
+				<arg f="tmp" n="m">selama</arg>
+				<arg f="tmp" n="m">30</arg>
+				<arg f="tmp" n="m">menit</arg>
+				<arg f="" n="0">para</arg>
+				<arg f="" n="0">pengunjuk</arg>
+				<arg f="" n="0">rasa</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

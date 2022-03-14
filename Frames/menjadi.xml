@@ -3,34 +3,56 @@
 	<predicate lemma="menjadi">
 		<roleset id="menjadi.01" name="diangkat, dipilih (sebagai), menjabat pekerjaan (sebagai)">
 			<aliases>
-        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+        		<alias framenet="" pos="v" verbnet="">become</alias>
       		</aliases>
 			<roles>
 				<role descr="entity changing" f="ppt" n="1"/>
 				<role descr="new state" f="prd" n="2"/>
 			</roles>
 			<example name="" src="" type="">
-				<text>Lantas Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet menjadi Menkeh dan HAM.</text>
-				<arg f="" n="1">Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet</arg>
+				<text>Lantas Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet menjadi Menkeh dan HAM .</text>
+				<arg f="tmp" n="m">Lantas</arg>
+				<arg f="" n="1">Marsilam</arg>
+				<arg f="" n="1">Simanjuntak</arg>
+				<arg f="prd" n="m">naik</arg>
+				<arg f="prd" n="m">pangkat</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="2">Menkeh dan HAM</arg>
+				<arg f="" n="2">Menkeh</arg>
+				<arg f="" n="2">dan</arg>
+				<arg f="" n="2">HAM</arg>
 			</example>
 			<example name="" src="" type="">
-				<text>Untunglah, selain para preman tersebut, tidak ada di antara pengunjung yang menjadi korban.</text>
-				<arg f="" n="1">selain para preman tersebut, tidak ada di antara pengunjung</arg>
+				<text>Untunglah , selain para preman tersebut , tidak ada di antara pengunjung yang menjadi korban .</text>
+				<arg f="neg" n="m">tidak</arg>
+				<arg f="neg" n="m">ada</arg>
+				<arg f="" n="1">di</arg>
+				<arg f="" n="1">antara</arg>
+				<arg f="" n="1">pengunjung</arg>
 				<rel f="">menjadi</rel>
 				<arg f="" n="2">korban</arg>
 			</example>
 			<example name="" src="" type="">
-				<text>Rasul kemudian mengaku telah menjadi agen judi gelap ini sejak 10 bulan lampau.</text>
-				<arg f="" n="1">Rasul kemudian mengaku</arg>
+				<text>Rasul kemudian mengaku telah menjadi agen judi gelap ini sejak 10 bulan lampau .</text>
+				<arg f="" n="1">Rasul</arg>
+				<arg f="tmp" n="m">kemudian</arg>
+				<arg f="lvb" n="m">telah</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="2">agen judi gelap</arg>
+				<arg f="" n="2">agen</arg>
+				<arg f="" n="2">judi</arg>
+				<arg f="" n="2">gelap</arg>
+				<arg f="" n="2">ini</arg>
+				<arg f="tmp" n="m">sejak</arg>
+				<arg f="tmp" n="m">10</arg>
+				<arg f="tmp" n="m">bulan</arg>
+				<arg f="tmp" n="m">lampau</arg>
 			</example>
 		</roleset>
 		<roleset id="menjadi.02" name="dibuat (untuk)">
 			<aliases>
-        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+        		<alias framenet="Using Intentionally_affect Ingest_substance" pos="v" verbnet="66, 105.1, 39.1-3">use</alias>
+        		<alias framenet="" pos="n" verbnet="">using</alias>
+        		<alias framenet="" pos="n" verbnet="">use</alias>
+        		<alias framenet="" pos="l" verbnet="">make_use</alias>
       		</aliases>
 			<roles>
 				<role descr="user" f="pag" n="0"/>
@@ -38,16 +60,26 @@
 				<role descr="purpose" f="prp" n="2"/>
 			</roles>
 			<example name="" src="" type="">
-				<text>Kendati demikian, Arifin Panigoro tetap menilai pertemuan semacam itu bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu.</text>
-				<arg f="" n="0">Arifin Panigoro</arg>
+				<text>Kendati demikian , Arifin Panigoro tetap menilai pertemuan semacam itu bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu .</text>
+				<arg f="" n="1">pertemuan</arg>
+				<arg f="" n="1">semacam</arg>
+				<arg f="" n="1">itu</arg>
+				<arg f="mod" n="m">bisa</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="1">pertemuan semacam itu</arg>
-				<arg f="" n="2">alternatif ketika diskusi formal mencapai jalan buntu</arg>
+				<arg f="" n="2">alternatif</arg>
+				<arg f="" n="2">ketika</arg>
+				<arg f="" n="2">diskusi</arg>
+				<arg f="" n="2">formal</arg>
+				<arg f="" n="2">mencapai</arg>
+				<arg f="" n="2">jalan</arg>
+				<arg f="" n="2">buntu</arg>
 			</example>
 		</roleset>
 		<roleset id="menjadi.03" name="berubah keadaan (wujud, barang) lain; menjelma sebagai">
 			<aliases>
-        		<alias framenet="" pos="v" verbnet="">menjadi</alias>
+        		<alias framenet="" pos="j" verbnet="">decreased</alias>
+        		<alias framenet="" pos="v" verbnet="">decrease</alias>
+        		<alias framenet="change_position_on_a_scale" pos="n" verbnet="">decrease</alias>
       		</aliases>
 			<roles>
 				<role descr="causer of decline" f="pag" n="0"/>
@@ -57,12 +89,24 @@
 				<role descr="end point" f="prd" n="4"/>
 			</roles>
 			<example name="" src="" type="">
-				<text>Apalagi, dengan penghapusan upah lembur sejak tiga bulan terakhir, membuat penghasilan mereka dari Rp 750 ribu menjadi Rp 500 ribu.</text>
-				<arg f="" n="0">penghapusan upah lembur</arg>
-				<arg f="" n="1">penghasilan mereka</arg>
-				<arg f="" n="3">dari Rp 750 ribu</arg>
+				<text>Apalagi , dengan penghapusan upah lembur sejak tiga bulan terakhir , membuat penghasilan mereka dari Rp 750 ribu menjadi Rp 500 ribu .</text>
+				<arg f="" n="0">penghapusan</arg>
+				<arg f="" n="0">upah</arg>
+				<arg f="" n="0">lembur</arg>
+				<arg f="" n="0">sejak</arg>
+				<arg f="" n="0">tiga</arg>
+				<arg f="" n="0">bulan</arg>
+				<arg f="" n="0">terakhir</arg>
+				<arg f="" n="1">penghasilan</arg>
+				<arg f="" n="1">mereka</arg>
+				<arg f="" n="3">dari</arg>
+				<arg f="" n="3">Rp</arg>
+				<arg f="" n="3">750</arg>
+				<arg f="" n="3">ribu</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="4">Rp 500 ribu</arg>
+				<arg f="" n="4">Rp</arg>
+				<arg f="" n="4">500</arg>
+				<arg f="" n="4">ribu</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="melihat">
+		<roleset id="melihat.01" name="menggunakan mata untuk memandang, menonton">
+			<aliases>
+        		<alias framenet="Perception_active Scrutiny Seeking" pos="v" verbnet="">look</alias>
+				<alias framenet="Perception_active Scrutiny Seeking" pos="n" verbnet="">look</alias>
+				<alias framenet="" pos="n" verbnet="">looking</alias>
+				<alias framenet="" pos="l" verbnet="">take_look</alias>
+				<alias framenet="" pos="l" verbnet="">have_look</alias>
+				<alias framenet="" pos="v" verbnet="">lookit</alias>
+      		</aliases>
+			<roles>
+				<role descr="looker" f="ppt" n="0">
+					<vnrole vncls="30.3" vntheta="experiencer"/>
+					<vnrole vncls="35.5" vntheta="agent"/>
+				</role>
+				<role descr="thing looked at or for or on" f="gol" n="1">
+					<vnrole vncls="30.3" vntheta="stimulus"/>
+					<vnrole vncls="35.5" vntheta="location"/>
+				</role>
+				<role descr="attribute of arg1" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kita melihat cermin itu untuk dapat tampil lebih gagah dan cantik di kemudian hari .</text>
+				<arg f="" n="0">Kita</arg>
+				<rel f="">melihat</rel>
+				<arg f="" n="1">cermin</arg>
+				<arg f="" n="1">itu</arg>
+				<arg f="prp" n="m">untuk</arg>
+				<arg f="prp" n="m">dapat</arg>
+				<arg f="prp" n="m">tampil</arg>
+				<arg f="prp" n="m">lebih</arg>
+				<arg f="prp" n="m">gagah</arg>
+				<arg f="prp" n="m">dan</arg>
+				<arg f="prp" n="m">cantik</arg>
+				<arg f="prp" n="m">di</arg>
+				<arg f="prp" n="m">kemudian</arg>
+				<arg f="prp" n="m">hari</arg>
+			</example>
+		</roleset>
+		<roleset id="melihat.02" name="mengetahui">
+			<aliases>
+        		<alias framenet="Grasp Categorization Perception_experience" pos="v" verbnet="">see</alias>
+				<alias framenet="" pos="v" verbnet="">sight</alias>
+				<alias framenet="" pos="n" verbnet="">sight</alias>
+      		</aliases>
+			<roles>
+				<role descr="viewer" f="pag" n="0">
+					<vnrole vncls="29.2-1" vntheta="agent"/>
+					<vnrole vncls="30.1-1" vntheta="experiencer"/>
+					<vnrole vncls="29.9-1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing viewed" f="ppt" n="1">
+					<vnrole vncls="29.2-1" vntheta="theme"/>
+					<vnrole vncls="30.1-1" vntheta="stimulus"/>
+					<vnrole vncls="29.9-1-1" vntheta="theme"/>
+				</role>
+				<role descr="attribute of arg1, further description" f="prd" n="2">
+					<vnrole vncls="29.2-1" vntheta="attribute"/>
+					<vnrole vncls="29.9-1-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pemantauan polisi juga tak melihat indikasi kekerasan yang dilakukan massa yang telah berada di Ibu Kota pada Kamis malam ( 2/12 ) .</text>
+				<arg f="" n="0">Pemantauan</arg>
+				<arg f="" n="0">polisi</arg>
+				<arg f="m" n="dis">juga</arg>
+				<arg f="m" n="neg">tak</arg>
+				<rel f="">melihat</rel>
+				<arg f="" n="1">indikasi</arg>
+				<arg f="" n="1">kekerasan</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">dilakukan</arg>
+				<arg f="" n="1">massa</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">telah</arg>
+				<arg f="" n="1">berada</arg>
+				<arg f="" n="1">di</arg>
+				<arg f="" n="1">Ibu</arg>
+				<arg f="" n="1">Kota</arg>
+				<arg f="" n="1">pada</arg>
+				<arg f="" n="1">Kamis</arg>
+				<arg f="" n="1">malam</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

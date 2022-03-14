@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menggunakan">
+		<roleset id="menggunakan.01" name="memakai">
+			<aliases>
+        		<alias framenet="Using Intentionally_affect Ingest_substance" pos="v" verbnet="66, 105.1, 39.1-3">use</alias>
+				<alias framenet="" pos="n" verbnet="">using</alias>
+				<alias framenet="" pos="n" verbnet="">use</alias>
+				<alias framenet="" pos="l" verbnet="">make_use</alias>
+      		</aliases>
+			<roles>
+				<role descr="User" f="pag" n="0">
+					<vnrole vncls="66" vntheta="agent"/>
+					<vnrole vncls="105.1" vntheta="agent"/>
+					<vnrole vncls="39.1-3" vntheta="agent"/>
+				</role>
+				<role descr="thing used" f="ppt" n="1">
+					<vnrole vncls="66" vntheta="asset"/>
+					<vnrole vncls="105.1" vntheta="theme"/>
+					<vnrole vncls="39.1-3" vntheta="patient"/>
+				</role>
+				<role descr="purpose" f="prp" n="2">
+					<vnrole vncls="105.1" vntheta="predicate"/>
+					<vnrole vncls="66" vntheta="goal"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sejumlah pemudik asal Jakarta sengaja menggunakan 14 bajaj untuk bisa mencapai kampung halaman di Kuningan .</text>
+				<arg f="" n=""></arg>
+				<arg f="" n=""></arg>
+				<arg f="" n=""></arg>
+				<arg f="" n=""></arg>
+				<arg f="adv" n=""></arg>
+				<rel f="">menggunakan</rel>
+				<arg f="prp" n="1">14</arg>
+				<arg f="prp" n="1">bajaj</arg>
+				<arg f="prp" n="m">untuk</arg>
+				<arg f="prp" n="m">bisa</arg>
+				<arg f="prp" n="m">mencapai</arg>
+				<arg f="prp" n="m">kampung</arg>
+				<arg f="prp" n="m">halaman</arg>
+				<arg f="prp" n="m">di</arg>
+				<arg f="prp" n="m">Kuningan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

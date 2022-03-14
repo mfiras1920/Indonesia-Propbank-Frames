@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memberikan">
+		<roleset id="memberikan.01" name="menyerahkan sesuatu kepada">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">giving</alias>
+        		<alias framenet="Giving" pos="v" verbnet="">give</alias>
+      		</aliases>
+			<roles>
+				<role descr="giver" f="pag" n="0">
+					<vnrole vncls="13.1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing given" f="ppt" n="1">
+					<vnrole vncls="13.1-1" vntheta="theme"/>
+				</role>
+				<role descr="entity given to" f="gol" n="2">
+					<vnrole vncls="13.1-1" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Seharusnya , Indonesia yang mempunyai hutan lebih luas nomor tiga setelah Brasil dan Nigeria dapat memberikan sumbangan yang lebih besar .</text>
+				<arg f="mod" n="m">Seharusnya</arg>
+				<arg f="" n="0">Indonesia</arg>
+				<arg f="" n="0">yang</arg>
+				<arg f="" n="0">mempunyai</arg>
+				<arg f="" n="0">hutan</arg>
+				<arg f="" n="0">lebih</arg>
+				<arg f="" n="0">luas</arg>
+				<arg f="" n="0">nomor</arg>
+				<arg f="" n="0">tiga</arg>
+				<arg f="" n="0">setelah</arg>
+				<arg f="" n="0">Brasil</arg>
+				<arg f="" n="0">dan</arg>
+				<arg f="" n="0">Nigeria</arg>
+				<arg f="rel" n="m">dapat</arg>
+				<rel f="">memberikan</rel>
+				<arg f="" n="1">sumbangan</arg>
+				<arg f="" n="1">yang</arg>
+				<arg f="" n="1">lebih</arg>
+				<arg f="" n="1">besar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

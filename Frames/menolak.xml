@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menolak">
+		<roleset id="menolak.01" name="tidak menerima, tidak membenarkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">rejection</alias>
+        		<alias framenet="" pos="v" verbnet="">reject</alias>
+      		</aliases>
+			<roles>
+				<role descr="rejecter" f="pag" n="0">
+					<vnrole vncls="77" vntheta="agent"/>
+				</role>
+				<role descr="thing rejected" f="ppt" n="1">
+					<vnrole vncls="77" vntheta="theme"/>
+				</role>
+				<role descr="attribute" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Lantaran itulah , Menteri Koordinator Bidang Politik , Sosial , dan Keamanan Agum Gumelar berharap semua pihak menolak kondisi tersebut .</text>
+				<arg f="cau" n="m">Lantaran</arg>
+				<arg f="cau" n="m">itulah</arg>
+				<arg f="" n="0">semua</arg>
+				<arg f="" n="0">pihak</arg>
+				<rel f="">menolak</rel>
+				<arg f="" n="1">kondisi</arg>
+				<arg f="" n="1">tersebut</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

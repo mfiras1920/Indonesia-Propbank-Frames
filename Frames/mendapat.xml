@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mendapat">
+		<roleset id="mendapat.01" name="memperoleh">
+			<aliases>
+        		<alias framenet="Grasp Birth Getting" pos="v" verbnet="">get</alias>
+      		</aliases>
+			<roles>
+				<role descr="receiver" f="pag" n="0">
+					<vnrole vncls="13.5.1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing gotten" f="ppt" n="1">
+					<vnrole vncls="13.5.1-1" vntheta="theme"/>
+				</role>
+				<role descr="giver" f="dir" n="2">
+					<vnrole vncls="13.5.1-1" vntheta="source"/>
+				</role>
+				<role descr="price paid, in-exchange-for" f="vsp" n="3">
+					<vnrole vncls="13.5.1-1" vntheta="asset"/>
+				</role>
+				<role descr="benefactive" f="gol" n="4">
+					<vnrole vncls="13.5.1-1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Namun , jika tak di sana , mereka tak pernah mendapat penghasilan .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="adv" n="m">jika</arg>
+				<arg f="adv" n="m">tak</arg>
+				<arg f="adv" n="m">di</arg>
+				<arg f="adv" n="m">sana</arg>
+				<arg f="" n="0">mereka</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="neg" n="m">pernah</arg>
+				<rel f="">mendapat</rel>
+				<arg f="" n="1">penghasilan</arg>
+			</example>
+		</roleset>
+		<roleset id="mendapat.02" name="menerima">
+			<aliases>
+        		<alias framenet="Receiving" pos="v" verbnet="">receive</alias>
+				<alias framenet="Receiving" pos="v" verbnet="">recd</alias>
+				<alias framenet="" pos="n" verbnet="">reception</alias>
+				<alias framenet="" pos="j" verbnet="">received</alias>
+      		</aliases>
+			<roles>
+				<role descr="receiver" f="pag" n="0">
+					<vnrole vncls="13.5.2" vntheta="agent"/>
+				</role>
+				<role descr="thing gotten" f="ppt" n="1">
+					<vnrole vncls="13.5.2" vntheta="theme"/>
+				</role>
+				<role descr="received from" f="dir" n="2">
+					<vnrole vncls="13.5.2" vntheta="source"/>
+				</role>
+				<role descr="price, in exchange for" f="vsp" n="3"/>
+				<role descr="attribute of arg1" f="prd" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain itu , para Pama dan Pamen itu juga mendapat materi khusus dari intervensi konflik hingga penanganan kerumunan massa agar tak terjadi tindakan anarkis .</text>
+				<arg f="adv" n="m">Selain</arg>
+				<arg f="adv" n="m">itu</arg>
+				<arg f="" n="0">para</arg>
+				<arg f="" n="0">Pama</arg>
+				<arg f="" n="0">dan</arg>
+				<arg f="" n="0">Pamen</arg>
+				<arg f="" n="0">itu</arg>
+				<arg f="dis" n="m">juga</arg>
+				<rel f="">mendapat</rel>
+				<arg f="" n="1">materi</arg>
+				<arg f="" n="1">khusus</arg>
+				<arg f="" n="1">dari</arg>
+				<arg f="" n="1">intervensi</arg>
+				<arg f="" n="1">konflik</arg>
+				<arg f="" n="1">hingga</arg>
+				<arg f="" n="1">penanganan</arg>
+				<arg f="" n="1">kerumunan</arg>
+				<arg f="" n="1">massa</arg>
+				<arg f="prp" n="m">agar</arg>
+				<arg f="prp" n="m">tak</arg>
+				<arg f="prp" n="m">terjadi</arg>
+				<arg f="prp" n="m">tindakan</arg>
+				<arg f="prp" n="m">anarkis</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

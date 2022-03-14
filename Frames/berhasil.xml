@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berhasil">
+		<roleset id="berhasil.01" name="mendatangkan hasil">
+			<aliases>
+        		<alias framenet="Success_or_failure Successful_action Personal_success" pos="v" verbnet="">succeed</alias>
+				<alias framenet="" pos="j" verbnet="">successful</alias>
+				<alias framenet="" pos="n" verbnet="">success</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity succeeding" f="pag" n="0">
+					<vnrole vncls="74-1" vntheta="agent"/>
+				</role>
+				<role descr="task, goal met" f="ppt" n="1">
+					<vnrole vncls="74-1" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Saat sang pengemudi mobil berhasil dirayu untuk turun , tersangka langsung memberi minuman dalam kotak Lexotan kepada korban .</text>
+				<arg f="" n="0">sang</arg>
+				<arg f="" n="0">pengemudi</arg>
+				<arg f="" n="0">mobil</arg>
+				<rel f="">berhasil</rel>
+				<arg f="" n="1">dirayu</arg>
+				<arg f="" n="1">untuk</arg>
+				<arg f="" n="1">turun</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

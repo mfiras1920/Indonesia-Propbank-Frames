@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="kembali">
+		<roleset id="kembali.01" name="balik ke tempat">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">return</alias>
+        		<alias framenet="" pos="n" verbnet="">return</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity in motion" f="ppt" n="1">
+					<vnrole vncls="51.1" vntheta="theme"/>
+				</role>
+				<role descr="(extent -- rare)" f="ext" n="2"/>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point" f="gol" n="4"/>
+				<role descr="medium" f="loc" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menurut rencana , mereka akan kembali 10 hari lagi , untuk melihat tindak lanjut Kapolresta Padang .</text>
+				<arg f="" n="0">mereka</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">kembali</rel>
+				<arg f="tmp" n="m">10</arg>
+				<arg f="tmp" n="m">hari</arg>
+				<arg f="tmp" n="m">lagi</arg>
+				<arg f="prp" n="m">untuk</arg>
+				<arg f="prp" n="m">melihat</arg>
+				<arg f="prp" n="m">tindak</arg>
+				<arg f="prp" n="m">lanjut</arg>
+				<arg f="prp" n="m">Kapolresta</arg>
+				<arg f="prp" n="m">Padang</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

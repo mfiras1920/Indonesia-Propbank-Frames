@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berada">
+		<roleset id="berada.01" name="ada (punya)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">gather</alias>
+        		<alias framenet="" pos="n" verbnet="">gathering</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent or causer" f="pag" n="0">
+					<vnrole vncls="13.5.1" vntheta="agent"/>
+					<vnrole vncls="47.5.2" vntheta="agent"/>
+					<vnrole vncls="22.3-2" vntheta="agent"/>
+				</role>
+				<role descr="entity gathered" f="ppt" n="1">
+					<vnrole vncls="13.5.1" vntheta="theme"/>
+					<vnrole vncls="47.5.2" vntheta="theme"/>
+					<vnrole vncls="22.3-2" vntheta="patient"/>
+				</role>
+				<role descr="gathered into" f="gol" n="2">
+					<vnrole vncls="22.3-2" vntheta="co-patient"/>
+				</role>
+				<role descr="beneficiary" f="gol" n="3">
+					<vnrole vncls="13.5.1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pemantauan polisi juga tak melihat indikasi kekerasan yang dilakukan massa yang telah berada di Ibu Kota pada Kamis malam ( 2/12 ) .</text>
+				<arg f="" n="1">massa</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">berada</rel>
+				<arg f="loc" n="m">di</arg>
+				<arg f="loc" n="m">Ibu</arg>
+				<arg f="loc" n="m">Kota</arg>
+				<arg f="tmp" n="m">pada</arg>
+				<arg f="tmp" n="m">Kamis</arg>
+				<arg f="tmp" n="m">malam</arg>
+				<arg f="tmp" n="m">(</arg>
+				<arg f="tmp" n="m">2/12</arg>
+				<arg f="tmp" n="m">)</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

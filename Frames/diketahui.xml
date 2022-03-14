@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="diketahui">
+		<roleset id="diketahu.01" name="pasif, mengerti">
+			<aliases>
+        		<alias framenet="Awareness Certainty" pos="v" verbnet="comprehend-87.2-1
+				conjecture-29.5-1 consider-29.9-1-1">know</alias>
+				<alias framenet="" pos="v" verbnet="">idk</alias>
+				<alias framenet="" pos="v" verbnet="">dunno</alias>
+				<alias framenet="" pos="v" verbnet="">du_nno</alias>
+				<alias framenet="" pos="n" verbnet="">knowledge</alias>
+				<alias framenet="Awareness" pos="j" verbnet="">knowledgeable</alias>
+				<alias framenet="" pos="j" verbnet="">known</alias>
+      		</aliases>
+			<roles>
+				<role descr="knower" f="pag" n="0">
+					<vnrole vncls="29.5-1" vntheta="agent"/>
+					<vnrole vncls="29.9-1-1" vntheta="agent"/>
+					<vnrole vncls="87.2-1" vntheta="experiencer"/>
+				</role>
+				<role descr="fact that is known" f="ppt" n="1">
+					<vnrole vncls="29.5-1" vntheta="theme"/>
+					<vnrole vncls="29.9-1-1" vntheta="theme"/>
+					<vnrole vncls="87.2-1" vntheta="stimulus"/>
+				</role>
+				<role descr="entity that arg1 is known ABOUT" f="prd" n="2">
+					<vnrole vncls="29.5-1" vntheta="predicate"/>
+					<vnrole vncls="29.9-1-1" vntheta="attribute"/>
+					<vnrole vncls="87.2-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara itu , kepastian itu diketahui setelah Komisi VIII DPR RI menggelar Rapat Dengar Pendapat dengan Direktur Pertamina Baihaqi Hakim , Kamis ( 9/11 ) siang .</text>
+				<arg f="tmp" n="m">Sementara</arg>
+				<arg f="tmp" n="m">itu</arg>
+				<arg f="" n="1">kepastian</arg>
+				<arg f="" n="1">itu</arg>
+				<rel f="">diketahui</rel>
+				<arg f="tmp" n="m">setelah</arg>
+				<arg f="tmp" n="m">Komisi</arg>
+				<arg f="tmp" n="m">VIII</arg>
+				<arg f="tmp" n="m">DPR</arg>
+				<arg f="tmp" n="m">RI</arg>
+				<arg f="tmp" n="m">menggelar</arg>
+				<arg f="tmp" n="m">Rapat</arg>
+				<arg f="tmp" n="m">Dengar</arg>
+				<arg f="tmp" n="m">Pendapat</arg>
+				<arg f="tmp" n="m">dengan</arg>
+				<arg f="tmp" n="m">Direktur</arg>
+				<arg f="tmp" n="m">Pertamina</arg>
+				<arg f="tmp" n="m">Baihaqi</arg>
+				<arg f="tmp" n="m">Hakim</arg>
+				<arg f="tmp" n="m">Kamis</arg>
+				<arg f="tmp" n="m">(</arg>
+				<arg f="tmp" n="m">9/11</arg>
+				<arg f="tmp" n="m">)</arg>
+				<arg f="tmp" n="m">siang</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

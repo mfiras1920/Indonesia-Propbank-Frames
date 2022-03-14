@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="bermain">
+		<roleset id="bermain.01" name="melakukan sesuatu untuk bersenang-senang">
+			<aliases>
+        		<alias framenet="Cause_to_make_noise Competition" pos="v" verbnet="">play</alias>
+				<alias framenet="" pos="n" verbnet="">playing</alias>
+				<alias framenet="Cause_to_make_noise Competition" pos="n" verbnet="">play</alias>
+      		</aliases>
+			<roles>
+				<role descr="player" f="pag" n="0">
+					<vnrole vncls="26.7-1-1" vntheta="agent"/>
+				</role>
+				<role descr="game" f="ppt" n="1">
+					<vnrole vncls="26.7-1-1" vntheta="theme"/>
+				</role>
+				<role descr="instrument/equipment used to play game" f="mnr" n="2"/>
+				<role descr="opponent, play against whom" f="com" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Crouch akan selalu bermain dengan sebaik-baiknya jika dipercaya turun sebagai starter .</text>
+				<arg f="" n="0">Crouch</arg>
+				<arg f="mod" n="m">akan</arg>
+				<arg f="tmp" n="m">selalu</arg>
+				<rel f="">bermain</rel>
+				<arg f="mnr" n="m">dengan</arg>
+				<arg f="mnr" n="m">sebaik-baiknya</arg>
+				<arg f="adv" n="m">jika</arg>
+				<arg f="adv" n="m">dipercaya</arg>
+				<arg f="adv" n="m">turun</arg>
+				<arg f="adv" n="m">sebagai</arg>
+				<arg f="adv" n="m">starter</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mencapai">
+		<roleset id="mencapai.01" name="sampai (ke)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">reach</alias>
+        		<alias framenet="" pos="j" verbnet="">reaching</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing striving" f="pag" n="0">
+					<vnrole vncls="51.8" vntheta="agent"/>
+					<vnrole vncls="13.5.1" vntheta="agent"/>
+				</role>
+				<role descr="goal, destination, end state, thing attained" f="gol" n="1">
+					<vnrole vncls="51.8" vntheta="destination"/>
+					<vnrole vncls="13.5.1" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Jika rencana impor berjalan terus , potensi kerugian negara bisa mencapai Rp 140 miliar dari bea masuk dan pajak penjualan barang mewah .</text>
+				<arg f="adv" n="m">Jika</arg>
+				<arg f="adv" n="m">rencana</arg>
+				<arg f="adv" n="m">impor</arg>
+				<arg f="adv" n="m">berjalan</arg>
+				<arg f="adv" n="m">terus</arg>
+				<arg f="" n="0">potensi</arg>
+				<arg f="" n="0">kerugian</arg>
+				<arg f="" n="0">negara</arg>
+				<arg f="mod" n="m">bisa</arg>
+				<rel f="">mencapai</rel>
+				<arg f="" n="1">Rp</arg>
+				<arg f="" n="1">140</arg>
+				<arg f="" n="1">miliar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

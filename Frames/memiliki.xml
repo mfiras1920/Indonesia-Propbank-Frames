@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memiliki">
+		<roleset id="memiliki.01" name="mempunyai">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">have</alias>
+      		</aliases>
+			<roles>
+				<role descr="owner" f="pag" n="0">
+					<vnrole vncls="100.1" vntheta="pivot"/>
+					<vnrole vncls="39.4" vntheta="agent"/>
+				</role>
+				<role descr="possession" f="ppt" n="1">
+					<vnrole vncls="100.1" vntheta="theme"/>
+					<vnrole vncls="39.4" vntheta="patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebagian besar musibah terjadi di Kabupaten Indramayu yang memiliki banyak titik rawan kemacetan dan kecelakaan .</text>
+				<arg f="" n="">Kabupaten</arg>
+				<arg f="" n="">Indramayu</arg>
+				<rel f="">memiliki</rel>
+				<arg f="" n="1">banyak</arg>
+				<arg f="" n="1">titik</arg>
+				<arg f="" n="1">rawan</arg>
+				<arg f="" n="1">kemacetan</arg>
+				<arg f="" n="1">dan</arg>
+				<arg f="" n="1">kecelakaan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>
