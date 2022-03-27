@@ -24,37 +24,17 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Siang lalu , Api diduga berasal dari sebuah restoran yang berada di lantai empat .</text>
-				<arg f="tmp" n="m">Siang</arg>
-				<arg f="tmp" n="m">lalu</arg>
+				<arg f="tmp" n="m">Siang lalu</arg>
 				<arg f="" n="1">Api</arg>
 				<rel f="">diduga</rel>
-				<arg f="" n="2">berasal</arg>
-				<arg f="" n="2">dari</arg>
-				<arg f="" n="2">sebuah</arg>
-				<arg f="" n="2">restoran</arg>
-				<arg f="" n="2">yang</arg>
-				<arg f="" n="2">berada</arg>
-				<arg f="" n="2">di</arg>
-				<arg f="" n="2">lantai</arg>
-				<arg f="" n="2">empat</arg>
+				<arg f="" n="2">berasal dari sebuah restoran yang berada di lantai empat</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Bom yang diperkirakan berdaya ledak sekitar 10 meter itu , bukan diduga untuk menghancurkan fasilitas pelabuhan .</text>
-				<arg f="" n="1">Bom</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">diperkirakan</arg>
-				<arg f="" n="1">berdaya</arg>
-				<arg f="" n="1">ledak</arg>
-				<arg f="" n="1">sekitar</arg>
-				<arg f="" n="1">10</arg>
-				<arg f="" n="1">meter</arg>
-				<arg f="" n="1">itu</arg>
+				<arg f="" n="1">Bom yang diperkirakan berdaya ledak sekitar 10 meter itu</arg>
 				<arg f="neg" n="m">bukan</arg>
 				<rel f="">diduga</rel>
-				<arg f="" n="2">untuk</arg>
-				<arg f="" n="2">menghancurkan</arg>
-				<arg f="" n="2">fasilitas</arg>
-				<arg f="" n="2">pelabuhan</arg>
+				<arg f="" n="2">untuk menghancurkan fasilitas pelabuhan</arg>
 			</example>
 		</roleset>
 	</predicate>

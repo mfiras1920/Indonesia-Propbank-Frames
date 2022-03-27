@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memasuki">
+		<roleset id="memasuki.01" name="masuk ke dalam">
+			<aliases>
+        		<alias framenet="Becoming_a_member Path_shape Arriving" pos="v" verbnet="">enter</alias>
+				<alias framenet="" pos="n" verbnet="">entering</alias>
+				<alias framenet="arriving" pos="n" verbnet="">entrance</alias>
+				<alias framenet="Becoming_a_member Path_shape Arriving" pos="n" verbnet="">entry</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity entering" f="ppt" n="0">
+					<vnrole vncls="51.1-2" vntheta="theme"/>
+				</role>
+				<role descr="place or thing entered" f="loc" n="1">
+					<vnrole vncls="51.1-2" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bekas Gubernur Daerah Otonomi Muslim Mindanao ( ARMM ) , Filipina Selatan , itu dan enam pengikutnya ditahan karena memasuki wilayah Malaysia secara ilegal .</text>
+				<arg f="" n="0">Bekas Gubernur Daerah Otonomi Muslim Mindanao ( ARMM ) , Filipina Selatan , itu dan enam pengikutnya</arg>
+				<rel f="">memasuki</rel>
+				<arg f="" n="1">wilayah Malaysia</arg>
+				<arg f="mnr" n="m">secara ilegal</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

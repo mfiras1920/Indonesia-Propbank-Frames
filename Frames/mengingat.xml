@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengingat">
+		<roleset id="mengingat.01" name="ingat (akan)">
+			<aliases>
+        		<alias framenet="Cogitation" pos="v" verbnet="">consider</alias>
+				<alias framenet="" pos="n" verbnet="">consideration</alias>
+				<alias framenet="" pos="j" verbnet="">considered</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent" f="pag" n="0">
+					<vnrole vncls="29.9-1-1-1" vntheta="agent"/>
+				</role>
+				<role descr="entity under consideration" f="ppt" n="1">
+					<vnrole vncls="29.9-1-1-1" vntheta="theme"/>
+				</role>
+				<role descr="for what/secondary predicate" f="prd" n="2">
+					<vnrole vncls="29.9-1-1-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Jumlah ini diperkirakan bertambah mengingat warga yang dirawat akibat penyakit tersebut masih banyak , " ujar Arnold .</text>
+				<arg f="" n="1">Jumlah ini diperkirakan bertambah</arg>
+				<rel f="">mengingat</rel>
+				<arg f="" n="2">warga yang dirawat akibat penyakit tersebut masih banyak</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Namun , masih banyak warga yang teguh bertahan mengingat belum adanya tempat pengungsian [ baca : Karawang dan Jambi Juga Terendam ] .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="" n="1">masih banyak warga yang teguh bertahan</arg>
+				<rel f="">mengingat</rel>
+				<arg f="" n="2">belum adanya tempat pengungsian</arg>
+			</example>
+		</roleset>
+		<roleset id="mengingat.02" name="memperhatikan; memikirkan; menilik (dengan pikiran)">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">remembrance</alias>
+				<alias framenet="Remembering_experience Remembering_information Remembering_to_do Memory" pos="v" verbnet="">remember</alias>
+				<alias framenet="Remembering_experience Remembering_information Remembering_to_do Memory" pos="n" verbnet="">remembering</alias>
+      		</aliases>
+			<roles>
+				<role descr="rememberer" f="PAG" n="0">
+					<vnrole vncls="29.2-1-1" vntheta="Agent"/>
+					<vnrole vncls="29.9-1-1-1" vntheta="Agent"/>
+				</role>
+				<role descr="memory" f="ppt" n="1">
+					<vnrole vncls="29.2-1-1" vntheta="Theme"/>
+					<vnrole vncls="29.9-1-1-1" vntheta="Theme"/>
+				</role>
+				<role descr="secondary attribute" f="prd" n="2">
+					<vnrole vncls="29.2-1-1" vntheta="Attribute"/>
+					<vnrole vncls="29.9-1-1-1" vntheta="Attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Namun , saya selalu mengingat partai United versus Muenchen , ” tambah Collina seperti yang dikutip Daily Telegraph .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="" n="0">saya</arg>
+				<arg f="tmp" n="m">selalu</arg>
+				<rel f="">mengingat</rel>
+				<arg f="" n="1">partai United versus Muenchen</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="diperiksa">
+		<roleset id="diperiksa.01" name="pasif dari periksa">
+			<aliases>
+        		<alias framenet="Questioning Point_of_dispute" pos="n" verbnet="">question</alias>
+				<alias framenet="Questioning" pos="v" verbnet="">question</alias>
+				<alias framenet="Questioning" pos="n" verbnet="">questioning</alias>
+				<alias framenet="" pos="l" verbnet="">have_question</alias>
+      		</aliases>
+			<roles>
+				<role descr="asker" f="pag" n="0">
+					<vnrole vncls="37.1.3" vntheta="agent"/>
+				</role>
+				<role descr="question" f="ppt" n="1">
+					<vnrole vncls="37.1.3" vntheta="topic"/>
+				</role>
+				<role descr="entity asked, hearer" f="gol" n="2">
+					<vnrole vncls="37.1.3" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kemarin malam , Antonio dan Iful berhasil diringkus dan kini masih terus diperiksa polisi .</text>
+				<arg f="tmp" n="m">Kemarin malam</arg>
+				<arg f="" n="2">Antonio dan Iful</arg>
+				<arg f="tmp" n="m">kini masih terus</arg>
+				<rel f="">diperiksa</rel>
+				<arg f="" n="0">polisi</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Moerdani diperiksa karena dianggap mengetahui pembantaian berdarah warga Tanjungpriok oleh militer tahun 1984 .</text>
+				<arg f="" n="2">Moerdani</arg>
+				<rel f="">diperi'</rel>
+				<arg f="cau" n="m">karena dianggap mengetahui pembantaian berdarah warga Tanjungpriok oleh militer tahun 1984</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

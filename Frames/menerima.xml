@@ -23,15 +23,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Menurut Roy , importir itu sengaja mengeluarkan barang sebelum menerima perintah pengeluaran barang dari Bea Cukai .</text>
-				<arg f="" n="0">importir</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="" n="0">importir itu</arg>
 				<rel f="">menerima</rel>
-				<arg f="" n="1">perintah</arg>
-				<arg f="" n="1">pengeluaran</arg>
-				<arg f="" n="1">barang</arg>
-				<arg f="" n="1">dari</arg>
-				<arg f="" n="1">Bea</arg>
-				<arg f="" n="1">Cukai</arg>
+				<arg f="" n="1">perintah pengeluaran barang dari Bea Cukai</arg>
 			</example>
 		</roleset>
 	</predicate>

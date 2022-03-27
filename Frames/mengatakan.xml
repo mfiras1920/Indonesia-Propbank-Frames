@@ -22,49 +22,18 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Sementara itu , kuasa hukum Bob Hasan , Agustinus Hutajulu mengatakan , uang tersebut telah digunakan untuk dana reboisasi di Timor Timur .</text>
-				<arg f="tmp" n="m">Sementara</arg>
+				<arg f="tmp" n="m">Sementara itu</arg>
 				<arg f="tmp" n="m">itu</arg>
-				<arg f="" n="0">kuasa</arg>
-				<arg f="" n="0">hukum</arg>
-				<arg f="" n="0">Bob</arg>
-				<arg f="" n="0">Hasan</arg>
-				<arg f="" n="0">,</arg>
-				<arg f="" n="0">Agustinus</arg>
-				<arg f="" n="0">Hutajulu</arg>
+				<arg f="" n="0">kuasa hukum Bob Hasan , Agustinus Hutajulu</arg>
 				<rel f="">mengatakan</rel>
-				<arg f="" n="1">uang</arg>
-				<arg f="" n="1">tersebut</arg>
-				<arg f="" n="1">telah</arg>
-				<arg f="" n="1">digunakan</arg>
-				<arg f="" n="1">untuk</arg>
-				<arg f="" n="1">dana</arg>
-				<arg f="" n="1">reboisasi</arg>
-				<arg f="" n="1">di</arg>
-				<arg f="" n="1">Timor</arg>
-				<arg f="" n="1">Timur</arg>
+				<arg f="" n="1">uang tersebut telah digunakan untuk dana reboisasi di Timor Timur</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Kemarin pagi , Darwin Siregar mengatakan , lantaran demikian , Soeharto juga akan mendapatkan perawatan khusus dari kejaksaan dengan menggunakan biaya negara .</text>
-				<arg f="tmp" n="m">Kemarin</arg>
-				<arg f="tmp" n="m">pagi</arg>
-				<arg f="" n="0">Darwin</arg>
-				<arg f="" n="0">Siregar</arg>
+				<arg f="tmp" n="m">Kemarin pagi</arg>
+				<arg f="" n="0">Darwin Siregar</arg>
 				<rel f="">mengatakan</rel>
-				<arg f="" n="1">lantaran</arg>
-				<arg f="" n="1">demikian</arg>
-				<arg f="" n="1">,</arg>
-				<arg f="" n="1">Soeharto</arg>
-				<arg f="" n="1">juga</arg>
-				<arg f="" n="1">akan</arg>
-				<arg f="" n="1">mendapatkan</arg>
-				<arg f="" n="1">perawatan</arg>
-				<arg f="" n="1">khusus</arg>
-				<arg f="" n="1">dari</arg>
-				<arg f="" n="1">kejaksaan</arg>
-				<arg f="" n="1">dengan</arg>
-				<arg f="" n="1">menggunakan</arg>
-				<arg f="" n="1">biaya</arg>
-				<arg f="" n="1">negara</arg>
+				<arg f="" n="1">lantaran demikian , Soeharto juga akan mendapatkan perawatan khusus dari kejaksaan dengan menggunakan biaya negara</arg>
 			</example>
 		</roleset>
 	</predicate>

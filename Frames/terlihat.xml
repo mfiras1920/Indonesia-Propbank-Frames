@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="terlihat">
+		<roleset id="terlihat.01" name="dapat dilihat, kelihatan">
+			<aliases>
+        		<alias framenet="Grasp Categorization Perception_experience" pos="v" verbnet="">see</alias>
+				<alias framenet="" pos="v" verbnet="">sight</alias>
+				<alias framenet="" pos="n" verbnet="">sight</alias>
+      		</aliases>
+			<roles>
+				<role descr="viewer" f="pag" n="0">
+					<vnrole vncls="29.2-1" vntheta="agent"/>
+					<vnrole vncls="30.1-1" vntheta="experiencer"/>
+					<vnrole vncls="29.9-1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing viewed" f="ppt" n="1">
+					<vnrole vncls="29.2-1" vntheta="theme"/>
+					<vnrole vncls="30.1-1" vntheta="stimulus"/>
+					<vnrole vncls="29.9-1-1" vntheta="theme"/>
+				</role>
+				<role descr="attribute of arg1, further description" f="prd" n="2">
+					<vnrole vncls="29.2-1" vntheta="attribute"/>
+					<vnrole vncls="29.9-1-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sejak beberapa hari yang lalu , beberapa harga bahan kebutuhan pokok yang mengalami kenaikan ini terlihat di Pasar Tanahabang , Jakarta Pusat .</text>
+				<arg f="tmp" n="m">Sejak beberapa hari yang lalu</arg>
+				<arg f="" n="1">beberapa harga bahan kebutuhan pokok yang mengalami kenaikan ini</arg>
+				<rel f="">terlihat</rel>
+				<arg f="loc" n="m">di Pasar Tanahabang , Jakarta Pusat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

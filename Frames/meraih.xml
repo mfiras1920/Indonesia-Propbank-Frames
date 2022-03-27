@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="meraih">
+		<roleset id="meraih.01" name="mencapai, memperoleh">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">gain</alias>
+        		<alias framenet="" pos="n" verbnet="">gain</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent, entity acquiring something" f="pag" n="0">
+					<vnrole vncls="13.5.1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing acquired" f="ppt" n="1">
+					<vnrole vncls="13.5.1-1" vntheta="theme"/>
+				</role>
+				<role descr="source, gained from" f="dir" n="2">
+					<vnrole vncls="13.5.1-1" vntheta="source"/>
+				</role>
+				<role descr="benefactive, gained for" f="gol" n="3">
+					<vnrole vncls="13.5.1-1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Untuk meraih simpatik masyarakat , Eros dan simpatisan PNBK berjalan kaki lebih dari satu kilometer dengan diiringi tarian tradisional menuju lokasi kampanye di Stadion Karang Birahai .</text>
+				<rel f="">meraih</rel>
+				<arg f="" n="1">simpatik masyarakat</arg>
+				<arg f="" n="0">Eros dan simpatisan PNBK</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

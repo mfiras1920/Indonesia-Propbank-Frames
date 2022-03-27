@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ditangkap">
+		<roleset id="ditangkap.01" name="pasif menangkap">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">arrest</alias>
+				<alias framenet="Arrest" pos="v" verbnet="">arrest</alias>
+				<alias framenet="" pos="l" verbnet="">make_arrest</alias>
+      		</aliases>
+			<roles>
+				<role descr="police" f="pag" n="0"/>
+				<role descr="criminal" f="ppt" n="1"/>
+				<role descr="crime" f="cau" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebelumnya , ia ditangkap rezim Soeharto karena menolak mengkhianati Presiden Soekarno .</text>
+				<arg f="tmp" n="m">Sebelumnya</arg>
+				<arg f="" n="1">ia</arg>
+				<rel f="">ditangkap</rel>
+				<arg f="" n="0">rezim Soeharto</arg>
+				<arg f="cau" n="m">karena menolak mengkhianati Presiden Soekarno</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

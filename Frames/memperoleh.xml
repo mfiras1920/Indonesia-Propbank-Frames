@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memperoleh">
+		<roleset id="memperoleh.01" name="mendapat (mencapai dan sebagainya) sesuatu dengan usaha">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">obtain</alias>
+      		</aliases>
+			<roles>
+				<role descr="receiver" f="PAG" n="0">
+					<vnrole vncls="13.5.2-1" vntheta="Agent"/>
+				</role>
+				<role descr="thing gotten" f="PPT" n="1">
+					<vnrole vncls="13.5.2-1" vntheta="Theme"/>
+				</role>
+				<role descr="received from" f="DIR" n="2">
+					<vnrole vncls="13.5.2-1" vntheta="Source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain permintaan pasar terhadap marmer belakangan meningkat dan para perajin juga tak menemui kesulitan memperoleh bahan baku .</text>
+				<arg f="" n="0">para perajin</arg>
+				<rel f="">memperoleh</rel>
+				<arg f="" n="1">bahan baku</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

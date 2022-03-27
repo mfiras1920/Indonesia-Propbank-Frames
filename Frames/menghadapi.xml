@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menghadapi">
+		<roleset id="menghadapi.01" name="menjumpai, mengalami">
+			<aliases>
+        		<alias framenet="Resolve_problem Speak_on_topic" pos="v" verbnet="83">deal</alias>
+				<alias framenet="" pos="n" verbnet="">deal</alias>
+				<alias framenet="" pos="n" verbnet="">dealing</alias>
+				<alias framenet="" pos="l" verbnet="">make_deal</alias>
+      		</aliases>
+			<roles>
+				<role descr="dealer (or all dealers)" f="pag" n="0"/>
+				<role descr="co-dealer" f="ppt" n="1"/>
+				<role descr="subject/type of transaction" f="prd" n="2"/>
+				<role descr="value of transaction" f="vsp" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Demikian , antara lain rangkaian latihan menghadapi aksi teror dan teroris yang digelar di Medan , baru-baru ini .</text>
+				<arg f="" n="0">rangkaian latihan</arg>
+				<rel f="">menghadapi</rel>
+				<arg f="" n="1">aksi teror dan teroris</arg>
+			</example>
+		</roleset>
+		<roleset id="menghadapi.02" name="menjelang">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">face</alias>
+      		</aliases>
+			<roles>
+				<role descr="looker, facer" f="pag" n="0">
+					<vnrole vncls="98" vntheta="agent"/>
+					<vnrole vncls="9.8" vntheta="agent"/>
+				</role>
+				<role descr="looked at, faced" f="ppt" n="1">
+					<vnrole vncls="98" vntheta="theme"/>
+					<vnrole vncls="9.8" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bahkan , tujuh karyawan yang ikut berunding pada awal aksi , pekan silam , tengah menghadapi proses Pemutusan Hubungan Kerja .</text>
+				<arg f="dis" n="m">Bahkan</arg>
+				<arg f="" n="0">tujuh karyawan yang ikut berunding pada awal aksi</arg>
+				<arg f="tmp" n="m">pekan silam</arg>
+				<arg f="tmp" n="m">tengah</arg>
+				<rel f="">menghadapi</rel>
+				<arg f="" n="1">proses Pemutusan Hubungan Kerja</arg>
+			</example>
+		</roleset>
+		<roleset id="menghadapi.03" name="melawan, bertanding dengan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">face_off</alias>
+      		</aliases>
+			<roles>
+				<role descr="first opponent" f="pag" n="0"/>
+        		<role descr="second opponent" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Jika jadwalnya bertabrakan , ia tidak bisa hadir karena akan menghadapi Guinea di babak perempat final Piala Afrika 2008 di Ghana .</text>
+				<arg f="" n="">ia</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">menghadapi</rel>
+				<arg f="" n="">Guinea</arg>
+				<arg f="loc" n="m">di babak perempat final Piala Afrika 2008 di Ghana</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyampaikan">
+		<roleset id="menyampaikan.01" name="memberikan, mengantarkan, mengirimkan,">
+			<aliases>
+        		<alias framenet="Successfully_communicate_message Bringing" pos="v" verbnet="">convey</alias>
+      		</aliases>
+			<roles>
+				<role descr="sender, speaker" f="PAG" n="0">
+					<vnrole vncls="11.1" vntheta="Agent"/>
+					<vnrole vncls="37.7-1" vntheta="Agent"/>
+				</role>
+				<role descr="thing sent, utterance" f="PPT" n="1">
+					<vnrole vncls="11.1" vntheta="Theme"/>
+					<vnrole vncls="37.7-1" vntheta="Topic"/>
+				</role>
+				<role descr="recipient, hearer" f="gol" n="2">
+					<vnrole vncls="11.1" vntheta="Destination"/>
+					<vnrole vncls="37.7-1" vntheta="Recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Usai pertemuan , Bisri berjanji akan menyampaikan aspirasi warga Madura tersebut kepada pemerintah pusat .</text>
+				<arg f="tmp" n="m">Usai pertemuan</arg>
+				<arg f="" n="0">Bisri</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">menyampaikan</rel>
+				<arg f="" n="1">aspirasi warga Madura tersebut</arg>
+				<arg f="" n="2">kepada pemerintah pusat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

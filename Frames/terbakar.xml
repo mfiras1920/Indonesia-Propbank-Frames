@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="terbakar">
+		<roleset id="terbakar.01" name="sudah atau sedang berkobar">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">burn</alias>
+				<alias framenet="" pos="v" verbnet="">burn</alias>
+				<alias framenet="" pos="n" verbnet="">burning</alias>
+      		</aliases>
+			<roles>
+				<role descr="pyromaniac" f="pag" n="0">
+					<vnrole vncls="43.1" vntheta="agent"/>
+					<vnrole vncls="45.4" vntheta="agent"/>
+					<vnrole vncls="40.8.3-2" vntheta="experiencer"/>
+				</role>
+				<role descr="thing burning" f="ppt" n="1">
+					<vnrole vncls="43.1" vntheta="theme"/>
+					<vnrole vncls="45.4" vntheta="patient"/>
+					<vnrole vncls="45.5" vntheta="patient"/>
+					<vnrole vncls="40.8.3-2" vntheta="patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebagian besar warga korban kebakaran di tiga rukun tetangga di Kelurahan Pademangan , Jakarta Utara , baru-baru ini , membangun kembali rumah mereka yang terbakar .</text>
+				<arg f="" n="1">rumah mereka</arg>
+				<rel f="">terbakar</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

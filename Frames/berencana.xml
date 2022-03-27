@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berencana">
+		<roleset id="berencana.01" name="dengan rencana; berancang; ada ancangannya">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">planning</alias>
+				<alias framenet="" pos="v" verbnet="">plan</alias>
+				<alias framenet="" pos="n" verbnet="">plan</alias>
+				<alias framenet="" pos="l" verbnet="">have_plan</alias>
+      		</aliases>
+			<roles>
+				<role descr="planner" f="pag" n="0">
+					<vnrole vncls="62" vntheta="experiencer"/>
+				</role>
+				<role descr="thing planned" f="ppt" n="1">
+					<vnrole vncls="62" vntheta="theme"/>
+				</role>
+				<role descr="grounds for planning" f="CAU" n="2"/>
+				<role descr="beneficiary" f="gol" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menanggapi masalah Munir , pemerintah bersama Departemen Luar Negeri , berjanji akan membuka seluruh akses investigasi pihak polisi yang berencana menyelesaikan masalah kematian Munir .</text>
+				<arg f="" n="0">pihak polisi</arg>
+				<rel f="">berencana</rel>
+				<arg f="" n="1">menyelesaikan masalah kematian Munir</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

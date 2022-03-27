@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tampil">
+		<roleset id="tampil.01" name="menunjukkan diri">
+			<aliases>
+        		<alias framenet="Cause_to_make_noise Competition" pos="v" verbnet="">play</alias>
+				<alias framenet="" pos="n" verbnet="">playing</alias>
+				<alias framenet="Cause_to_make_noise Competition" pos="n" verbnet="">play</alias>
+      		</aliases>
+			<roles>
+				<role descr="player" f="pag" n="0">
+					<vnrole vncls="26.7-1-1" vntheta="agent"/>
+				</role>
+				<role descr="game" f="ppt" n="1">
+					<vnrole vncls="26.7-1-1" vntheta="theme"/>
+				</role>
+				<role descr="instrument/equipment used to play game" f="mnr" n="2"/>
+				<role descr="opponent, play against whom" f="com" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Ketika berusia 18 tahun , Romy , panggilannya , tampil pertama kali sebagai pemain profesional Boca Juniors , salah satu klub terbesar di Argentina .</text>
+				<arg f="" n="tmp">Ketika berusia 18 tahun</arg>
+				<arg f="" n="0">Romy</arg>
+				<rel f="">tampil</rel>
+				<arg f="tmp" n="m">pertama kali</arg>
+				<arg f="" n="1">sebagai pemain profesional Boca Juniors , salah satu klub terbesar di Argentina</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

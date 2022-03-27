@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="gagal">
+		<roleset id="gagal.01" name="tidak berhasil">
+			<aliases>
+        		<alias framenet="Success_or_failure Successful_action" pos="v" verbnet="neglect-75.1-1 succeed-74-3-1-1">fail</alias>
+				<alias framenet="" pos="n" verbnet="">failing</alias>
+				<alias framenet="" pos="n" verbnet="">failure</alias>
+      		</aliases>
+			<roles>
+				<role descr="assessor of not failing" f="CAU" n="0"/>
+				<role descr="thing failing" f="pag" n="1">
+					<vnrole vncls="74-3-1-1" vntheta="agent"/>
+					<vnrole vncls="75.1-1" vntheta="agent"/>
+				</role>
+				<role descr="task" f="ppt" n="2">
+					<vnrole vncls="74-3-1-1" vntheta="theme"/>
+					<vnrole vncls="75.1-1" vntheta="theme"/>
+				</role>
+				<role descr="benefactive" f="gol" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Amien dinilai pengecut karena tidak berani menggelar Sidang Istimewa untuk menurunkan Presiden Abdurrahman Wahid yang dinilai telah gagal melaksanakan amanat reformasi .</text>
+				<arg f="" n="1">Presiden Abdurrahman Wahid</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">gagal</rel>
+				<arg f="" n="2">melaksanakan amanat reformasi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

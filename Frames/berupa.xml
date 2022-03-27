@@ -1,0 +1,20 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berupa">
+		<roleset id="berupa.01" name="berbentuk sebagai">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">be</alias>
+        		<alias framenet="" pos="n" verbnet="">being</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing that is" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menurut Panglima PBM Banyuwangi Kiai Haji Abdul Manan , calon peserta istighotsah ini akan diberi ajimat berupa benang berwarna hitam .</text>
+				<arg f="" n="1">ajimat</arg>
+				<rel f="">berupa</rel>
+				<arg f="" n="1">benang berwarna hitam</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyelesaikan">
+		<roleset id="menyelesaikan.01" name="menyudahkan (menyiapkan) pekerjaan dan sebagainya; menyempurnakan (kalimat dan sebagainya)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">resolve</alias>
+				<alias framenet="" pos="n" verbnet="">resolution</alias>
+				<alias framenet="" pos="j" verbnet="">resolved</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity making resolution" f="pag" n="0"/>
+				<role descr="thing being resolved" f="ppt" n="1"/>
+				<role descr="comitative, resolved with" f="com" n="2"/>
+				<role descr="attribute, resolved to or at" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menanggapi masalah Munir , pemerintah bersama Departemen Luar Negeri , berjanji akan membuka seluruh akses investigasi pihak polisi yang berencana menyelesaikan masalah kematian Munir .</text>
+				<arg f="" n="0">investigasi pihak polisi</arg>
+				<rel f="">menyelesaikan</rel>
+				<arg f="" n="1">masalah kematian Munir</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

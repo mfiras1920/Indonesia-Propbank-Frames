@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dimulai">
+		<roleset id="dimulai.01" name="pasif memulai">
+			<aliases>
+        		<alias framenet="activity_start process_start" pos="v" verbnet="">begin</alias>
+        		<alias framenet="" pos="n" verbnet="">beginning</alias>
+      		</aliases>
+			<roles>
+				<role descr="beginner, Agent" f="pag" n="0">
+					<vnrole vncls="55.1-1" vntheta="Agent"/>
+				</role>
+				<role descr="Thing begun - NP, not S-node!" f="ppt" n="1">
+					<vnrole vncls="55.1-1" vntheta="Theme"/>
+				</role>
+				<role descr="Instrument" f="mnr" n="2">
+					<vnrole vncls="55.1-1" vntheta="Instrument"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kantor berita Antara melaporkan , persiapan konstruktif forum tersebut akan dimulai awal tahun 2001 , dengan sebuah pertemuan di Jakarta yang melibatkan para duta besar negara-negara .</text>
+				<arg f="" n="1">persiapan konstruktif forum tersebut</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">dimulai</rel>
+				<arg f="tmp" n="m">awal tahun 2001</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Zainudin lolos dari kawalan petugas Kejaksaan Negeri Mataram sesaat sebelum persidangan dimulai .</text>
+				<arg f="" n="1">persidangan</arg>
+				<rel f="">dimulai</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

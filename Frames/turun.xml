@@ -1,0 +1,104 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="turun">
+		<roleset id="turun.01" name="bergerak ke bawah">
+			<aliases>
+        		<alias framenet="Change_position_on_a_scale Motion_directional" pos="v" verbnet="">fall</alias>
+				<alias framenet="" pos="n" verbnet="">falling</alias>
+				<alias framenet="Change_position_on_a_scale Motion_directional" pos="n" verbnet="">fall</alias>
+      		</aliases>
+			<roles>
+				<role descr="Logical subject, patient, thing falling" f="ppt" n="1">
+					<vnrole vncls="51.1" vntheta="theme"/>
+					<vnrole vncls="45.6-1" vntheta="patient"/>
+				</role>
+				<role descr="EXT, amount fallen" f="ext" n="2">
+					<vnrole vncls="45.6-1" vntheta="extent"/>
+				</role>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point, end state of arg1" f="gol" n="4"/>
+				<role descr="medium" f="loc" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Umat Hindu tetap mengikuti upacara penghormatan terhadap Dewa Sina , di tengah malam walaupun hujan terus turun hingga pagi harinya .</text>
+				<arg f="" n="0">Umat Hindu</arg>
+				<arg f="tmp" n="m">tetap</arg>
+				<rel f="">mengikuti</rel>
+				<arg f="" n="1">upacara penghormatan terhadap Dewa Sina</arg>
+				<arg f="tmp" n="m">di tengah malam</arg>
+			</example>
+		</roleset>
+		<roleset id="turun.02" name="meninggalkan atau keluar dari kendaraan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">exit</alias>
+        		<alias framenet="" pos="n" verbnet="">exit</alias>
+      		</aliases>
+			<roles>
+				<role descr="departed entity" f="PPT" n="0">
+					<vnrole vncls="51.1-1" vntheta="Theme"/>
+				</role>
+				<role descr="place exited" f="LOC" n="1">
+					<vnrole vncls="51.1-1" vntheta="Initial_Location"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Saat sang pengemudi mobil berhasil dirayu untuk turun , tersangka langsung memberi minuman dalam kotak Lexotan kepada korban .</text>
+				<arg f="" n="0">sang pengemudi mobil</arg>
+				<arg f="adv" n="m">berhasil dirayu</arg>
+				<rel f="">turun</rel>
+			</example>
+		</roleset>
+		<roleset id="turun.03" name="ikut campur">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">intervention</alias>
+        		<alias framenet="" pos="v" verbnet="">intervene</alias>
+      		</aliases>
+			<roles>
+				<role descr="nosy individual" f="pag" n="0"/>
+        		<role descr="intervene in" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Empu Djeno kerap turun tangan pada tahap pengikiran untuk mendapatkan guratan-guratan besi nikel bakal pamor .</text>
+				<arg f="" n="0">Empu Djeno</arg>
+				<arg f="tmp" n="m">kerap</arg>
+				<rel f="">turun</rel>
+				<arg f="" n="1">pada tahap pengikiran</arg>
+				<arg f="prp" n="m">untuk mendapatkan guratan-guratan besi nikel bakal pamor</arg>
+			</example>
+		</roleset>
+		<roleset id="turun.04" name="jatuh atau merosot (harga, nilai, dsb)">
+			<aliases>
+        		<alias framenet="Change_position_on_a_scale , Path_shape , Change_posture , Motion_directional , Body_movement" pos="v" verbnet="9.4 45.6-1 51.3.1 47.7">drop</alias>
+				<alias framenet="" pos="n" verbnet="">dropping</alias>
+				<alias framenet="Change_position_on_a_scale , Path_shape , Change_posture , Motion_directional , Body_movement" pos="n" verbnet="">drop</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity doing the dropping" f="pag" n="0">
+					<vnrole vncls="9.4" vntheta="agent"/>
+					<vnrole vncls="51.3.1" vntheta="agent"/>
+				</role>
+				<role descr="Logical subject, patient, thing falling" f="ppt" n="1">
+					<vnrole vncls="9.4" vntheta="theme"/>
+					<vnrole vncls="45.6-1" vntheta="patient"/>
+					<vnrole vncls="51.3.1" vntheta="theme"/>
+					<vnrole vncls="47.7" vntheta="theme"/>
+				</role>
+				<role descr="EXT, amount fallen" f="ext" n="2">
+					<vnrole vncls="45.6-1" vntheta="extent"/>
+				</role>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point, end state of arg1" f="gol" n="4">
+					<vnrole vncls="51.3.1" vntheta="result"/>
+				</role>
+				<role descr="attribute of arg1 actually falling, if separate from arg1" f="adv" n="m">
+					<vnrole vncls="45.6-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Para petani yang sudah mengalami penderitaan lantaran harga gabah turun , kini harus mengalami gagal panen .</text>
+				<arg f="" n="0">harga gabah</arg>
+				<rel f="">turun</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

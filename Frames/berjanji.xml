@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berjanji">
+		<roleset id="berjanji.01" name="mengucapkan janji; menyatakan bersedia dan sanggup untuk berbuat sesuatu">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">promising</alias>
+				<alias framenet="" pos="n" verbnet="">promise</alias>
+				<alias framenet="" pos="l" verbnet="">make_promise</alias>
+				<alias framenet="Omen Commitment" pos="v" verbnet="">promise</alias>
+      		</aliases>
+			<roles>
+				<role descr="promiser" f="pag" n="0">
+					<vnrole vncls="13.3" vntheta="agent"/>
+				</role>
+				<role descr="person promised to" f="gol" n="1">
+					<vnrole vncls="13.3" vntheta="goal"/>
+				</role>
+				<role descr="promised action" f="ppt" n="2">
+					<vnrole vncls="13.3" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menanggapi masalah Munir , pemerintah bersama Departemen Luar Negeri , berjanji akan membuka seluruh akses investigasi pihak polisi yang berencana menyelesaikan masalah kematian Munir .</text>
+				<arg f="" n="0">pemerintah</arg>
+				<arg f="com" n="m">bersama Departemen Luar Negeri</arg>
+				<rel f="">berjanji</rel>
+				<arg f="" n="2">akan membuka seluruh akses investigasi pihak polisi yang berencana menyelesaikan masalah kematian Munir</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

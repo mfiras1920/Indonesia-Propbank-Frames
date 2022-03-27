@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memastikan">
+		<roleset id="memastikan.01" name="mengatakan dengan pasti; menentukan; menetapkan dengan sungguh hati">
+			<aliases>
+        		<alias framenet="verification rite" pos="n" verbnet="">confirmation</alias>
+        		<alias framenet="Statement Verification Evidence" pos="v" verbnet="">confirm</alias>
+      		</aliases>
+			<roles>
+				<role descr="confirmer" f="pag" n="0">
+					<vnrole vncls="29.5-2" vntheta="agent"/>
+					<vnrole vncls="78-1-1" vntheta="cause"/>
+				</role>
+				<role descr="thing confirmed, statement or proposition" f="ppt" n="1">
+					<vnrole vncls="29.5-2" vntheta="theme"/>
+					<vnrole vncls="78-1-1" vntheta="topic"/>
+				</role>
+				<role descr="benefactive, hearer" f="gol" n="2">
+					<vnrole vncls="78-1-1" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Di tempat terpisah , Kepala Divisi Humas Markas Besar Polri yang baru , Brigadir Jenderal Polisi Paiman memastikan bahwa penahanan Ba asyir sudah memenuhi prosedur [ baca : Ustad Ba asyir Resmi Ditahan Lagi ] .</text>
+				<arg f="loc" n="m">Di tempat terpisah</arg>
+				<arg f="" n="0">Kepala Divisi Humas Markas Besar Polri yang baru , Brigadir Jenderal Polisi Paiman</arg>
+				<rel f="">memastikan</rel>
+				<arg f="" n="1">bahwa penahanan Ba asyir sudah memenuhi prosedur</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

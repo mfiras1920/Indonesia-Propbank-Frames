@@ -16,36 +16,15 @@
 				<text>Kecelakaan terjadi saat grup musik Gigi tampil di acara malam inagurasi [ baca : Enam Korban Luka Konser Gigi Masih Dirawat ] .</text>
 				<arg f="" n="1">Kecelakaan</arg>
 				<rel f="">terjadi</rel>
-				<arg f="tmp" n="m">saat</arg>
-				<arg f="tmp" n="m">grup</arg>
-				<arg f="tmp" n="m">musik</arg>
-				<arg f="tmp" n="m">Gigi</arg>
-				<arg f="tmp" n="m">tampil</arg>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">acara</arg>
-				<arg f="loc" n="m">malam</arg>
-				<arg f="loc" n="m">inagurasi</arg>
+				<arg f="tmp" n="m">saat grup musik Gigi tampil</arg>
+				<arg f="loc" n="m">di acara malam inagurasi</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Selain karena faktor keturunan , mata minus atau rabun jauh juga terjadi karena anak terlalu sering bermain dalam jarak dekat .</text>
-				<arg f="adv" n="m">selain</arg>
-				<arg f="adv" n="m">karena</arg>
-				<arg f="adv" n="m">faktor</arg>
-				<arg f="adv" n="m">keturunan</arg>
-				<arg f="" n="1">mata</arg>
-				<arg f="" n="1">minus</arg>
-				<arg f="" n="1">atau</arg>
-				<arg f="" n="1">jauh</arg>
-				<arg f="" n="1">rabun</arg>
+				<arg f="adv" n="m">Selain karena faktor keturunan</arg>
+				<arg f="" n="1">mata minus atau rabun jauh</arg>
 				<rel f="">terjadi</rel>
-				<arg f="cau" n="m">karena</arg>
-				<arg f="cau" n="m">anak</arg>
-				<arg f="cau" n="m">terlalu</arg>
-				<arg f="cau" n="m">sering</arg>
-				<arg f="cau" n="m">bermain</arg>
-				<arg f="cau" n="m">dalam</arg>
-				<arg f="cau" n="m">jarak</arg>
-				<arg f="cau" n="m">dekat</arg>
+				<arg f="cau" n="m">karena anak terlalu sering bermain dalam jarak dekat</arg>
 			</example>
 		</roleset>
 	</predicate>

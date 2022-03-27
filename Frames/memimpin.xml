@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memimpin">
+		<roleset id="memimpin.01" name="mengetuai atau mengepalai (rapat, perkumpulan, dan sebagainya), memenangi paling banyak">
+			<aliases>
+        		<alias framenet="Cotheme" pos="v" verbnet="">lead</alias>
+				<alias framenet="" pos="n" verbnet="">lead</alias>
+				<alias framenet="" pos="n" verbnet="">leading</alias>
+      		</aliases>
+			<roles>
+				<role descr="leader" f="pag" n="0">
+					<vnrole vncls="51.7" vntheta="agent"/>
+				</role>
+				<role descr="in the lead of" f="ppt" n="1">
+					<vnrole vncls="51.7" vntheta="theme"/>
+				</role>
+				<role descr="extent" f="ext" n="2"/>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point" f="gol" n="4">
+					<vnrole vncls="51.7" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Alasannya , PT Pembangunan Jaya Ancol sebagai pengembang belum membayar ganti rugi kepada ahli waris tanah [ baca : Hercules Memimpin Ribuan Massa ] .</text>
+				<arg f="" n="0">Hercules</arg>
+				<rel f="">Memimpin</rel>
+				<arg f="" n="1">Ribuan Massa</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Real Madrid masih memimpin dari Barcelona dan Sevilla .</text>
+				<arg f="" n="0">Real Madrid</arg>
+				<arg f="tmp" n="m">masih</arg>
+				<rel f="">memimpin</rel>
+				<arg f="" n="1">dari Barcelona dan Sevilla</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

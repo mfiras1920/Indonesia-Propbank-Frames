@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="kehilangan">
+		<roleset id="kehilangan.01" name="menderita sesuatu karena hilang">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="13.2">lose</alias>
+				<alias framenet="" pos="n" verbnet="">loss</alias>
+				<alias framenet="" pos="j" verbnet="">lost</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity losing something" f="pag" n="0">
+					<vnrole vncls="13.2" vntheta="agent"/>
+				</role>
+				<role descr="thing lost" f="ppt" n="1">
+					<vnrole vncls="13.2" vntheta="theme"/>
+				</role>
+				<role descr="benefactive, entity gaining thing lost" f="gol" n="2">
+					<vnrole vncls="13.2" vntheta="recipient"/>
+				</role>
+				<role descr="source of loss" f="dir" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati tak menimbulkan korban jiwa , 280 warga harus kehilangan tempat tinggal .</text>
+				<arg f="" n="0">280 warga</arg>
+				<arg f="mod" n="m">harus</arg>
+				<rel f="">kehilangan</rel>
+				<arg f="" n="1">tempat tinggal</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

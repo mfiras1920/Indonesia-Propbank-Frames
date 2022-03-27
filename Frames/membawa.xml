@@ -26,15 +26,9 @@
 				<text>Penegasan Presiden Wahid tersebut disampaikan dalam keterangan pers , tiga jam sebelum pesawat yang membawa rombongan Presiden mendarat , Kamis ( 8/3 ) dini hari .</text>
 				<arg f="" n="0">pesawat</arg>
 				<rel f="">membawa</rel>
-				<arg f="" n="1">rombongan</arg>
-				<arg f="" n="1">Presiden</arg>
+				<arg f="" n="1">rombongan Presiden</arg>
 				<arg f="prd" n="m">mendarat</arg>
-				<arg f="tmp" n="m">Kamis</arg>
-				<arg f="tmp" n="m">(</arg>
-				<arg f="tmp" n="m">8/3</arg>
-				<arg f="tmp" n="m">)</arg>
-				<arg f="tmp" n="m">dini</arg>
-				<arg f="tmp" n="m">hari</arg>
+				<arg f="tmp" n="m">Kamis ( 8/3 ) dini hari</arg>
 			</example>
 		</roleset>
 		<roleset id="membawa.02" name="mengajak pergi">
@@ -60,33 +54,19 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Ketika mobil polisi berbunyi , dua perampok itu segera membawa duit yang dibawa korban dan membawa lari mobil tersebut .</text>
-				<arg f="tmp" n="m">Ketika</arg>
-				<arg f="tmp" n="m">mobil</arg>
-				<arg f="tmp" n="m">polisi</arg>
-				<arg f="tmp" n="m">berbunyi</arg>
-				<arg f="" n="0">dua</arg>
-				<arg f="" n="0">perampok</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="tmp" n="m">Ketika mobil polisi berbunyi</arg>
+				<arg f="" n="0">dua perampok itu</arg>
 				<arg f="tmp" n="m">segera</arg>
 				<rel f="">membawa</rel>
-				<arg f="" n="1">duit</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">dibawa</arg>
-				<arg f="" n="1">korban</arg>
+				<arg f="" n="1">duit yang dibawa korban</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Ketika mobil polisi berbunyi , dua perampok itu segera membawa duit yang dibawa korban dan membawa lari mobil tersebut .</text>
-				<arg f="tmp" n="m">Ketika</arg>
-				<arg f="tmp" n="m">mobil</arg>
-				<arg f="tmp" n="m">polisi</arg>
-				<arg f="tmp" n="m">berbunyi</arg>
-				<arg f="" n="0">dua</arg>
-				<arg f="" n="0">perampok</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="tmp" n="m">Ketika mobil polisi berbunyi</arg>
+				<arg f="" n="0">dua perampok itu</arg>
 				<arg f="tmp" n="m">segera</arg>
 				<rel f="">membawa</rel>
-				<arg f="" n="1">mobil</arg>
-				<arg f="" n="1">tersebut</arg>
+				<arg f="" n="1">mobil tersebut</arg>
 			</example>
 		</roleset>
 		<roleset id="membawa.03" name="mendatangkan">
@@ -108,17 +88,12 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Hewan legendaris itu dipercaya membawa nasib baik dan rejeki .</text>
-				<arg f="" n="0">Hewan</arg>
-				<arg f="" n="0">legendaris</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="" n="0">Hewan legendaris itu</arg>
 				<rel f="">membawa</rel>
-				<arg f="" n="1">nasib</arg>
-				<arg f="" n="1">baik</arg>
-				<arg f="" n="1">dan</arg>
-				<arg f="" n="1">rejeki</arg>
+				<arg f="" n="1">nasib baik dan rejeki</arg>
 			</example>
 		</roleset>
-		<roleset id="membawa" name="menarik atau melibatkan">
+		<roleset id="membawa.04" name="menarik atau melibatkan">
 			<aliases>
         		<alias framenet="Participation" pos="j" verbnet="">involved</alias>
 				<alias framenet="" pos="n" verbnet="">involvement</alias>
@@ -141,19 +116,12 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Jika FUD dimatikan , semakin banyak orang akan membawa nama rakyat untuk kepentingan pribadi .</text>
-				<arg f="adv" n="m">Jika</arg>
-				<arg f="adv" n="m">FUD</arg>
-				<arg f="adv" n="m">dimatikan</arg>
-				<arg f="" n="0">semakin</arg>
-				<arg f="" n="0">banyak</arg>
-				<arg f="" n="0">orang</arg>
+				<arg f="adv" n="m">Jika FUD dimatikan</arg>
+				<arg f="" n="0">semakin banyak orang</arg>
 				<arg f="mod" n="m">akan</arg>
 				<rel f="">membawa</rel>
-				<arg f="" n="1">nama</arg>
-				<arg f="" n="1">rakyat</arg>
-				<arg f="tmp" n="m">untuk</arg>
-				<arg f="tmp" n="m">kepentingan</arg>
-				<arg f="tmp" n="m">pribadi</arg>
+				<arg f="" n="1">nama rakyat</arg>
+				<arg f="tmp" n="m">untuk kepentingan pribadi</arg>
 			</example>
 		</roleset>
 	</predicate>

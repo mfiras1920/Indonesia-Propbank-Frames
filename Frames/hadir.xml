@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="hadir">
+		<roleset id="hadir.01" name="ada (datang)">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">attentive</alias>
+				<alias framenet="Attention" pos="n" verbnet="">attention</alias>
+				<alias framenet="" pos="l" verbnet="">pay_attention</alias>
+				<alias framenet="" pos="v" verbnet="">attend</alias>
+				<alias framenet="" pos="n" verbnet="">attending</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity paying attention" f="pag" n="0"/>
+        		<role descr="to what" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati demikian , ia menegaskan Ketua DPP PBB Yusril Izha Mahendra tak akan hadir dalam pertemuan itu jika orang yang bersangkutan tidak hadir juga .</text>
+				<arg f="" n="0">Ketua DPP PBB Yusril Izha Mahendra</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">hadir</rel>
+				<arg f="" n="1">dalam pertemuan itu</arg>
+				<arg f="adv" n="m">jika orang yang bersangkutan tidak hadir juga</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Kendati demikian , ia menegaskan Ketua DPP PBB Yusril Izha Mahendra tak akan hadir dalam pertemuan itu jika orang yang bersangkutan tidak hadir juga .</text>
+				<arg f="" n="0">orang yang bersangkutan</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<rel f="">hadir</rel>
+				<arg f="dis" n="m">juga</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

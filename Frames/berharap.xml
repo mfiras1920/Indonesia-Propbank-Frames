@@ -17,18 +17,10 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Karena itu , Amien berharap , insiatif membentuk komisi tersebut datang dari F-PDIP MPR .</text>
-				<arg f="cau" n="m">Karena</arg>
-				<arg f="cau" n="m">itu</arg>
+				<arg f="cau" n="m">Karena itu</arg>
 				<arg f="" n="0">Amien</arg>
 				<rel f="">berharap</rel>
-				<arg f="" n="1">insiatif</arg>
-				<arg f="" n="1">membentuk</arg>
-				<arg f="" n="1">komisi</arg>
-				<arg f="" n="1">tersebut</arg>
-				<arg f="" n="1">datang</arg>
-				<arg f="" n="1">dari</arg>
-				<arg f="" n="1">F-PDIP</arg>
-				<arg f="" n="1">MPR</arg>
+				<arg f="" n="1">insiatif membentuk komisi tersebut datang dari F-PDIP MPR</arg>
 			</example>
 		</roleset>
 	</predicate>

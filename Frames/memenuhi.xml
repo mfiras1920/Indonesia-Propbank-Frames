@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memenuhi">
+		<roleset id="memenuhi.01" name="mencukupi">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">fulfillment</alias>
+        		<alias framenet="" pos="v" verbnet="">fulfill</alias>
+      		</aliases>
+			<roles>
+				<role descr="fulfiller" f="pag" n="0"/>
+        		<role descr="promise, contract, unresolved issue" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Biasanya warga Jambi memanfaatkan pasar ini untuk memenuhi kebutuhan makanan dan minuman saat berbuka dan sahur .</text>
+				<arg f="" n="0">warga Jambi</arg>
+				<rel f="">memenuhi</rel>
+				<arg f="" n="1">kebutuhan makanan dan minuman</arg>
+				<arg f="tmp" n="m">saat berbuka dan sahur</arg>
+			</example>
+		</roleset>
+		<roleset id="memenuhi.02" name="meluluskan, mengabulkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">grant</alias>
+				<alias framenet="" pos="n" verbnet="">grant</alias>
+				<alias framenet="" pos="n" verbnet="">granting</alias>
+      		</aliases>
+			<roles>
+				<role descr="granter" f="pag" n="0">
+					<vnrole vncls="29.5-2" vntheta="agent"/>
+					<vnrole vncls="13.3" vntheta="agent"/>
+				</role>
+				<role descr="thing granted" f="ppt" n="1">
+					<vnrole vncls="29.5-2" vntheta="predicate"/>
+					<vnrole vncls="13.3" vntheta="theme"/>
+				</role>
+				<role descr="benefactive, granted-to" f="gol" n="2">
+					<vnrole vncls="29.5-2" vntheta="theme"/>
+					<vnrole vncls="13.3" vntheta="goal"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Tapi , pihak manajemen belum memutuskan apakah dapat memenuhi tuntutan warga atau tidak .</text>
+				<arg f="dis" n="m">Tapi</arg>
+				<arg f="" n="0">pihak manajemen</arg>
+				<arg f="neg" n="m">belum</arg>
+				<arg f="mod" n="m">dapat</arg>
+				<rel f="">memenuhi</rel>
+				<arg f="" n="1">tuntutan warga</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

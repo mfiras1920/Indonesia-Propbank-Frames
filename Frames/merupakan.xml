@@ -19,14 +19,8 @@
 				<arg f="tmp" n="m">Sementara</arg>
 				<arg f="" n="0">ini</arg>
 				<rel f="">merupakan</rel>
-				<arg f="" n="1">pencapaian</arg>
-				<arg f="" n="1">pertama</arg>
-				<arg f="" n="1">bagi</arg>
-				<arg f="" n="1">MU</arg>
-				<arg f="tmp" n="m">dalam</arg>
-				<arg f="tmp" n="m">lima</arg>
-				<arg f="tmp" n="m">tahun</arg>
-				<arg f="tmp" n="m">terakhir</arg>
+				<arg f="" n="1">pencapaian pertama bagi MU</arg>
+				<arg f="tmp" n="m">dalam lima tahun terakhir</arg>
 			</example>
 		</roleset>
 	</predicate>

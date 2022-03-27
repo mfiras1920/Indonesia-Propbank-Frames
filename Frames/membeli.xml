@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membeli">
+		<roleset id="membeli.01" name="memperoleh sesuatu dengan penukaran">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">buying</alias>
+        		<alias framenet="" pos="v" verbnet="">buy</alias>
+      		</aliases>
+			<roles>
+				<role descr="buyer" f="pag" n="0">
+					<vnrole vncls="13.5.1" vntheta="agent"/>
+				</role>
+				<role descr="thing bought" f="ppt" n="1">
+					<vnrole vncls="13.5.1" vntheta="theme"/>
+				</role>
+				<role descr="seller" f="dir" n="2">
+					<vnrole vncls="13.5.1" vntheta="source"/>
+				</role>
+				<role descr="price paid" f="vsp" n="3">
+					<vnrole vncls="13.5.1" vntheta="asset"/>
+				</role>
+				<role descr="benefactive" f="gol" n="4">
+					<vnrole vncls="13.5.1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Setelah dipertanyakan , sejumlah pemudik mengakui , mereka membeli kepada calo dengan harga yang cukup tinggi karena tidak dapat membeli dengan harga normal di loket .</text>
+				<arg f="" n="0">sejumlah pemudik</arg>
+				<arg f="" n="0">mereka</arg>
+				<rel f="">membeli</rel>
+				<arg f="" n="2">kepada calo</arg>
+				<arg f="" n="3">dengan harga yang cukup tinggi</arg>
+				<arg f="" n="cau">karena tidak dapat membeli dengan harga normal di loket</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Setelah dipertanyakan , sejumlah pemudik mengakui , mereka membeli kepada calo dengan harga yang cukup tinggi karena tidak dapat membeli dengan harga normal di loket .</text>
+				<arg f="" n="0">mereka</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<arg f="mod" n="m">dapat</arg>
+				<rel f="">membeli</rel>
+				<arg f="" n="3">dengan harga normal</arg>
+				<arg f="" n="2">di loket</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

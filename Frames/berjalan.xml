@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berjalan">
+		<roleset id="berjalan.01" name="bergerak maju">
+			<aliases>
+        		<alias framenet="Self_motion" pos="n" verbnet="">walk</alias>
+				<alias framenet="" pos="l" verbnet="">take_walk</alias>
+				<alias framenet="" pos="n" verbnet="">walking</alias>
+				<alias framenet="Cotheme Self_motion" pos="v" verbnet="">walk</alias>
+      		</aliases>
+			<roles>
+				<role descr="walker, thing in motion" f="pag" n="0">
+					<vnrole vncls="51.3.2" vntheta="theme"/>
+				</role>
+				<role descr="entity being walked, where there is outside Agent" f="ppt" n="1">
+					<vnrole vncls="51.3.2" vntheta="location"/>
+				</role>
+				<role descr="path/ underspecified location walked" f="loc" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Demonstran dari tiga elemen itu akhirnya berjalan ke arah kawasan Bundaran Hotel Indonesia untuk bergabung dengan ratusan demonstran lainnya .</text>
+				<arg f="" n="0">Demonstran dari tiga elemen itu</arg>
+				<arg f="adv" n="m">akhirnya</arg>
+				<rel f="">berjalan</rel>
+				<arg f="dir" n="m">ke arah kawasan Bundaran Hotel Indonesia</arg>
+				<arg f="prp" n="m">untuk bergabung dengan ratusan demonstran lainnya</arg>
+			</example>
+		</roleset>
+		<roleset id="berjalan.02" name="berlangsung">
+			<aliases>
+        		<alias framenet="Scrutiny Forgoing" pos="v" verbnet="">go</alias>
+        		<alias framenet="" pos="n" verbnet="">go</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity proceeding" f="pag" n="0"/>
+				<role descr="project" f="ppt" n="1"/>
+				<role descr="direction, usually a particle" f="dir" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dalam acara tersebut , para penceramah menyatakan , penahanan Panglima Laskar Jihad Ja far Umar Thalib tak mempunyai dasar yang kuat , tapi bernuansa politis [ baca : Penangkapan Panglima Laskar Jihad Berjalan Lancar ] .</text>
+				<arg f="" n="0">Penangkapan Panglima Laskar Jihad</arg>
+				<rel f="">Berjalan</rel>
+				<arg f="mnr" n="m">Lancar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

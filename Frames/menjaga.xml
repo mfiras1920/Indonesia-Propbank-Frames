@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menjaga">
+		<roleset id="menjaga.01" name="menunggui dari bahaya, mengiringi untuk melindungi">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">guarding</alias>
+        		<alias framenet="" pos="v" verbnet="">guard</alias>
+      		</aliases>
+			<roles>
+				<role descr="guard" f="pag" n="0">
+					<vnrole vncls="29.8-1" vntheta="agent"/>
+				</role>
+				<role descr="guarded" f="gol" n="1">
+					<vnrole vncls="29.8-1" vntheta="beneficiary"/>
+				</role>
+				<role descr="instrument" f="mnr" n="2"/>
+				<role descr="guard against what?" f="ppt" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menurut Kepala Kantor Wilayah Pendidikan Nasional Jatim Rasiyo , Selasa ( 29/5 ) , kelancaran Ebtanas berkat bantuan petugas keamanan yang menjaga sekolah-sekolah dari gangguan massa pendukung Presiden Abdurrahman Wahid yang berunjuk rasa .</text>
+				<arg f="" n="0">petugas keamanan</arg>
+				<rel f="">menjaga</rel>
+				<arg f="" n="1">sekolah-sekolah</arg>
+				<arg f="" n="3">dari gangguan massa pendukung Presiden Abdurrahman Wahid yang berunjuk rasa</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Selain itu , polisi dan tentara akan menjaga sejumlah aset milik negara Paman Sam [ baca : AS Menyerang Afghanistan ] .</text>
+				<arg f="adv" n="m">Selain itu</arg>
+				<arg f="" n="0"> polisi dan tentara</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">menjaga</rel>
+				<arg f="" n="1">sejumlah aset milik negara Paman Sam</arg>
+			</example>
+		</roleset>
+		<roleset id="menjaga.02" name="mengikhtiarkan (supaya); mengurus (supaya)">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">keeping</alias>
+        		<alias framenet="" pos="v" verbnet="">keep</alias>
+      		</aliases>
+			<roles>
+				<role descr="Keeper" f="pag" n="0">
+					<vnrole vncls="15.2" vntheta="agent"/>
+					<vnrole vncls="55.6" vntheta="agent"/>
+				</role>
+				<role descr="thing kept" f="ppt" n="1">
+					<vnrole vncls="15.2" vntheta="theme"/>
+					<vnrole vncls="55.6" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Yang diperoleh anak-anak ini hanyalah makanan sekadar menjaga agar perut tidak kosong saja .</text>
+				<arg f="" n="0">makanan</arg>
+				<arg f="ext" n="m">sekadar</arg>
+				<rel f="">menjaga</rel>
+				<arg f="" n="1">agar perut tidak kosong saja</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

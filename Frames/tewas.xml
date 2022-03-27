@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tewas">
+		<roleset id="tewas.01" name="meninggal">
+			<aliases>
+        		<alias framenet="Death" pos="v" verbnet="">die</alias>
+				<alias framenet="death" pos="n" verbnet="">death</alias>
+				<alias framenet="" pos="n" verbnet="">die</alias>
+				<alias framenet="" pos="n" verbnet="">dying</alias>
+      		</aliases>
+			<roles>
+				<role descr="the deceased" f="ppt" n="1">
+					<vnrole vncls="48.2" vntheta="patient"/>
+				</role>
+				<role descr="cognate object" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sertu Dadang tewas lantaran kepala dan sekujur tubuhnya terkena ledakan bom di Desa Meunasah Pante , Kecamatan Beutong , Aceh Barat .</text>
+				<arg f="" n="1">Sertu Dadang</arg>
+				<rel f="">tewas</rel>
+				<arg f="cau" n="m">lantaran kepala dan sekujur tubuhnya terkena ledakan bom</arg>
+				<arg f="loc" n="m">di Desa Meunasah Pante , Kecamatan Beutong , Aceh Barat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

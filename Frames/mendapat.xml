@@ -25,13 +25,9 @@
 			<example name="" src="" type="">
 				<text>Namun , jika tak di sana , mereka tak pernah mendapat penghasilan .</text>
 				<arg f="dis" n="m">Namun</arg>
-				<arg f="adv" n="m">jika</arg>
-				<arg f="adv" n="m">tak</arg>
-				<arg f="adv" n="m">di</arg>
-				<arg f="adv" n="m">sana</arg>
+				<arg f="adv" n="m">jika tak di sana</arg>
 				<arg f="" n="0">mereka</arg>
-				<arg f="neg" n="m">tak</arg>
-				<arg f="neg" n="m">pernah</arg>
+				<arg f="neg" n="m">tak pernah</arg>
 				<rel f="">mendapat</rel>
 				<arg f="" n="1">penghasilan</arg>
 			</example>
@@ -58,29 +54,12 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Selain itu , para Pama dan Pamen itu juga mendapat materi khusus dari intervensi konflik hingga penanganan kerumunan massa agar tak terjadi tindakan anarkis .</text>
-				<arg f="adv" n="m">Selain</arg>
-				<arg f="adv" n="m">itu</arg>
-				<arg f="" n="0">para</arg>
-				<arg f="" n="0">Pama</arg>
-				<arg f="" n="0">dan</arg>
-				<arg f="" n="0">Pamen</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="adv" n="m">Selain itu</arg>
+				<arg f="" n="0">para Pama dan Pamen itu</arg>
 				<arg f="dis" n="m">juga</arg>
 				<rel f="">mendapat</rel>
-				<arg f="" n="1">materi</arg>
-				<arg f="" n="1">khusus</arg>
-				<arg f="" n="1">dari</arg>
-				<arg f="" n="1">intervensi</arg>
-				<arg f="" n="1">konflik</arg>
-				<arg f="" n="1">hingga</arg>
-				<arg f="" n="1">penanganan</arg>
-				<arg f="" n="1">kerumunan</arg>
-				<arg f="" n="1">massa</arg>
-				<arg f="prp" n="m">agar</arg>
-				<arg f="prp" n="m">tak</arg>
-				<arg f="prp" n="m">terjadi</arg>
-				<arg f="prp" n="m">tindakan</arg>
-				<arg f="prp" n="m">anarkis</arg>
+				<arg f="" n="1">materi khusus dari intervensi konflik hingga penanganan kerumunan massa</arg>
+				<arg f="prp" n="m">agar tak terjadi tindakan anarkis</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -26,21 +26,11 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Sejumlah pemudik asal Jakarta sengaja menggunakan 14 bajaj untuk bisa mencapai kampung halaman di Kuningan .</text>
-				<arg f="" n=""></arg>
-				<arg f="" n=""></arg>
-				<arg f="" n=""></arg>
-				<arg f="" n=""></arg>
-				<arg f="adv" n=""></arg>
+				<arg f="" n="0">Sejumlah pemudik asal Jakarta</arg>
+				<arg f="adv" n="m">sengaja</arg>
 				<rel f="">menggunakan</rel>
-				<arg f="prp" n="1">14</arg>
-				<arg f="prp" n="1">bajaj</arg>
-				<arg f="prp" n="m">untuk</arg>
-				<arg f="prp" n="m">bisa</arg>
-				<arg f="prp" n="m">mencapai</arg>
-				<arg f="prp" n="m">kampung</arg>
-				<arg f="prp" n="m">halaman</arg>
-				<arg f="prp" n="m">di</arg>
-				<arg f="prp" n="m">Kuningan</arg>
+				<arg f="" n="1">14 bajaj</arg>
+				<arg f="prp" n="m">untuk bisa mencapai kampung halaman di Kuningan</arg>
 			</example>
 		</roleset>
 	</predicate>

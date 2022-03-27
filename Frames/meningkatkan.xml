@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="meningkatkan">
+		<roleset id="meningkatkan.01" name="menaikkan (derajat, taraf, dan sebagainya); mempertinggi; memperhebat (produksi dan sebagainya)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">increase</alias>
+        		<alias framenet="" pos="n" verbnet="">increase</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of increase" f="pag" n="0">
+					<vnrole vncls="45.4" vntheta="agent"/>
+				</role>
+				<role descr="thing increasing" f="ppt" n="1">
+					<vnrole vncls="45.4" vntheta="patient"/>
+					<vnrole vncls="45.6-1" vntheta="patient"/>
+				</role>
+				<role descr="amount increased by, EXT or MNR" f="ext" n="2">
+					<vnrole vncls="45.6-1" vntheta="extent"/>
+				</role>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point" f="gol" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Untuk mengantisipasi agar kondisi pemadaman listrik tidak bertambah parah , PLN telah meningkatkan tambahan dana subsidi sebesar Rp 4 , 1 triliun .</text>
+				<arg f="" n="0">PLN</arg>
+				<arg f="adv" n="m">telah</arg>
+				<rel f="">meningkatkan</rel>
+				<arg f="" n="1">tambahan dana subsidi</arg>
+				<arg f="" n="2">sebesar Rp 4 , 1 triliun</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

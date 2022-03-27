@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menurunkan">
+		<roleset id="menurunkan.01" name="membawa (menjadikan) turun, seperti menarik turun, mengerek ke bawah, membongkar muatan, dan sebagainya">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">reduced</alias>
+				<alias framenet="Cause_expansion Cause_change_of_position_on_a_scale" pos="n" verbnet="">reduction</alias>
+				<alias framenet="" pos="v" verbnet="">reduce</alias>
+      		</aliases>
+			<roles>
+				<role descr="Agent" f="pag" n="0">
+					<vnrole vncls="76" vntheta="cause"/>
+					<vnrole vncls="42.3" vntheta="agent"/>
+				</role>
+				<role descr="Logical subject, patient, thing falling" f="ppt" n="1">
+					<vnrole vncls="76" vntheta="patient"/>
+					<vnrole vncls="42.3" vntheta="patient"/>
+				</role>
+				<role descr="EXT, amount fallen" f="ext" n="2"/>
+				<role descr="Start point" f="dir" n="3"/>
+				<role descr="End point, end state of arg1" f="gol" n="4">
+					<vnrole vncls="76" vntheta="goal"/>
+				</role>
+				<role descr="Medium" f="loc" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Tindakan tersebut diambil karena perusahaan minyak raksasa milik Amerika Serikat itu telah menurunkan kapasitas produksi sejak minggu silam .</text>
+				<arg f="" n="0">perusahaan minyak raksasa milik Amerika Serikat itu</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">menurunkan</rel>
+				<arg f="" n="1">kapasitas produksi</arg>
+				<arg f="tmp" n="m">sejak minggu silam</arg>
+			</example>
+		</roleset>
+		<roleset id="menurunkan.02" name="memilih untuk ikut bermain (bertandang dan sebagainya); menyertakan; mengikutkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">field</alias>
+      		</aliases>
+			<roles>
+				<role descr="fielder, agent" f="PAG" n="0"/>
+        		<role descr="question, proposal, thing put into action" f="PPT" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain turunnya Fortune , Bolton juga mencoba menurunkan pemain baru mereka .</text>
+				<arg f="adv" n="m">Selain turunnya Fortune</arg>
+				<arg f="" n="0">Bolton</arg>
+				<arg f="dis" n="m">juga</arg>
+				<rel f="">menurunkan</rel>
+				<arg f="" n="1">pemain baru mereka</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

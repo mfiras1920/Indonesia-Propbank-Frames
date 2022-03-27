@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengetahui">
+		<roleset id="mengetahui.01" name="tahu akan">
+			<aliases>
+        		<alias framenet="Awareness Certainty" pos="v" verbnet="comprehend-87.2-1
+				conjecture-29.5-1 consider-29.9-1-1">know</alias>
+				<alias framenet="" pos="v" verbnet="">idk</alias>
+				<alias framenet="" pos="v" verbnet="">dunno</alias>
+				<alias framenet="" pos="v" verbnet="">du_nno</alias>
+				<alias framenet="" pos="n" verbnet="">knowledge</alias>
+				<alias framenet="Awareness" pos="j" verbnet="">knowledgeable</alias>
+				<alias framenet="" pos="j" verbnet="">known</alias>
+      		</aliases>
+			<roles>
+				<role descr="knower" f="pag" n="0">
+					<vnrole vncls="29.5-1" vntheta="agent"/>
+					<vnrole vncls="29.9-1-1" vntheta="agent"/>
+					<vnrole vncls="87.2-1" vntheta="experiencer"/>
+				</role>
+				<role descr="fact that is known" f="ppt" n="1">
+					<vnrole vncls="29.5-1" vntheta="theme"/>
+					<vnrole vncls="29.9-1-1" vntheta="theme"/>
+					<vnrole vncls="87.2-1" vntheta="stimulus"/>
+				</role>
+				<role descr="entity that arg1 is known ABOUT" f="prd" n="2">
+					<vnrole vncls="29.5-1" vntheta="predicate"/>
+					<vnrole vncls="29.9-1-1" vntheta="attribute"/>
+					<vnrole vncls="87.2-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Hingga saat ini , Akbar mengaku belum mengetahui secara pasti jumlah peserta yang mengikuti pertemuan .</text>
+				<arg f="tmp" n="m">Hingga saat ini</arg>
+				<arg f="" n="0">Akbar</arg>
+				<arg f="neg" n="m">belum</arg>
+				<rel f="">mengetahui</rel>
+				<arg f="" n="1">secara pasti jumlah peserta yang mengikuti pertemuan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

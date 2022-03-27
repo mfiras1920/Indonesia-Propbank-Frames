@@ -23,27 +23,13 @@
 				<arg f="neg" n="m">tak</arg>
 				<arg f="mod" n="m">bisa</arg>
 				<rel f="">masuk</rel>
-				<arg f="cau" n="m">lantaran</arg>
-				<arg f="cau" n="m">istri</arg>
-				<arg f="cau" n="m">Pangdam</arg>
-				<arg f="cau" n="m">masih</arg>
-				<arg f="cau" n="m">dalam</arg>
-				<arg f="cau" n="m">keadaan</arg>
-				<arg f="cau" n="m">shock</arg>
-				<arg f="cau" n="m">dan</arg>
-				<arg f="cau" n="m">belum</arg>
-				<arg f="cau" n="m">dapat</arg>
-				<arg f="cau" n="m">ditemui</arg>
-				<arg f="cau" n="m">siapa</arg>
-				<arg f="cau" n="m">pun</arg>
+				<arg f="cau" n="m">lantaran istri Pangdam masih dalam keadaan shock dan belum dapat ditemui siapa pun</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek , ujar Perez kepada Telecinco .</text>
 				<arg f="" n="0">kualifikasi</arg>
 				<rel f="">masuk</rel>
-				<arg f="" n="1">ke</arg>
-				<arg f="" n="1">dalam</arg>
-				<arg f="" n="1">proyek</arg>
+				<arg f="" n="1">ke dalam proyek</arg>
 			</example>
 		</roleset>
 	</predicate>

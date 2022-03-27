@@ -20,24 +20,10 @@
 			<example name="" src="" type="">
 				<text>Seharusnya , Indonesia yang mempunyai hutan lebih luas nomor tiga setelah Brasil dan Nigeria dapat memberikan sumbangan yang lebih besar .</text>
 				<arg f="mod" n="m">Seharusnya</arg>
-				<arg f="" n="0">Indonesia</arg>
-				<arg f="" n="0">yang</arg>
-				<arg f="" n="0">mempunyai</arg>
-				<arg f="" n="0">hutan</arg>
-				<arg f="" n="0">lebih</arg>
-				<arg f="" n="0">luas</arg>
-				<arg f="" n="0">nomor</arg>
-				<arg f="" n="0">tiga</arg>
-				<arg f="" n="0">setelah</arg>
-				<arg f="" n="0">Brasil</arg>
-				<arg f="" n="0">dan</arg>
-				<arg f="" n="0">Nigeria</arg>
+				<arg f="" n="0">Indonesia yang mempunyai hutan lebih luas nomor tiga setelah Brasil dan Nigeria</arg>
 				<arg f="rel" n="m">dapat</arg>
 				<rel f="">memberikan</rel>
-				<arg f="" n="1">sumbangan</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">lebih</arg>
-				<arg f="" n="1">besar</arg>
+				<arg f="" n="1">sumbangan yang lebih besar</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mendukung">
+		<roleset id="mendukung.01" name="menyokong; membantu; menunjang">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">supportive</alias>
+				<alias framenet="" pos="n" verbnet="">support</alias>
+				<alias framenet="" pos="l" verbnet="">give_support</alias>
+				<alias framenet="Taking_sides" pos="v" verbnet="">support</alias>
+      		</aliases>
+			<roles>
+				<role descr="helper" f="PAG" n="0">
+					<vnrole vncls="31.2" vntheta="experiencer"/>
+					<vnrole vncls="47.8" vntheta="theme"/>
+					<vnrole vncls="72" vntheta="agent"/>
+				</role>
+				<role descr="person, thing or project being supported" f="ppt" n="1">
+					<vnrole vncls="31.2" vntheta="stimulus"/>
+					<vnrole vncls="47.8" vntheta="co-theme"/>
+					<vnrole vncls="72" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pada kesempatan itu , ia membantah , bahwa keputusan tersebut hanya untuk mendukung pernyataan Presiden Abdurrahman Wahid sebelumnya .</text>
+				<arg f="" n="0">keputusan tersebut</arg>
+				<rel f="">mendukung</rel>
+				<arg f="" n="1">pernyataan Presiden Abdurrahman Wahid sebelumnya</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

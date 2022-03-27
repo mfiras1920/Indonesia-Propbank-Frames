@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="meninggal">
+		<roleset id="meninggal.01" name="mati, berpulang">
+			<aliases>
+        		<alias framenet="Death" pos="v" verbnet="">die</alias>
+				<alias framenet="death" pos="n" verbnet="">death</alias>
+				<alias framenet="" pos="n" verbnet="">die</alias>
+				<alias framenet="" pos="n" verbnet="">dying</alias>
+      		</aliases>
+			<roles>
+				<role descr="the deceased" f="ppt" n="1">
+					<vnrole vncls="48.2" vntheta="patient"/>
+				</role>
+				<role descr="cognate object" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Charles yang juga mantan anggota band The Mercys itu meninggal dunia saat dibawa ke Rumah Sakit Pusat Pertamina , Kebayoran Baru , kemarin malam .</text>
+				<arg f="" n="1">Charles yang juga mantan anggota band The Mercys itu</arg>
+				<rel f="">meninggal</rel>
+				<arg f="tmp" n="m">saat dibawa ke Rumah Sakit Pusat Pertamina</arg>
+				<arg f="loc" n="m">Kebayoran Baru</arg>
+				<arg f="tmp" n="m">kemarin malam</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

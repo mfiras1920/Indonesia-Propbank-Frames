@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengantisipasi">
+		<roleset id="mengatisipasi.01" name="membuat perhitungan (ramalan, dugaan) tentang hal-hal yang belum (akan) terjadi">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">anticipation</alias>
+        		<alias framenet="Expectation" pos="v" verbnet="">anticipate</alias>
+      		</aliases>
+			<roles>
+				<role descr="anticipater" f="PAG" n="0"/>
+        		<role descr="thing anticipated" f="PPT" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Untuk mengantisipasi agar kondisi pemadaman listrik tidak bertambah parah , PLN telah meningkatkan tambahan dana subsidi sebesar Rp 4 , 1 triliun .</text>
+				<rel f="">mengantisipasi</rel>
+				<arg f="" n="1">agar kondisi pemadaman listrik tidak bertambah parah</arg>
+				<arg f="" n="0">PLN</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

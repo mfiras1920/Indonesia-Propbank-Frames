@@ -17,18 +17,10 @@
 			<example name="" src="" type="">
 				<text>Untunglah , selain para preman tersebut , tidak ada di antara pengunjung yang menjadi korban .</text>
 				<arg f="dis" n="m">Untunglah</arg>
-				<arg f="adv" n="m">selain</arg>
-				<arg f="adv" n="m">para</arg>
-				<arg f="adv" n="m">preman</arg>
-				<arg f="adv" n="m">tersebut</arg>
+				<arg f="adv" n="m">selain para preman tersebut</arg>
 				<arg f="neg" n="m">tidak</arg>
 				<rel f="">ada</rel>
-				<arg f="" n="1">di</arg>
-				<arg f="" n="1">antara</arg>
-				<arg f="" n="1">pengunjung</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">menjadi</arg>
-				<arg f="" n="1">korban</arg>
+				<arg f="" n="1">di antara pengunjung yang menjadi korban</arg>
 			</example>
 		</roleset>
 		<roleset id="ada.02" name="mempunyai">
@@ -47,13 +39,11 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Banyak anak-anak tak ada biaya untuk sekolah .</text>
-				<arg f="" n="0">Banyak</arg>
-				<arg f="" n="0">anak-anak</arg>
+				<arg f="" n="0">Banyak anak-anak</arg>
 				<arg f="neg" n="m">tak</arg>
 				<rel f="">ada</rel>
 				<arg f="" n="1">biaya</arg>
-				<arg f="prp" n="m">untuk</arg>
-				<arg f="prp" n="m">sekolah</arg>
+				<arg f="prp" n="m">untuk sekolah</arg>
 			</example>
 		</roleset>
 	</predicate>

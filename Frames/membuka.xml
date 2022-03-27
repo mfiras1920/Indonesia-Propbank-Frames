@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membuka">
+		<roleset id="membuka.01" name="menjadikan tidak tertutup atau tidak bertutup">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">opening</alias>
+				<alias framenet="" pos="v" verbnet="">open</alias>
+				<alias framenet="" pos="n" verbnet="">opening</alias>
+      		</aliases>
+			<roles>
+				<role descr="opener" f="pag" n="0">
+					<vnrole vncls="47.6" vntheta="agent"/>
+					<vnrole vncls="40.3.2" vntheta="agent"/>
+					<vnrole vncls="45.4" vntheta="agent"/>
+				</role>
+				<role descr="thing opening" f="ppt" n="1">
+					<vnrole vncls="47.6" vntheta="theme"/>
+					<vnrole vncls="40.3.2" vntheta="patient"/>
+					<vnrole vncls="45.4" vntheta="patient"/>
+				</role>
+				<role descr="instrument" f="mnr" n="2">
+					<vnrole vncls="45.4" vntheta="instrument"/>
+				</role>
+				<role descr="benefactive" f="gol" n="3">
+					<vnrole vncls="40.3.2" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Para pemilik toko di Glodok , Jakarta Barat , Senen dan Pasar Baru , memutuskan tetap membuka tokonya .</text>
+				<arg f="" n="0">Para pemilik toko di Glodok , Jakarta Barat , Senen dan Pasar Baru</arg>
+				<arg f="tmp" n="m">tetap</arg>
+				<rel f="">membuka</rel>
+				<arg f="" n="1">tokonya</arg>
+			</example>
+		</roleset>
+		<roleset id="membuka.02" name="mengembangkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">open_up</alias>
+        		<alias framenet="" pos="n" verbnet="">opening_up</alias>
+      		</aliases>
+			<roles>
+				<role descr="opener" f="pag" n="0"/>
+				<role descr="thing opening" f="ppt" n="1">
+					<vnrole vncls="45.4" vntheta="patient"/>
+				</role>
+				<role descr="instrument" f="mnr" n="2"/>
+				<role descr="benefactive" f="gol" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Meski belum dikenal luas , alternatif pengobatan dengan operasi telah membuka harapan pasien untuk sembuh .</text>
+				<arg f="adv" n="m">Meski belum dikenal luas</arg>
+				<arg f="" n="0">alternatif pengobatan dengan operasi</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">membuka</rel>
+				<arg f="" n="1">harapan pasien untuk sembuh</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

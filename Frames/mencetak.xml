@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mencetak">
+		<roleset id="mencetak.01" name="membuat tulisan atau gambar dari klise pada kertas dengan melumas klise itu dengan tinta lalu ditekankan pada kertas">
+			<aliases>
+        		<alias framenet="Text_creation" pos="v" verbnet="">print</alias>
+        		<alias framenet="" pos="n" verbnet="">printing</alias>
+      		</aliases>
+			<roles>
+				<role descr="printer" f="pag" n="0">
+					<vnrole vncls="25.2" vntheta="agent"/>
+				</role>
+				<role descr="document" f="ppt" n="1">
+					<vnrole vncls="25.2" vntheta="theme"/>
+				</role>
+				<role descr="benefactive" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Banyaknya peminat mengakibatkan penerbit buku itu mencetak ulang untuk kelima kalinya , sebanyak 2 . 500 eksemplar .</text>
+				<arg f="" n="0">penerbit buku itu</arg>
+				<rel f="">mencetak</rel>
+				<arg f="tmp" n="m">ulang untuk kelima kalinya</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Mereka masih harus mencetak nama pemilik tiket pada lembaran-lembaran tiket tersebut .</text>
+				<arg f="" n="0">Mereka</arg>
+				<arg f="tmp" n="m">masih</arg>
+				<arg f="mod" n="m">harus</arg>
+				<rel f="">mencetak</rel>
+				<arg f="" n="1">nama pemilik tiket</arg>
+				<arg f="loc" n="m">pada lembaran-lembaran tiket tersebut</arg>
+			</example>
+		</roleset>
+		<roleset id="mencetak.02" name="memperoleh kemenangan dalam (pertandingan), mendapatkan gol">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">score</alias>
+				<alias framenet="" pos="n" verbnet="">scoring</alias>
+				<alias framenet="Getting" pos="v" verbnet="">score</alias>
+      		</aliases>
+			<roles>
+				<role descr="grader, judge, entity awarding the points" f="pag" n="0"/>
+				<role descr="entity earning points" f="ppt" n="1"/>
+				<role descr="the points/score" f="prd" n="2"/>
+				<role descr="domain" f="vsp" n="3"/>
+				<role descr="opponent" f="vsp" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Tatapan kosong di mata fans Chelsea begitu Emile Heskey mencetak gol menit ke-91 , yang berarti pertandingan sudah memasuki masa added time .</text>
+				<arg f="" n="1">Emile Heskey</arg>
+				<rel f="">mencetak</rel>
+				<arg f="" n="2">gol menit ke-91</arg>
+			</example>
+		</roleset>
+		<roleset id="mencetak.03" name="memperoleh">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">earn</alias>
+      		</aliases>
+			<roles>
+				<role descr="earner" f="PAG" n="0">
+					<vnrole vncls="13.5.1-1" vntheta="Agent"/>
+				</role>
+				<role descr="wages" f="PPT" n="1">
+					<vnrole vncls="13.5.1-1" vntheta="Theme"/>
+				</role>
+				<role descr="benefactive" f="GOL" n="2">
+					<vnrole vncls="13.5.1-1" vntheta="Beneficiary"/>
+				</role>
+				<role descr="source" f="DIR" n="3">
+					<vnrole vncls="13.5.1-1" vntheta="Source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bahkan , manajemen BII tetap optimistis akan dapat mencetak laba bersih Rp 600 miliar pada 2001 .</text>
+				<arg f="dis" n="m">Bahkan</arg>
+				<arg f="" n="0">manajemen BII</arg>
+				<arg f="mod" n="m">akan dapat</arg>
+				<rel f="">mencetak</rel>
+				<arg f="" n="1">laba bersih Rp 600 miliar</arg>
+				<arg f="tmp" n="m">pada 2001</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

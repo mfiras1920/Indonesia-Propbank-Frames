@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menutup">
+		<roleset id="" name="menjadikan tidak terbuka (seperti mengatupkan, mengunci, merapatkan; menyudahi (rapat, pembicaraan, dan sebagainya); mengakhiri">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">close</alias>
+				<alias framenet="" pos="n" verbnet="">close</alias>
+				<alias framenet="" pos="j" verbnet="">closed</alias>
+				<alias framenet="" pos="n" verbnet="">closing</alias>
+      		</aliases>
+			<roles>
+				<role descr="person doing the closing" f="pag" n="0">
+					<vnrole vncls="40.3.2" vntheta="agent"/>
+					<vnrole vncls="45.4" vntheta="agent"/>
+				</role>
+				<role descr="thing closing" f="ppt" n="1">
+					<vnrole vncls="40.3.2" vntheta="patient"/>
+					<vnrole vncls="45.4" vntheta="patient"/>
+				</role>
+				<role descr="anti-beneficiary" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bank Indonesia akan menutup bank yang tak mampu menambah rasio kecukupan modal ( CAR ) sebesar delapan persen hingga tahun ini .</text>
+				<arg f="" n="0">Bank Indonesia</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">menutup</rel>
+				<arg f="" n="1">bank yang tak mampu menambah rasio kecukupan modal ( CAR ) sebesar delapan persen hingga tahun ini</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>PDIP memperoleh 109 kursi di DPR atau kedua terbanyak setelah Partai Golongan Karya yang memperoleh 127 kursi [ baca : SBY Menutup Pembekalan Anggota Legislatif PD ] .</text>
+				<arg f="" n="0">SBY</arg>
+				<rel f="">menutup</rel>
+				<arg f="" n="1">Menutup Pembekalan Anggota Legislatif PD</arg>
+			</example>
+		</roleset>
+		<roleset id="menutup.02" name="mencukupi (ongkos, kekurangan, dan sebagainya)">
+			<aliases>
+        		<alias framenet="Sufficiency" pos="j" verbnet="">enough</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing that is enough" f="pag" n="1"/>
+				<role descr="attribute of arg1 that arg1 is to a sufficient degree" f="adj" n="2"/>
+				<role descr="to satisfy what" f="ppt" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Tapi lantaran jumlah pengungsi terus bertambah , bantuan yang diterima jelas tak menutup .</text>
+				<arg f="cau" n="m">Tapi</arg>
+				<arg f="dis" n="m">lantaran jumlah pengungsi terus bertambah</arg>
+				<arg f="" n="0">bantuan yang diterima</arg>
+				<arg f="adv" n="m">jelas</arg>
+				<arg f="neg" n="m">tak</arg>
+				<rel f="">menutup</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

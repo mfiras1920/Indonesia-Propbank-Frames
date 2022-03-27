@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menambah">
+		<roleset id="menambah.01" name="menjadikan (membubuhkan dan sebagainya) supaya lebih banyak">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">add</alias>
+        		<alias framenet="" pos="n" verbnet="">addition</alias>
+      		</aliases>
+			<roles>
+				<role descr="adder" f="pag" n="0">
+					<vnrole vncls="22.1-2" vntheta="agent"/>
+					<vnrole vncls="108" vntheta="agent"/>
+				</role>
+				<role descr="thing being added" f="ppt" n="1">
+					<vnrole vncls="22.1-2" vntheta="patient"/>
+					<vnrole vncls="108" vntheta="theme"/>
+				</role>
+				<role descr="thing being added to" f="ppt" n="2">
+					<vnrole vncls="22.1-2" vntheta="co-patient"/>
+					<vnrole vncls="108" vntheta="co-theme"/>
+				</role>
+				<role descr="resulting sum" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Para sopir juga mendesak pihak manajemen Bali Taksi untuk menambah uang tunjangan kesepian sebesar Rp 10 ribu dalam sehari .</text>
+				<arg f="" n="0">pihak manajemen Bali Taksi</arg>
+				<rel f="">menambah</rel>
+				<arg f="" n="1">uang tunjangan kesepian sebesar Rp 10 ribu dalam sehari</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Upaya untuk menambah personel polisi terhadang biaya dan waktu karena Polri hanya bisa menambah anggota sebanyak 9 . 000 personel per tahun .</text>
+				<rel f="">menambah</rel>
+				<arg f="" n="1">personel polisi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menarik">
+		<roleset id="menarik.01" name="menghela (supaya dekat, maju, ke atas, ke luar, dan sebagainya)">
+			<aliases>
+        		<alias framenet="Removing Withdraw_from_participation" pos="n" verbnet="">withdrawal</alias>
+				<alias framenet="" pos="l" verbnet="">make_withdrawal</alias>
+				<alias framenet="Departing Removing Withdraw_from_participation Quitting_a_place" pos="v" verbnet="">withdraw</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity removing" f="pag" n="0">
+					<vnrole vncls="10.11" vntheta="Agent"/>
+					<vnrole vncls="10.1" vntheta="Agent"/>
+					<vnrole vncls="51.1" vntheta="Theme"/>
+					<vnrole vncls="82-3" vntheta="Agent"/>
+				</role>
+				<role descr="thing being withdrawn (often understood as 'self')" f="PPT" n="1">
+					<vnrole vncls="10.1" vntheta="Theme"/>
+				</role>
+				<role descr="removed from" f="DIR" n="2">
+					<vnrole vncls="10.11" vntheta="Source"/>
+					<vnrole vncls="10.1" vntheta="Source"/>
+					<vnrole vncls="51.1" vntheta="Initial_Location"/>
+					<vnrole vncls="82-3" vntheta="Source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Meski begitu , manajemen Ajinomoto berjanji untuk menarik semua produknya dari peredaran .</text>
+				<arg f="dis" n="m">Meski begitu</arg>
+				<arg f="" n="0">manajemen Ajinomoto</arg>
+				<rel f="">menarik</rel>
+				<arg f="" n="1">semua produknya</arg>
+				<arg f="" n="2">dari peredaran</arg>
+			</example>
+		</roleset>
+		<roleset id="menarik.02" name="memengaruhi atau membangkitkan hasrat untuk memperhatikan">
+			<aliases>
+        		<alias framenet="Cause_motion" pos="v" verbnet="">attract</alias>
+				<alias framenet="" pos="j" verbnet="">attracted</alias>
+				<alias framenet="" pos="n" verbnet="">attraction</alias>
+				<alias framenet="" pos="j" verbnet="">attractive</alias>
+      		</aliases>
+			<roles>
+				<role descr="attractor" f="pag" n="0"/>
+				<role descr="thing attracted" f="ppt" n="1"/>
+				<role descr="thing attracted to, if separate from attractor" f="gol" n="2"/>
+				<role descr="instrument, if separate from attractor" f="mnr" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebagai anak yang dikenal lincah , kelakuan Puput ini menarik perhatian tetangganya .</text>
+				<arg f="" n="0">kelakuan Puput ini</arg>
+				<rel f="">menarik</rel>
+				<arg f="" n="1">perhatian tetangganya</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

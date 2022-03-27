@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menaikkan">
+		<roleset id="menaikkan.01" name="menjadikan naik (meningkat, bertambah banyak, bertambah besar, dan sebagainya); meninggikan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">increase</alias>
+        		<alias framenet="" pos="n" verbnet="">increase</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of increase" f="pag" n="0">
+					<vnrole vncls="45.4" vntheta="agent"/>
+				</role>
+				<role descr="thing increasing" f="ppt" n="1">
+					<vnrole vncls="45.4" vntheta="patient"/>
+					<vnrole vncls="45.6-1" vntheta="patient"/>
+				</role>
+				<role descr="amount increased by, EXT or MNR" f="ext" n="2">
+					<vnrole vncls="45.6-1" vntheta="extent"/>
+				</role>
+				<role descr="start point" f="dir" n="3"/>
+				<role descr="end point" f="gol" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bahkan , Organisasi Pengusaha Angkutan Darat DKI Jakarta mengancam akan menetapkan sanksi kepada perusahaan angkutan umum yang menaikkan tarif .</text>
+				<arg f="" n="0">perusahaan angkutan umum</arg>
+				<rel f="">menaikkan</rel>
+				<arg f="" n="1">tarif</arg>
+			</example>
+		</roleset>
+		<roleset id="menaikkan.02" name="mengibarkan (tentang bendera)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">raise</alias>
+				<alias framenet="" pos="n" verbnet="">raise</alias>
+				<alias framenet="" pos="n" verbnet="">raising</alias>
+      		</aliases>
+			<roles>
+				<role descr="Agent" f="pag" n="0">
+					<vnrole vncls="9.4" vntheta="agent"/>
+					<vnrole vncls="40.3.2" vntheta="agent"/>
+				</role>
+				<role descr="Logical subject, patient, thing rising" f="ppt" n="1">
+					<vnrole vncls="9.4" vntheta="theme"/>
+					<vnrole vncls="40.3.2" vntheta="patient"/>
+				</role>
+				<role descr="EXT, amount risen" f="ext" n="2"/>
+				<role descr="Start point" f="dir" n="3"/>
+				<role descr="End point" f="gol" n="4">
+					<vnrole vncls="9.4" vntheta="destination"/>
+				</role>
+				<role descr="beneficiary" f="gol" n="5"/>
+				<role descr="medium" f="loc" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dia juga menaikkan bendera pada 1 Desember .</text>
+				<arg f="" n="0">Dia</arg>
+				<arg f="dis" n="m">juga</arg>
+				<rel f="">menaikkan</rel>
+				<arg f="" n="1">bendera</arg>
+				<arg f="tmp" n="m">pada 1 Desember</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

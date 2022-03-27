@@ -18,31 +18,17 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Kepolisian RI berhasil menyita I , 3 ton ganja serta ratusan ribu barang terlarang lainnya , termasuk bahan kimia dan narkotika .</text>
-				<arg f="" n="1">ratusan</arg>
-				<arg f="" n="1">ribu</arg>
-				<arg f="" n="1">barang</arg>
-				<arg f="" n="1">terlarang</arg>
-				<arg f="" n="1">lainnya</arg>
+				<arg f="" n="1">ratusan ribu barang terlarang lainnya</arg>
 				<rel f="">termasuk</rel>
-				<arg f="" n="2">bahan</arg>
-				<arg f="" n="2">kimia</arg>
-				<arg f="" n="2">dan</arg>
-				<arg f="" n="2">narkotika</arg>
+				<arg f="" n="2">bahan kimia dan narkotika</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Jumlah tersebut belum termasuk total utang dalam dolar jika dikonversikan ke rupiah .</text>
-				<arg f="" n="1">Jumlah</arg>
-				<arg f="" n="1">tersebut</arg>
+				<arg f="" n="1">Jumlah tersebut</arg>
 				<arg f="neg" n="m">belum</arg>
 				<rel f="">termasuk</rel>
-				<arg f="" n="2">total</arg>
-				<arg f="" n="2">utang</arg>
-				<arg f="" n="2">dalam</arg>
-				<arg f="" n="2">dolar</arg>
-				<arg f="adv" n="m">jika</arg>
-				<arg f="adv" n="m">dikonversikan</arg>
-				<arg f="adv" n="m">ke</arg>
-				<arg f="adv" n="m">rupiah</arg>
+				<arg f="" n="2">total utang dalam dolar</arg>
+				<arg f="adv" n="m">jika dikonversikan ke rupiah</arg>
 			</example>
 		</roleset>
 	</predicate>

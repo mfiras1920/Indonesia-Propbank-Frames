@@ -17,13 +17,10 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Lantaran itulah , Menteri Koordinator Bidang Politik , Sosial , dan Keamanan Agum Gumelar berharap semua pihak menolak kondisi tersebut .</text>
-				<arg f="cau" n="m">Lantaran</arg>
-				<arg f="cau" n="m">itulah</arg>
-				<arg f="" n="0">semua</arg>
-				<arg f="" n="0">pihak</arg>
+				<arg f="cau" n="m">Lantaran itulah</arg>
+				<arg f="" n="0">semua pihak</arg>
 				<rel f="">menolak</rel>
-				<arg f="" n="1">kondisi</arg>
-				<arg f="" n="1">tersebut</arg>
+				<arg f="" n="1">kondisi tersebut</arg>
 			</example>
 		</roleset>
 	</predicate>

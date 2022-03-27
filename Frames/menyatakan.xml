@@ -22,26 +22,11 @@
 			<example name="" src="" type="">
 				<text>Sebelumnya , Presiden Abdurahman Wahid dapat menyatakan hal tersebut karena proses hukum terhadap Sjamsul Nursalim , Prajogo Pangestu , dan Marimutu Sinivasan .</text>
 				<arg f="mod" n="m">Sebelumnya</arg>
-				<arg f="" n="0">Presiden</arg>
-				<arg f="" n="0">Abdurahman</arg>
-				<arg f="" n="0">Wahid</arg>
+				<arg f="" n="0">Presiden Abdurahman Wahid</arg>
 				<arg f="tmp" n="m">dapat</arg>
 				<rel f="">menyatakan</rel>
-				<arg f="cau" n="1">hal</arg>
-				<arg f="cau" n="1">tersebut</arg>
-				<arg f="cau" n="m">karena</arg>
-				<arg f="cau" n="m">proses</arg>
-				<arg f="cau" n="m">hukum</arg>
-				<arg f="cau" n="m">terhadap</arg>
-				<arg f="cau" n="m">Sjamsul</arg>
-				<arg f="cau" n="m">Nursalim</arg>
-				<arg f="cau" n="m">,</arg>
-				<arg f="cau" n="m">Prajogo</arg>
-				<arg f="cau" n="m">Pangestu</arg>
-				<arg f="cau" n="m">,</arg>
-				<arg f="cau" n="m">dan</arg>
-				<arg f="cau" n="m">Marimutu</arg>
-				<arg f="cau" n="m">Sinivasan</arg>
+				<arg f="" n="1">hal tersebut</arg>
+				<arg f="cau" n="m">karena proses hukum terhadap Sjamsul Nursalim , Prajogo Pangestu , dan Marimutu Sinivasan</arg>
 			</example>
 		</roleset>
 	</predicate>

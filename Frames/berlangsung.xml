@@ -16,36 +16,17 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Aksi ini akan berlangsung hingga pukul 17 . 00 WIB di tempat itu jika terdapat bentrokan dengan ke-15 orang pengawal Tommy .</text>
-				<arg f="" n="1">Aksi</arg>
-				<arg f="" n="1">ini</arg>
+				<arg f="" n="1">Aksi ini</arg>
 				<arg f="mod" n="m">akan</arg>
 				<rel f="">berlangsung</rel>
-				<arg f="" n="2">hingga</arg>
-				<arg f="" n="2">pukul</arg>
-				<arg f="" n="2">17</arg>
-				<arg f="" n="2">.</arg>
-				<arg f="" n="2">00</arg>
-				<arg f="" n="2">WIB</arg>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">tempat</arg>
-				<arg f="loc" n="m">itu</arg>
-				<arg f="adv" n="m">jika</arg>
-				<arg f="adv" n="m">terdapat</arg>
-				<arg f="adv" n="m">bentrokan</arg>
-				<arg f="adv" n="m">dengan</arg>
-				<arg f="adv" n="m">ke-15</arg>
-				<arg f="adv" n="m">orang</arg>
-				<arg f="adv" n="m">pengawal</arg>
-				<arg f="adv" n="m">Tommy</arg>
+				<arg f="" n="2">hingga pukul 17 . 00 WIB</arg>
+				<arg f="loc" n="m">di tempat itu jika terdapat bentrokan dengan ke-15 orang pengawal Tommy</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Acara yang berlangsung sekitar tiga jam itu tampaknya digunakan Partai Golkar sebagai ajang unjuk diri .</text>
 				<arg f="" n="1">Acara</arg>
 				<rel f="">berlangsung</rel>
-				<arg f="" n="2">sekitar</arg>
-				<arg f="" n="2">tiga</arg>
-				<arg f="" n="2">jam</arg>
-				<arg f="" n="2">itu</arg>
+				<arg f="" n="2">sekitar tiga jam itu</arg>
 			</example>
 		</roleset>
 	</predicate>

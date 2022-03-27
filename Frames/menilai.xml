@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menilai">
+		<roleset id="menilai.01" name="memperkirakan, mengharga">
+			<aliases>
+        		<alias framenet="Religious_belief Trust Awareness Opinion Certainty" pos="v" verbnet="">believe</alias>
+      		</aliases>
+			<roles>
+				<role descr="believer" f="pag" n="0">
+					<vnrole vncls="29.9-2" vntheta="Agent"/>
+					<vnrole vncls="31.2" vntheta="Experiencer"/>
+					<vnrole vncls="29.5-1" vntheta="Agent"/>
+				</role>
+				<role descr="believed" f="ppt" n="1">
+					<vnrole vncls="29.9-2" vntheta="Theme"/>
+					<vnrole vncls="31.2" vntheta="Stimulus"/>
+					<vnrole vncls="29.5-1" vntheta="Theme"/>
+				</role>
+				<role descr="attribute, arg1 is believed to be what?" f="prd" n="2">
+					<vnrole vncls="29.9-2" vntheta="Attribute"/>
+					<vnrole vncls="29.5-1" vntheta="Predicate"/>
+					<vnrole vncls="31.2" vntheta="Attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati demikian , Arifin Panigoro tetap menilai pertemuan semacam itu bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu .</text>
+				<arg f="adv" n="m">Kendati demikian</arg>
+				<arg f="" n="0">Arifin Panigoro</arg>
+				<arg f="tmp" n="m">tetap</arg>
+				<rel f="">menilai</rel>
+				<arg f="" n="1">pertemuan semacam itu</arg>
+				<arg f="" n="2">bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

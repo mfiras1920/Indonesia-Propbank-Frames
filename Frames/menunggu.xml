@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menunggu">
+		<roleset id="menunggu.01" name="tinggal sementara, menantikan">
+			<aliases>
+        		<alias framenet="Waiting Holding_off_on Expectation" pos="v" verbnet="">wait</alias>
+        		<alias framenet="" pos="n" verbnet="">waiting</alias>
+      		</aliases>
+			<roles>
+				<role descr="wait-er (not waiter, that's the other sense)" f="ppt" n="1">
+					<vnrole vncls="47.1-1" vntheta="theme"/>
+				</role>
+				<role descr="thing waited for" f="cau" n="2"/>
+				<role descr="period of time waited through" f="tmp" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kemarin siang , wanita itu bertahan di bawah sengatan panas matahari untuk menunggu bantuan Pemda di halaman Kantor Bupati Aceh Utara .</text>
+				<arg f="tmp" n="m">Kemarin siang</arg>
+				<arg f="" n="1">wanita itu</arg>
+				<rel f="">menunggu</rel>
+				<arg f="" n="2">bantuan Pemda</arg>
+				<arg f="loc" n="m">di halaman Kantor Bupati Aceh Utara</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

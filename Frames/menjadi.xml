@@ -12,22 +12,15 @@
 			<example name="" src="" type="">
 				<text>Lantas Marsilam Simanjuntak naik pangkat dari Sekretaris Kabinet menjadi Menkeh dan HAM .</text>
 				<arg f="tmp" n="m">Lantas</arg>
-				<arg f="" n="1">Marsilam</arg>
-				<arg f="" n="1">Simanjuntak</arg>
-				<arg f="prd" n="m">naik</arg>
-				<arg f="prd" n="m">pangkat</arg>
+				<arg f="" n="1">Marsilam Simanjuntak</arg>
+				<arg f="prd" n="m">naik pangkat</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="2">Menkeh</arg>
-				<arg f="" n="2">dan</arg>
-				<arg f="" n="2">HAM</arg>
+				<arg f="" n="2">Menkeh dan HAM</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Untunglah , selain para preman tersebut , tidak ada di antara pengunjung yang menjadi korban .</text>
-				<arg f="neg" n="m">tidak</arg>
-				<arg f="neg" n="m">ada</arg>
-				<arg f="" n="1">di</arg>
-				<arg f="" n="1">antara</arg>
-				<arg f="" n="1">pengunjung</arg>
+				<arg f="neg" n="m">tidak ada</arg>
+				<arg f="" n="1">di antara pengunjung</arg>
 				<rel f="">menjadi</rel>
 				<arg f="" n="2">korban</arg>
 			</example>
@@ -37,14 +30,8 @@
 				<arg f="tmp" n="m">kemudian</arg>
 				<arg f="lvb" n="m">telah</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="2">agen</arg>
-				<arg f="" n="2">judi</arg>
-				<arg f="" n="2">gelap</arg>
-				<arg f="" n="2">ini</arg>
-				<arg f="tmp" n="m">sejak</arg>
-				<arg f="tmp" n="m">10</arg>
-				<arg f="tmp" n="m">bulan</arg>
-				<arg f="tmp" n="m">lampau</arg>
+				<arg f="" n="2">agen judi gelap ini</arg>
+				<arg f="tmp" n="m">sejak 10 bulan lampau</arg>
 			</example>
 		</roleset>
 		<roleset id="menjadi.02" name="dibuat (untuk)">
@@ -61,18 +48,10 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Kendati demikian , Arifin Panigoro tetap menilai pertemuan semacam itu bisa menjadi alternatif ketika diskusi formal mencapai jalan buntu .</text>
-				<arg f="" n="1">pertemuan</arg>
-				<arg f="" n="1">semacam</arg>
-				<arg f="" n="1">itu</arg>
+				<arg f="" n="1">pertemuan semacam itu</arg>
 				<arg f="mod" n="m">bisa</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="2">alternatif</arg>
-				<arg f="" n="2">ketika</arg>
-				<arg f="" n="2">diskusi</arg>
-				<arg f="" n="2">formal</arg>
-				<arg f="" n="2">mencapai</arg>
-				<arg f="" n="2">jalan</arg>
-				<arg f="" n="2">buntu</arg>
+				<arg f="" n="2">alternatif ketika diskusi formal mencapai jalan buntu</arg>
 			</example>
 		</roleset>
 		<roleset id="menjadi.03" name="berubah keadaan (wujud, barang) lain; menjelma sebagai">
@@ -90,23 +69,11 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Apalagi , dengan penghapusan upah lembur sejak tiga bulan terakhir , membuat penghasilan mereka dari Rp 750 ribu menjadi Rp 500 ribu .</text>
-				<arg f="" n="0">penghapusan</arg>
-				<arg f="" n="0">upah</arg>
-				<arg f="" n="0">lembur</arg>
-				<arg f="" n="0">sejak</arg>
-				<arg f="" n="0">tiga</arg>
-				<arg f="" n="0">bulan</arg>
-				<arg f="" n="0">terakhir</arg>
-				<arg f="" n="1">penghasilan</arg>
-				<arg f="" n="1">mereka</arg>
-				<arg f="" n="3">dari</arg>
-				<arg f="" n="3">Rp</arg>
-				<arg f="" n="3">750</arg>
-				<arg f="" n="3">ribu</arg>
+				<arg f="" n="0">penghapusan upah lembur sejak tiga bulan terakhir</arg>
+				<arg f="" n="1">penghasilan mereka</arg>
+				<arg f="" n="3">dari Rp 750 ribu</arg>
 				<rel f="">menjadi</rel>
-				<arg f="" n="4">Rp</arg>
-				<arg f="" n="4">500</arg>
-				<arg f="" n="4">ribu</arg>
+				<arg f="" n="4">Rp 500 ribu</arg>
 			</example>
 		</roleset>
 	</predicate>

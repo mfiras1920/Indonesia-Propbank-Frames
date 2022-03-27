@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berasal">
+		<roleset id="berasal.01" name="bermula, bersumber, bertempat asal">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">originate</alias>
+				<alias framenet="origin" pos="n" verbnet="">origin</alias>
+				<alias framenet="" pos="n" verbnet="">origination</alias>
+      		</aliases>
+			<roles>
+				<role descr="creator" f="pag" n="0"/>
+				<role descr="thing originated" f="ppt" n="1"/>
+				<role descr="source" f="dir" n="2"/>
+				<role descr="attribute of arg1" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain profesinalisme , Akbar juga meminta agar pemimpin lembaga intelijen harus orang yang memiliki kemampuan tinggi dan tidak perlu harus berasal dari militer .</text>
+				<arg f="" n="1">orang</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<arg f="mod" n="m">harus</arg>
+				<rel f="">berasal</rel>
+				<arg f="" n="2">dari militer</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Sedangkan harga TV ukuran sedang dan besar yang berasal dari Jepang dan Eropa tetap bertahan dengan harga bulan kemarin .</text>
+				<arg f="dis" n="m">Sedangkan</arg>
+				<arg f="" n="1">TV ukuran sedang dan besar</arg>
+				<rel f="">berasal</rel>
+				<arg f="" n="2">dari Jepang dan Eropa</arg>
+			</example>
+		</roleset>
+		<roleset id="berasal.02" name="keturunan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">come</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing (often state) arising" f="ppt" n="1">
+					<vnrole vncls="48.1.1" vntheta="theme"/>
+				</role>
+				<role descr="source, basis on which arg1 comes to be  (not start point of motion!)" f="mnr" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Asep yang berasal dari keluarga guru itu menjelaskan bahwa gajinya kerap tertunda karena banyak alasan yang tidak jelas .</text>
+				<arg f="" n="">Asep</arg>
+				<rel f="">berasal</rel>
+				<arg f="" n="">dari keluarga guru itu</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

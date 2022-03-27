@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="jatuh">
+		<roleset id="jatuh.01" name="(terlepas dan) turun atau meluncur ke bawah dengan cepat karena gravitasi bumi (baik ketika masih dalam gerakan turun maupun sesudah sampai ke tanah dan sebagainya)">
+			<aliases>
+        		<alias framenet="Motion_noise Impact Cause_impact" pos="n" verbnet="">crash</alias>
+        		<alias framenet="Motion_noise Impact Cause_impact" pos="v" verbnet="">crash</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of damage, agent" f="pag" n="0">
+					<vnrole vncls="45.1" vntheta="agent"/>
+					<vnrole vncls="43.2" vntheta="agent"/>
+				</role>
+				<role descr="entity crashed" f="ppt" n="1">
+					<vnrole vncls="18.4-1" vntheta="theme"/>
+					<vnrole vncls="45.1" vntheta="patient"/>
+					<vnrole vncls="43.2" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Markas Besar TNI Angkatan Udara telah menurunkan Tim Penyelidik Penyebab Kecelakaan Pesawat ( TPPKP ) Hercules nomor Alfa-1329 yang jatuh di Bandar Udara Malikul Saleh , Lhokseumawe , Aceh , Kamis kemarin</text>
+				<arg f="" n="1">Hercules nomor Alfa-1329</arg>
+				<rel f="">jatuh</rel>
+				<arg f="loc" n="m">di Bandar Udara Malikul Saleh , Lhokseumawe , Aceh</arg>
+				<arg f="tmp" n="m">Kamis kemarin</arg>
+			</example>
+		</roleset>
+		<roleset id="jatuh.02" name="sampai ke ...; tiba di ...; kena pada ...; tembus ke ...; ditujukan ke">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">go</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing going" f="ppt" n="1"/>
+        		<role descr="receiver" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Namun sebagian besar hasil pelelangan ini jatuh ke tangan peserta luar negeri .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="" n="1">sebagian besar hasil pelelangan ini</arg>
+				<rel f="">jatuh</rel>
+				<arg f="" n="2">ke tangan peserta luar negeri</arg>
+			</example>
+		</roleset>
+		<roleset id="jatuh.03" name="bertepatan dengan; berbetulan dengan; tepat pada">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">falling</alias>
+        		<alias framenet="" pos="v" verbnet="">fall</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing occurring" f="ppt" n="1"/>
+        		<role descr="when/where" f="tmp" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bulan suci Ramadhan ditetapkan jatuh pada hari ini , Senin , 27 November 2000 .</text>
+				<arg f="" n="1">Bulan suci Ramadhan</arg>
+				<rel f="">jatuh</rel>
+				<arg f="" n="2">pada hari ini , Senin , 27 November 2000</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

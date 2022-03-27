@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="terdapat">
+		<roleset id="terdapat.01" name="diperoleh; didapati; ditemukan; ada">
+			<aliases>
+        		<alias framenet="Locating Becoming_aware" pos="v" verbnet="">find</alias>
+				<alias framenet="" pos="n" verbnet="">find</alias>
+				<alias framenet="" pos="n" verbnet="">finding</alias>
+      		</aliases>
+			<roles>
+				<role descr="finder" f="PAG" n="0">
+					<vnrole vncls="13.5.1" vntheta="Agent"/>
+					<vnrole vncls="84" vntheta="Agent"/>
+				</role>
+				<role descr="thing found" f="PPT" n="1">
+					<vnrole vncls="13.5.1" vntheta="Theme"/>
+					<vnrole vncls="84" vntheta="Theme"/>
+				</role>
+				<role descr="benefactive, found for" f="GOL" n="2">
+					<vnrole vncls="13.5.1" vntheta="Beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dari pengamatan SCTV , baru-baru ini , kendati tak terdapat lagi jejak-jejak sejarah , lokasi Bukit Siguntang kian menarik perhatian dengan pembangunan bukit kecil .</text>
+				<arg f="neg" n="m">tak</arg>
+				<rel f="">terdapat</rel>
+				<arg f="tmp" n="m">lagi</arg>
+				<arg f="" n="1">jejak-jejak sejarah</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

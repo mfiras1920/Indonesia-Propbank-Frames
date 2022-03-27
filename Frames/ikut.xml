@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ikut">
+		<roleset id="ikut.01" name="menyertai orang berpergian; turut; serta">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">partake</alias>
+        		<alias framenet="" pos="l" verbnet="">take_part</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent, entity participating" f="PAG" n="0"/>
+        		<role descr="take a part in what?" f="PPT" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebab itu , dalam Rapat Paripurna yang digelar 30 Desember silam , Fraksi PDI-P melakukan walk out dan tak mau ikut bertanggung jawab atas APBD DKI Jakarta tahun 2001 .</text>
+				<arg f="cau" n="m">Sebab itu</arg>
+				<arg f="loc" n="m">dalam Rapat Paripurna</arg>
+				<arg f="tmp" n="m">yang digelar 30 Desember silam</arg>
+				<arg f="" n="0">Fraksi PDI-P</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="mod" n="m">mau</arg>
+				<rel f="">ikut</rel>
+				<arg f="" n="1">bertanggung jawab atas APBD DKI Jakarta tahun 2001</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

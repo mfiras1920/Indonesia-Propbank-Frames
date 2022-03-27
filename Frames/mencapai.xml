@@ -18,19 +18,11 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Jika rencana impor berjalan terus , potensi kerugian negara bisa mencapai Rp 140 miliar dari bea masuk dan pajak penjualan barang mewah .</text>
-				<arg f="adv" n="m">Jika</arg>
-				<arg f="adv" n="m">rencana</arg>
-				<arg f="adv" n="m">impor</arg>
-				<arg f="adv" n="m">berjalan</arg>
-				<arg f="adv" n="m">terus</arg>
-				<arg f="" n="0">potensi</arg>
-				<arg f="" n="0">kerugian</arg>
-				<arg f="" n="0">negara</arg>
+				<arg f="adv" n="m">Jika rencana impor berjalan terus</arg>
+				<arg f="" n="0">potensi kerugian negara</arg>
 				<arg f="mod" n="m">bisa</arg>
 				<rel f="">mencapai</rel>
-				<arg f="" n="1">Rp</arg>
-				<arg f="" n="1">140</arg>
-				<arg f="" n="1">miliar</arg>
+				<arg f="" n="1">Rp 140 miliar</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="melaporkan">
+		<roleset id="melaporkan.01" name="memberitahukan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">report</alias>
+				<alias framenet="Statement Reporting" pos="v" verbnet="">report</alias>
+				<alias framenet="" pos="n" verbnet="">reporting</alias>
+      		</aliases>
+			<roles>
+				<role descr="Reporter" f="PAG" n="0">
+					<vnrole vncls="37.7-1" vntheta="Agent"/>
+					<vnrole vncls="29.9-1" vntheta="Agent"/>
+					<vnrole vncls="29.2-1-2" vntheta="Agent"/>
+				</role>
+				<role descr="thing reported" f="PPT" n="1">
+					<vnrole vncls="37.7-1" vntheta="Topic"/>
+					<vnrole vncls="29.9-1" vntheta="Theme"/>
+					<vnrole vncls="29.9-1" vntheta="Attribute"/>
+					<vnrole vncls="29.2-1-2" vntheta="Theme"/>
+					<vnrole vncls="29.2-1-2" vntheta="Attribute"/>
+				</role>
+				<role descr="entity reported to" f="GOL" n="2">
+					<vnrole vncls="37.7-1" vntheta="Recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebuah stasiun televisi pemerintah Iran melaporkan , enam orang pengedar narkoba diberi hukum gantung di penjara di pusat Isfahan , demikian dilansir AFP , Sabtu ( 9/1 ) .</text>
+				<arg f="" n="0">Sebuah stasiun televisi pemerintah Iran</arg>
+				<rel f="">melaporkan</rel>
+				<arg f="" n="1">enam orang pengedar narkoba diberi hukum gantung di penjara di pusat Isfahan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

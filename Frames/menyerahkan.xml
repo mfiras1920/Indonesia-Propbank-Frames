@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyerahkan">
+		<roleset id="menyerahkan.01" name="memberikan (kepada); menyampaikan (kepada)">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">handover</alias>
+        		<alias framenet="Giving" pos="v" verbnet="">hand_over</alias>
+      		</aliases>
+			<roles>
+				<role descr="giver" f="PAG" n="0"/>
+				<role descr="thing given" f="PPT" n="1"/>
+				<role descr="entity given to" f="GOL" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Nantinya , informasi itu mesti dilaporkan kepada orang tua pelaku untuk segera menyerahkan anak mereka kepada polisi .</text>
+				<arg f="" n="0">orang tua pelaku</arg>
+				<arg f="tmp" n="m">segera</arg>
+				<rel f="">menyerahkan</rel>
+				<arg f="" n="1">anak mereka</arg>
+				<arg f="" n="2">kepada polisi</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Keputusan Pansus Trisakti dan Semanggi melalui voting menunjukkan 19 anggota dewan yang hadir , 15 suara memilih untuk menyerahkan pada pengadilan militer dan biasa .</text>
+				<arg f="" n="0">15 suara</arg>
+				<rel f="">menyerahkan</rel>
+				<arg f="" n="2">pada pengadilan militer dan biasa</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="memutuskan">
+		<roleset id="memutuskan.01" name="menjadikan (menyebabkan) putus (tidak bersambung atau berhubungan lagi)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">cut_off</alias>
+        		<alias framenet="" pos="n" verbnet="">cutting</alias>
+      		</aliases>
+			<roles>
+				<role descr="cutter" f="pag" n="0"/>
+				<role descr="thing cut" f="ppt" n="1"/>
+				<role descr="medium, source" f="dir" n="2"/>
+				<role descr="instrument" f="mnr" n="3"/>
+				<role descr="beneficiary" f="gol" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain itu , sejumlah rumah dilaporkan hanyut dan memutuskan jalur transportasi Sinjai , Bone , dan Bulukumba .</text>
+				<arg f="adv" n="m">Selain itu</arg>
+				<arg f="" n="0">sejumlah rumah</arg>
+				<rel f="">memutuskan</rel>
+				<arg f="" n="">alur transportasi Sinjai , Bone , dan Bulukumba</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Oleh karena itu , diharapkan Perusahaan Listrik Negara tidak secara kaku memutuskan aliran listrik bagi industri yang masih membayar dengan TDL lama .</text>
+				<arg f="" n="0">Perusahaan Listrik Negara</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<arg f="mnr" n="m">secara kaku</arg>
+				<rel f="">memutuskan</rel>
+				<arg f="" n="1">aliran listrik bagi industri yang masih membayar dengan TDL lama</arg>
+			</example>
+		</roleset>
+		<roleset id="memutuskan.02" name="menetapkan, menentukan">
+			<aliases>
+        		<alias framenet="Choosing Deciding" pos="n" verbnet="">decision</alias>
+				<alias framenet="Choosing Deciding" pos="v" verbnet="">decide</alias>
+				<alias framenet="" pos="l" verbnet="">make_decision</alias>
+      		</aliases>
+			<roles>
+				<role descr="decider" f="pag" n="0">
+					<vnrole vncls="13.5.1" vntheta="agent"/>
+				</role>
+				<role descr="the decision itself" f="ppt" n="1">
+					<vnrole vncls="13.5.1" vntheta="theme"/>
+				</role>
+				<role descr="beneficiary" f="gol" n="2">
+					<vnrole vncls="13.5.1" vntheta="beneficiary"/>
+				</role>
+				<role descr="subject-matter of decision" f="vsp" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara mengenai berapa besar nilai diskon yang akan diberikan , sejauh ini pihak PLN belum memutuskan .</text>
+				<arg f="tmp" n="m">Sementara</arg>
+				<arg f="" n="1">berapa besar nilai diskon yang akan diberikan</arg>
+				<arg f="tmp" n="m">sejauh ini</arg>
+				<arg f="" n="0">pihak PLN</arg>
+				<arg f="neg" n="m">belum</arg>
+				<rel f="">memutuskan</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

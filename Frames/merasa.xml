@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="merasa">
+		<roleset id="merasa.01" name="mengalami dalam hati">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">feeling</alias>
+				<alias framenet="Perception_experience Feeling" pos="v" verbnet="30.1-1-1, 30.3">feel</alias>
+				<alias framenet="" pos="l" verbnet="">have_feeling</alias>
+      		</aliases>
+			<roles>
+				<role descr="feeler, person experiencing emotion" f="ppt" n="0">
+					<vnrole vncls="30.1-1-1" vntheta="experiencer"/>
+					<vnrole vncls="31.3" vntheta="experiencer"/>
+				</role>
+				<role descr="emotion or sensation" f="ppt" n="1">
+					<vnrole vncls="30.1-1-1" vntheta="stimulus"/>
+					<vnrole vncls="31.3" vntheta="stimulus"/>
+				</role>
+				<role descr="entity towards or for whom the emotion is directed" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Janda beranak dua itu merasa bahwa apa yang telah diraih merupakan buah dari kerja keras dan prinsip hidupnya .</text>
+				<arg f="" n="0">Janda beranak dua itu</arg>
+				<rel f="">merasa</rel>
+				<arg f="" n="1">bahwa apa yang telah diraih merupakan buah dari kerja keras dan prinsip hidupnya</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

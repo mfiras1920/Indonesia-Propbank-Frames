@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="terendam">
+		<roleset id="terendam.01" name="sudah direndam; terbenam (tergenang) dalam air">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">submerge</alias>
+      		</aliases>
+			<roles>
+				<role descr="placer, causer of underwater-ness" f="pag" n="0"/>
+				<role descr="thing being put under water" f="ppt" n="1"/>
+				<role descr="location or fluid" f="loc" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Peristiwa ini menyebabkan delapan desa di Kecamatan Rambang Dangku dan Kecamatan Gunung Megang terendam air .</text>
+				<arg f="" n="1">delapan desa di Kecamatan Rambang Dangku dan Kecamatan Gunung Megang</arg>
+				<rel f="">terendam</rel>
+				<arg f="" n="2">air</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

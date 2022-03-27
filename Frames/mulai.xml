@@ -20,20 +20,11 @@
 			<example name="" src="" type="">
 				<text>Namun sejak 1996 , perusahaan furnitur ini mulai melihat peluang bisnis dengan melihat anak-anak sebagai konsumen .</text>
 				<arg f="dis" n="m">Namun</arg>
-				<arg f="tmp" n="m">sejak</arg>
-				<arg f="tmp" n="m">1996</arg>
-				<arg f="" n="0">perusahaan</arg>
-				<arg f="" n="0">furnitur</arg>
-				<arg f="" n="0">ini</arg>
+				<arg f="tmp" n="m">sejak 1996</arg>
+				<arg f="" n="0">perusahaan furnitur ini</arg>
 				<rel f="">mulai</rel>
-				<arg f="" n="1">melihat</arg>
-				<arg f="" n="1">peluang</arg>
-				<arg f="" n="1">bisnis</arg>
-				<arg f="" n="2">dengan</arg>
-				<arg f="" n="2">melihat</arg>
-				<arg f="" n="2">anak-anak</arg>
-				<arg f="" n="2">sebagai</arg>
-				<arg f="" n="2">konsumen</arg>
+				<arg f="" n="1">melihat peluang bisnis</arg>
+				<arg f="" n="2">dengan melihat anak-anak sebagai konsumen</arg>
 			</example>
 		</roleset>
 	</predicate>

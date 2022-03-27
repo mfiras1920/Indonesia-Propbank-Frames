@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="melanggar">
+		<roleset id="melanggar.01" name="menyalahi; melawan">
+			<aliases>
+        		<alias framenet="Compliance" pos="v" verbnet="">violate</alias>
+        		<alias framenet="Compliance" pos="n" verbnet="">violation</alias>
+      		</aliases>
+			<roles>
+				<role descr="violator" f="PAG" n="0"/>
+        		<role descr="thing violated, usually a rule" f="PPT" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Di antaranya , di Semarang , petugas imigrasi telah menangkap lima warga negara Srilanka karena terbukti melanggar aturan keimigrasian .</text>
+				<arg f="" n="0">lima warga negara Srilanka</arg>
+				<arg f="adv" n="m">terbukti</arg>
+				<rel f="">melanggar</rel>
+				<arg f="" n="1">aturan keimigrasian</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dikatakan">
+		<roleset id="dikatakan.01" name="pasif mengatakan">
+			<aliases>
+        		<alias framenet="Spelling_and_pronouncing Text_creation Statement" pos="v" verbnet="">say</alias>
+      		</aliases>
+			<roles>
+				<role descr="Sayer" f="pag" n="0">
+					<vnrole vncls="37.7-1" vntheta="agent"/>
+					<vnrole vncls="78-1" vntheta="cause"/>
+				</role>
+				<role descr="Utterance" f="ppt" n="1">
+					<vnrole vncls="37.7-1" vntheta="topic"/>
+					<vnrole vncls="78-1" vntheta="topic"/>
+				</role>
+				<role descr="Hearer" f="gol" n="2">
+					<vnrole vncls="37.7-1" vntheta="recipient"/>
+					<vnrole vncls="78-1" vntheta="recipient"/>
+				</role>
+				<role descr="Attributive" f="adv" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dikatakan Akbar , langkah yang diambil pemerintah mendesak banyak orang .</text>
+				<rel f="">Dikatakan</rel>
+				<arg f="" n="0">Akbar</arg>
+				<arg f="" n="1">langkah yang diambil pemerintah mendesak banyak orang</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

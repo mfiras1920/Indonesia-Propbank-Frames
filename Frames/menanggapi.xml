@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menanggapi">
+		<roleset id="menanggapi.01" name="menyambut dan memperhatikan (ucapan, kritik, komentar, cinta dan sebagainya dari orang lain); melayani">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">respond</alias>
+				<alias framenet="" pos="n" verbnet="">response</alias>
+				<alias framenet="" pos="n" verbnet="">responding</alias>
+      		</aliases>
+			<roles>
+				<role descr="replier" f="PAG" n="0">
+					<vnrole vncls="37.7" vntheta="Agent"/>
+				</role>
+				<role descr="in response to" f="GOL" n="1">
+					<vnrole vncls="37.7" vntheta="Recipient"/>
+				</role>
+				<role descr="answer" f="PPT" n="2">
+					<vnrole vncls="37.7" vntheta="Topic"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menanggapi rujukan tim dokter RSPP itu , Kepala Pusat Penerangan dan Hukum Kejagung Muljohardjo mengatakan , tim penyidik Kejagung akan memeriksa kembali Ginandjar .</text>
+				<rel f="">Menanggapi</rel>
+				<arg f="" n="0">rujukan tim dokter RSPP itu</arg>
+				<arg f="" n="1">Kepala Pusat Penerangan dan Hukum Kejagung Muljohardjo</arg>
+				<arg f="" n="2">mengatakan , tim penyidik Kejagung akan memeriksa kembali Ginandjar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

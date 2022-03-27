@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="diberi">
+		<roleset id="diberi.01" name="pasif memberi">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">giving</alias>
+        		<alias framenet="Giving" pos="v" verbnet="">give</alias>
+      		</aliases>
+			<roles>
+				<role descr="giver" f="pag" n="0">
+					<vnrole vncls="13.1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing given" f="ppt" n="1">
+					<vnrole vncls="13.1-1" vntheta="theme"/>
+				</role>
+				<role descr="entity given to" f="gol" n="2">
+					<vnrole vncls="13.1-1" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kelangkaan pupuk menyebabkan puluhan hektare padi belum diberi pupuk .</text>
+				<arg f="" n="2">puluhan hektare padi</arg>
+				<arg f="neg" n="m">belum</arg>
+				<rel f="">diberi</rel>
+				<arg f="" n="1">pupuk</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

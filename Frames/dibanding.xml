@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dibanding">
+		<roleset id="dibanding.01" name="pasif membanding">
+			<aliases>
+        		<alias framenet="Evaluative_comparison" pos="v" verbnet="">compare</alias>
+        		<alias framenet="" pos="n" verbnet="">comparison</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity making comparison" f="PAG" n="0">
+					<vnrole vncls="22.2-2" vntheta="Agent"/>
+				</role>
+				<role descr="first item in comparison" f="PPT" n="1">
+					<vnrole vncls="22.2-2" vntheta="Patient"/>
+				</role>
+				<role descr="second item in comparison, usually prepositional" f="PPT" n="2">
+					<vnrole vncls="22.2-2" vntheta="co-patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Cepatnya proses disebabkan bentuk surat suara pemilihan presiden 2009 lebih sederhana dibanding pemilu legislatif .</text>
+				<arg f="" n="1">bentuk surat suara pemilihan presiden 2009 lebih sederhana</arg>
+				<rel f="">dibanding</rel>
+				<arg f="" n="2">pemilu legislatif</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

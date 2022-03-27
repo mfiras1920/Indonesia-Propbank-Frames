@@ -12,22 +12,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Pemantauan polisi juga tak melihat indikasi kekerasan yang dilakukan massa yang telah berada di Ibu Kota pada Kamis malam ( 2/12 ) .</text>
-				<arg f="" n="1">indikasi</arg>
-				<arg f="" n="1">kekerasan</arg>
+				<arg f="" n="1">indikasi kekerasan</arg>
 				<rel f="">dilakukan</rel>
-				<arg f="" n="0">massa</arg>
-				<arg f="" n="0">yang</arg>
-				<arg f="" n="0">telah</arg>
-				<arg f="" n="0">berada</arg>
-				<arg f="" n="0">di</arg>
-				<arg f="" n="0">Ibu</arg>
-				<arg f="" n="0">Kota</arg>
-				<arg f="" n="0">pada</arg>
-				<arg f="" n="0">Kamis</arg>
-				<arg f="" n="0">malam</arg>
-				<arg f="" n="0">(</arg>
-				<arg f="" n="0">2/12</arg>
-				<arg f="" n="0">)</arg>
+				<arg f="" n="0">massa yang telah berada di Ibu Kota pada Kamis malam ( 2/12 )</arg>
 			</example>
 		</roleset>
 	</predicate>

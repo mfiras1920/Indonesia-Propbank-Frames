@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyita">
+		<roleset id="menyita.01" name="mengambil, merampas, dan menahan barang, dilakukan oleh alat negara (polisi dan sebagainya)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">confiscate</alias>
+        		<alias framenet="" pos="n" verbnet="">confiscation</alias>
+      		</aliases>
+			<roles>
+				<role descr="Taker" f="PAG" n="0">
+					<vnrole vncls="10.5" vntheta="Agent"/>
+				</role>
+				<role descr="thing taken" f="PPT" n="1">
+					<vnrole vncls="10.5" vntheta="Theme"/>
+				</role>
+				<role descr="entity taken from" f="DIR" n="2">
+					<vnrole vncls="10.5" vntheta="Source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Para pengunjuk rasa juga mendesak pemerintah untuk menyita harta kekayaan mantan Presiden Soeharto .</text>
+				<arg f="" n="0">pemerintah</arg>
+				<rel f="">menyita</rel>
+				<arg f="" n="1">harta kekayaan</arg>
+				<arg f="" n="2">mantan Presiden Soeharto</arg>
+			</example>
+		</roleset>
+		<roleset id="menyita.02" name="mengambil; mengurangi">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">consuming</alias>
+				<alias framenet="" pos="n" verbnet="">consumption</alias>
+				<alias framenet="Ingestion Expend_resource" pos="v" verbnet="">consume</alias>
+				<alias framenet="" pos="n" verbnet="">consuming</alias>
+      		</aliases>
+			<roles>
+				<role descr="consumer" f="pag" n="0">
+					<vnrole vncls="39.4-1" vntheta="agent"/>
+					<vnrole vncls="66" vntheta="agent"/>
+				</role>
+				<role descr="consumed" f="ppt" n="1">
+					<vnrole vncls="39.4-1" vntheta="patient"/>
+					<vnrole vncls="66" vntheta="asset"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati tinggal menyelesaikan redaksional , perdebatan antara anggota Pansus begitu menyita waktu .</text>
+				<arg f="" n="0">perdebatan antara anggota Pansus</arg>
+				<arg f="ext" n="m">begitu</arg>
+				<rel f="">menyita</rel>
+				<arg f="" n="1">waktu</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

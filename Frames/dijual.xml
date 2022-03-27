@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dijual">
+		<roleset id="dijual.01" name="diberikan sesuatu kepada orang lain untuk memperoleh uang">
+			<aliases>
+        		<alias framenet="Commerce_sell" pos="v" verbnet="">sell</alias>
+				<alias framenet="" pos="n" verbnet="">sale</alias>
+				<alias framenet="" pos="l" verbnet="">make_sale</alias>
+				<alias framenet="" pos="n" verbnet="">selling</alias>
+      		</aliases>
+			<roles>
+				<role descr="Seller" f="pag" n="0">
+					<vnrole vncls="13.1-1" vntheta="agent"/>
+				</role>
+				<role descr="Thing Sold" f="ppt" n="1">
+					<vnrole vncls="13.1-1" vntheta="theme"/>
+				</role>
+				<role descr="Buyer" f="gol" n="2">
+					<vnrole vncls="13.1-1" vntheta="recipient"/>
+				</role>
+				<role descr="Price Paid" f="vsp" n="3"/>
+				<role descr="Benefactive" f="gol" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Harga mebel di Pondok Bambu ini juga meningkat tiga kali lipat setelah dijual ke negara Malaysia .</text>
+				<arg f="" n="1">mebel di Pondok Bambu ini</arg>
+				<rel f="">dijual</rel>
+				<arg f="" n="2">ke negara Malaysia</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

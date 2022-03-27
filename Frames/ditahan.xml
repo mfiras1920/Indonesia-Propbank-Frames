@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ditahan">
+		<roleset id="ditahan.01" name="pasif menahan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">detain</alias>
+        		<alias framenet="" pos="n" verbnet="">detention</alias>
+      		</aliases>
+			<roles>
+				<role descr="police, etc." f="pag" n="0"/>
+				<role descr="entity detained" f="ppt" n="1"/>
+				<role descr="detained for what?" f="cau" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sejak ditahan Kamis kemarin , Taufik terlihat cukup lama memberi keterangan bersama pengacaranya kepada polisi .</text>
+				<rel f="">ditahan</rel>
+				<arg f="tmp" n="m">Kamis kemarin</arg>
+				<arg f="" n="1">Taufik</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengungsi">
+		<roleset id="mengungsi.01" name="pergi menghindarkan (menyingkirkan) diri dari bahaya atau menyelamatkan diri (ke tempat yang dirasa aman)">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">evacuate</alias>
+        		<alias framenet="removing" pos="n" verbnet="">evacuation</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of emptiness" f="PAG" n="0">
+					<vnrole vncls="10.2" vntheta="Agent"/>
+				</role>
+				<role descr="enclosure, building, etc" f="DIR" n="1">
+					<vnrole vncls="10.2" vntheta="Source"/>
+				</role>
+				<role descr="people" f="PPT" n="2">
+					<vnrole vncls="10.2" vntheta="Theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Korban banjir di wilayah ini dilaporkan masih mengungsi di sejumlah tempat , seperti di Gedung Sekolah Santa Maria .</text>
+				<arg f="" n="2">Korban banjir di wilayah ini</arg>
+				<arg f="tmp" n="m">masih</arg>
+				<rel f="">mengungsi</rel>
+				<arg f="loc" n="m">di sejumlah tempat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dikutip">
+		<roleset id="dikutip.01" name="pasif mengutip">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">quote</alias>
+				<alias framenet="" pos="n" verbnet="">quotation</alias>
+				<alias framenet="" pos="n" verbnet="">quote</alias>
+      		</aliases>
+			<roles>
+				<role descr="quoter (somewhat rare)" f="PAG" n="0">
+					<vnrole vncls="37.1.1" vntheta="Agent"/>
+				</role>
+				<role descr="the quote itself" f="PPT" n="1">
+					<vnrole vncls="37.1.1" vntheta="Topic"/>
+				</role>
+				<role descr="original speaker" f="DIR" n="2">
+					<vnrole vncls="37.1.1" vntheta="Source"/>
+				</role>
+				<role descr="what the quote is about" f="vsp" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Seperti yang dikutip dari Kantor Berita Antara , kejutan muncul ketika pembawa acara secara tiba-tiba menyerahkan ucapan selamat ulang tahun setelah Yudhoyono menyampaikan pidato singkatnya .</text>
+				<rel f="">dikutip</rel>
+				<arg f="" n="0">dari Kantor Berita Antara</arg>
+				<arg f="" n="1">kejutan muncul ketika pembawa acara secara tiba-tiba menyerahkan ucapan selamat ulang tahun setelah Yudhoyono menyampaikan pidato singkatnya</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

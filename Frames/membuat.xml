@@ -23,16 +23,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Pria jebolan Institut Kesenian Jakarta itu membuat beberapa film pendek .</text>
-				<arg f="" n="0">Pria</arg>
-				<arg f="" n="0">jebolan</arg>
-				<arg f="" n="0">Institut</arg>
-				<arg f="" n="0">Kesenian</arg>
-				<arg f="" n="0">Jakarta</arg>
-				<arg f="" n="0">itu</arg>
+				<arg f="" n="0">Pria jebolan Institut Kesenian Jakarta itu</arg>
 				<rel f="">membuat</rel>
-				<arg f="" n="1">beberapa</arg>
-				<arg f="" n="1">film</arg>
-				<arg f="" n="1">pendek</arg>	
+				<arg f="" n="1">beberapa film pendek</arg>	
 			</example>
 		</roleset>
 		<roleset id="membuat.02" name="mengerjakan">
@@ -51,10 +44,7 @@
 				<text>Mereka membuat sketsa dan latar lukisan .</text>
 				<arg f="" n="0">Mereka</arg>
 				<rel f="">membuat</rel>
-				<arg f="" n="1">sketsa</arg>
-				<arg f="" n="1">dan</arg>
-				<arg f="" n="1">latar</arg>
-				<arg f="" n="1">lukisan</arg>
+				<arg f="" n="1">sketsa dan latar lukisan</arg>
 			</example>
 		</roleset>
 		<roleset id="membuat.03" name="menyebabkan">
@@ -74,17 +64,10 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Kenaikan tingkat suku bunga deposito justru akan membuat naiknya suku bunga kredit .</text>
-				<arg f="" n="0">Kenaikan</arg>
-				<arg f="" n="0">tingkat</arg>
-				<arg f="" n="0">suku</arg>
-				<arg f="" n="0">bunga</arg>
-				<arg f="" n="0">deposito</arg>
+				<arg f="" n="0">Kenaikan tingkat suku bunga deposito</arg>
 				<arg f="mod" n="m">akan</arg>
 				<rel f="">membuat</rel>
-				<arg f="" n="1">naiknya</arg>
-				<arg f="" n="1">suku</arg>
-				<arg f="" n="1">bunga</arg>
-				<arg f="" n="1">kredit</arg>
+				<arg f="" n="1">naiknya suku bunga kredit</arg>
 			</example>
 		</roleset>
 	</predicate>

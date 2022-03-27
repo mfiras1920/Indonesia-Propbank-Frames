@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyerang">
+		<roleset id="menyerang.01" name="mendatangi untuk melawan (melukai, memerangi, dan sebagainya); menyerbu">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">attacking</alias>
+				<alias framenet="" pos="n" verbnet="">attack</alias>
+				<alias framenet="Attack" pos="v" verbnet="">attack</alias>
+      		</aliases>
+			<roles>
+				<role descr="attacker" f="pag" n="0">
+					<vnrole vncls="33" vntheta="agent"/>
+				</role>
+				<role descr="entity attacked" f="ppt" n="1">
+					<vnrole vncls="33" vntheta="theme"/>
+				</role>
+				<role descr="attribute" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain itu , polisi dan tentara akan menjaga sejumlah aset milik negara Paman Sam [ baca : AS Menyerang Afghanistan ] .</text>
+				<arg f="" n="0">AS</arg>
+				<rel f="">Menyerang</rel>
+				<arg f="" n="1">Afghanistan</arg>
+			</example>
+		</roleset>
+		<roleset id="menyerang.02" name="menimpa (tentang bencana, penyakit, dan sebagainya); melanda; melanggar">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">infection</alias>
+				<alias framenet="" pos="j" verbnet="">infected</alias>
+				<alias framenet="" pos="v" verbnet="">infect</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of infection, but not germ" f="PAG" n="0">
+					<vnrole vncls="9.8" vntheta="Agent"/>
+				</role>
+				<role descr="thing becoming infected" f="GOL" n="1">
+					<vnrole vncls="9.8" vntheta="Destination"/>
+				</role>
+				<role descr="infectant, germ" f="PPT" n="2">
+					<vnrole vncls="9.8" vntheta="Theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebagaimana dikutip ANTARA , selama musim hujan ini , virus flu burung mudah menyerang unggas karena kondisi suhu yang sangat dingin mengakibatkan kekebalan tubuh unggas menurun .</text>
+				<arg f="tmp" n="m">selama musim hujan ini</arg>
+				<arg f="" n="0">virus flu burung</arg>
+				<arg f="adv" n="m">mudah</arg>
+				<rel f="">menyerang</rel>
+				<arg f="" n="1">unggas</arg>
+				<arg f="cau" n="m">karena kondisi suhu yang sangat dingin mengakibatkan kekebalan tubuh unggas menurun</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengikuti">
+		<roleset id="mengikuti.01" name="memperhatikan">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">attentive</alias>
+				<alias framenet="Attention" pos="n" verbnet="">attention</alias>
+				<alias framenet="" pos="l" verbnet="">pay_attention</alias>
+				<alias framenet="" pos="v" verbnet="">attend</alias>
+				<alias framenet="" pos="n" verbnet="">attending</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity paying attention" f="pag" n="0"/>
+        		<role descr="to what" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Hingga saat ini , Akbar mengaku belum mengetahui secara pasti jumlah peserta yang mengikuti pertemuan .</text>
+				<arg f="" n="0">peserta</arg>
+				<rel f="">mengikuti</rel>
+				<arg f="" n="1">pertemuan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

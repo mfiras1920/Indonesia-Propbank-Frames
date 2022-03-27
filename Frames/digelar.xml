@@ -15,8 +15,7 @@
 				<text>Lantaran itu , mereka kembali ke kampus untuk hadir di prosesi yang digelar di sana .</text>
 				<arg f="" n="1">prosesi</arg>
 				<rel f="">digelar</rel>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">sana</arg>
+				<arg f="loc" n="m">di sana</arg>
 			</example>
 		</roleset>
 	</predicate>

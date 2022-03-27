@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berunjuk_rasa">
+		<roleset id="berunjuk_rasa.01" name="melakukan unjuk rasa">
+			<aliases>
+        		<alias framenet="Protest" pos="n" verbnet="">protest</alias>
+				<alias framenet="Protest" pos="v" verbnet="">protest</alias>
+				<alias framenet="" pos="n" verbnet="">protesting</alias>
+      		</aliases>
+			<roles>
+				<role descr="protester" f="pag" n="0">
+					<vnrole vncls="71" vntheta="agent"/>
+				</role>
+				<role descr="objectionable thing, topic of protest" f="ppt" n="1">
+					<vnrole vncls="71" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebelum mendatangi DPRD , para petani dari dua desa tersebut sempat berunjuk rasa di Pengadilan Tinggi Jateng .</text>
+				<arg f="tmp" n="m">Sebelum mendatangi DPRD</arg>
+				<arg f="" n="0">para petani dari dua desa tersebut</arg>
+				<arg f="tmp" n="m">sempat</arg>
+				<rel f="">berunjuk rasa</rel>
+				<arg f="loc" n="m">di Pengadilan Tinggi Jateng</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

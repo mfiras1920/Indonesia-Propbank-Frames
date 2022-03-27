@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membantu">
+		<roleset id="membantu.01" name="memberi sokongan">
+			<aliases>
+        		<alias framenet="Assistance" pos="v" verbnet="">help</alias>
+        		<alias framenet="Assistance" pos="n" verbnet="">help</alias>
+      		</aliases>
+			<roles>
+				<role descr="helper" f="pag" n="0">
+					<vnrole vncls="72-1" vntheta="agent"/>
+				</role>
+				<role descr="project" f="ppt" n="1">
+					<vnrole vncls="72-1" vntheta="theme"/>
+				</role>
+				<role descr="benefactive, secondary agent  (when separate from arg1)" f="gol" n="2">
+					<vnrole vncls="72-1" vntheta="beneficiary"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bahkan sejumlah paranormal juga terlihat ikut membantu pencarian Dormis , Mandor karyawan PT Semen Padang , satu-satunya korban longsor yang masih belum ditemukan .</text>
+				<arg f="dis" n="m">Bahkan</arg>
+				<arg f="" n="0">sejumlah paranormal</arg>
+				<arg f="dis" n="m">juga terlihat</arg>
+				<arg f="prd" n="m">ikut</arg>
+				<rel f="">membantu</rel>
+				<arg f="" n="1">pencarian Dormis , Mandor karyawan PT Semen Padang</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

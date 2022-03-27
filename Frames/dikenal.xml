@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dikenal">
+		<roleset id="dikenal.01" name="pasif mengenal">
+			<aliases>
+        		<alias framenet="Familiarity" pos="v" verbnet="characterize-29.2-1">know</alias>
+				<alias framenet="" pos="j" verbnet="">known</alias>
+				<alias framenet="" pos="j" verbnet="">knowledgeable</alias>
+      		</aliases>
+			<roles>
+				<role descr="knower, person familiar with something" f="pag" n="0">
+					<vnrole vncls="29.2-1" vntheta="agent"/>
+				</role>
+				<role descr="what arg0 is familiar with" f="ppt" n="1">
+					<vnrole vncls="29.2-1" vntheta="theme"/>
+				</role>
+				<role descr="what arg1 is known AS, or TO be, do, attribute" f="prd" n="2">
+					<vnrole vncls="29.2-1" vntheta="attribute"/>
+				</role>
+				<role descr="what arg1 is known FOR" f="cau" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Warna merah ini menyebabkan Al-Atya lebih dikenal sebagai masjid merah .</text>
+				<arg f="" n="1">Al-Atya</arg>
+				<arg f="ext" n="m">lebih</arg>
+				<rel f="">dikenal</rel>
+				<arg f="" n="2">sebagai masjid merah</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Meski belum dikenal luas , alternatif pengobatan dengan operasi telah membuka harapan pasien untuk sembuh .</text>
+				<arg f="adv" n="m">Meski</arg>
+				<arg f="neg" n="m">belum</arg>
+				<rel f="">dikenal</rel>
+				<arg f="adv" n="m">luas</arg>
+				<arg f="" n="1">alternatif pengobatan dengan operasi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -29,15 +29,8 @@
 				<arg f="" n="1">massa</arg>
 				<arg f="lvb" n="m">telah</arg>
 				<rel f="">berada</rel>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">Ibu</arg>
-				<arg f="loc" n="m">Kota</arg>
-				<arg f="tmp" n="m">pada</arg>
-				<arg f="tmp" n="m">Kamis</arg>
-				<arg f="tmp" n="m">malam</arg>
-				<arg f="tmp" n="m">(</arg>
-				<arg f="tmp" n="m">2/12</arg>
-				<arg f="tmp" n="m">)</arg>
+				<arg f="loc" n="m">di Ibu Kota</arg>
+				<arg f="tmp" n="m">pada Kamis malam ( 2/12 )</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="muncul">
+		<roleset id="muncul.01" name="menyembul; keluar menampakkan dir">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">appear</alias>
+				<alias framenet="" pos="n" verbnet="">appearance</alias>
+				<alias framenet="" pos="l" verbnet="">make_appearance</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing appearing" f="ppt" n="1">
+					<vnrole vncls="48.1.1" vntheta="Theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sejumlah nama pun akhirnya muncul [ baca : Gayus Ditahan , Sejumlah Pengakuan Penting Muncul ] .</text>
+				<arg f="" n="1">Sejumlah nama pun</arg>
+				<arg f="adv" n="m">akhirnya</arg>
+				<rel f="">muncul</rel>
+			</example>
+			<example name="" src="" type="">
+				<text>Sebab , bila muncul ketidakpuasan atas penegakan hukum , akan muncul fenomena ekstra judicial atau institusi pengawas hukum di luar struktur formal .</text>
+				<rel f="">muncul</rel>
+				<arg f="" n="1">ketidakpuasan atas penegakan hukum</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

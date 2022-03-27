@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mencoba">
+		<roleset id="mencoba.01" name="mengerjakan (berbuat) sesuatu untuk mengetahui keadaannya dan sebagainya">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">try</alias>
+        		<alias framenet="" pos="l" verbnet="">give_try</alias>
+      		</aliases>
+			<roles>
+				<role descr="Agent/Entity Trying" f="pag" n="0">
+					<vnrole vncls="61.1" vntheta="agent"/>
+				</role>
+				<role descr="thing tried" f="ppt" n="1">
+					<vnrole vncls="61.1" vntheta="theme"/>				
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kami kehilangan beberapa pemain dan ia mencoba beberapa hal di babak kedua ( saat pertandingan kontra Zenit semalam ) .</text>
+				<arg f="" n="0">ia</arg>
+				<rel f="">mencoba</rel>
+				<arg f="" n="1">beberapa hal</arg>
+				<arg f="loc" n="m">di babak kedua</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

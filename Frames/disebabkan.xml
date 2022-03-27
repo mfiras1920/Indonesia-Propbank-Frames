@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="disebabkan">
+		<roleset id="disebabkan.01" name="pasif menyebabkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="27.1-1, 27.2">cause</alias>
+        		<alias framenet="" pos="n" verbnet="">causation</alias>
+      		</aliases>
+			<roles>
+				<role descr="forcer, causer" f="cau" n="0">
+					<vnrole vncls="27.1-1" vntheta="cause"/>
+					<vnrole vncls="27.2" vntheta="cause"/>
+				</role>
+				<role descr="impelled action" f="ppt" n="1">
+					<vnrole vncls="27.1-1" vntheta="theme"/>
+					<vnrole vncls="27.2" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menurut SCTV , hingga Kamis ( 5/2 ) ini dilaporkan air bah yang disebabkan meluapnya Kali Wae Pesi di Kecamatan Reok juga mengakibatkan 11 rumah tersapu , 20 rumah rusak berat , dan 100 rumah lebih terendam .</text>
+				<arg f="" n="1">air bah</arg>
+				<rel f="">disebabkan</rel>
+				<arg f="" n="0">meluapnya Kali Wae Pesi di Kecamatan Reok</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

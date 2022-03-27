@@ -20,16 +20,10 @@
 			<example name="" src="" type="">
 				<text>Crouch akan selalu bermain dengan sebaik-baiknya jika dipercaya turun sebagai starter .</text>
 				<arg f="" n="0">Crouch</arg>
-				<arg f="mod" n="m">akan</arg>
-				<arg f="tmp" n="m">selalu</arg>
+				<arg f="mod" n="m">akan selalu</arg>
 				<rel f="">bermain</rel>
-				<arg f="mnr" n="m">dengan</arg>
-				<arg f="mnr" n="m">sebaik-baiknya</arg>
-				<arg f="adv" n="m">jika</arg>
-				<arg f="adv" n="m">dipercaya</arg>
-				<arg f="adv" n="m">turun</arg>
-				<arg f="adv" n="m">sebagai</arg>
-				<arg f="adv" n="m">starter</arg>
+				<arg f="mnr" n="m">dengan sebaik-baiknya</arg>
+				<arg f="adv" n="m">jika dipercaya turun sebagai starter</arg>
 			</example>
 		</roleset>
 	</predicate>

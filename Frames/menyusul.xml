@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyusul">
+		<roleset id="menyusul.01" name="mengikuti atau mengejar sesuatu">
+			<aliases>
+        		<alias framenet="Relative_time" pos="v" verbnet="">follow</alias>
+      		</aliases>
+			<roles>
+				<role descr="causal agent" f="pag" n="0"/>
+				<role descr="thing following, coming after" f="ppt" n="1">
+					<vnrole vncls="47.8" vntheta="theme"/>
+					<vnrole vncls="48.3" vntheta="theme"/>
+				</role>
+				<role descr="thing followed, coming before" f="ppt" n="2">
+					<vnrole vncls="47.8" vntheta="co-theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Warga yang tinggal di sekitar lereng Gunung Merapi , Jawa Tengah , menggelar doa bersama lantaran menyusul peningkatan aktivitas gunung , Sabtu ( 27/1 ) malam .</text>
+				<arg f="" n="0">Warga yang tinggal di sekitar lereng Gunung Merapi , Jawa Tengah</arg>
+				<arg f="" n="1">menggelar doa bersama</arg>
+				<rel f="">menyusul</rel>
+				<arg f="" n="2">peningkatan aktivitas gunung</arg>
+				<arg f="tmp" n="m">Sabtu ( 27/1 ) malam</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Bahkan , tak tampak pengamanan ketat dari polisi menyusul pemberlakuan Status Siaga Satu di Ibu Kota .</text>
+				<arg f="dis" n="m">Bahkan</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="adv" n="m">tampak</arg>
+				<arg f="" n="1">pengamanan ketat dari polisi</arg>
+				<rel f="">menyusul</rel>
+				<arg f="" n="2">pemberlakuan Status Siaga Satu</arg>
+				<arg f="loc" n="m">di Ibu Kota</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membahas">
+		<roleset id="membahas.01" name="membicarakan; memperdebatkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">discussion</alias>
+				<alias framenet="Discussion Topic Speak_on_topic" pos="v" verbnet="">discuss</alias>
+				<alias framenet="" pos="l" verbnet="">have_discussion</alias>
+      		</aliases>
+			<roles>
+				<role descr="discussant" f="pag" n="0"/>
+				<role descr="topic" f="ppt" n="1"/>
+				<role descr="conversation partner, if explicit" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Namun demikian , Ketua DPP PDI-P Jacob Tobing , membantah rapat tersebut membahas maklumat .</text>
+				<arg f="dis" n="m">Namun demikian</arg>
+				<arg f="" n="0">rapat tersebut</arg>
+				<rel f="">membahas</rel>
+				<arg f="" n="1">maklumat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

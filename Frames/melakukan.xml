@@ -11,21 +11,11 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Sebab itu , dalam Rapat Paripurna yang digelar 30 Desember silam , Fraksi PDI-P melakukan walk out dan tak mau ikut bertanggung jawab atas APBD DKI Jakarta tahun 2001 .</text>
-				<arg f="cau" n="m">Sebab</arg>
-				<arg f="cau" n="m">itu</arg>
-				<arg f="loc" n="m">dalam</arg>
-				<arg f="loc" n="m">Rapat</arg>
-				<arg f="loc" n="m">Paripurna</arg>
-				<arg f="loc" n="m">yang</arg>
-				<arg f="loc" n="m">digelar</arg>
-				<arg f="loc" n="m">30</arg>
-				<arg f="loc" n="m">Desember</arg>
-				<arg f="loc" n="m">silam</arg>
-				<arg f="" n="0">Fraksi</arg>
-				<arg f="" n="0">PDI-P</arg>
+				<arg f="cau" n="m">Sebab itu</arg>
+				<arg f="loc" n="m">dalam Rapat Paripurna yang digelar 30 Desember silam</arg>
+				<arg f="" n="0">Fraksi PDI-P</arg>
 				<rel f="">melakukan</rel>
-				<arg f="" n="1">walk</arg>
-				<arg f="" n="1">out</arg>
+				<arg f="" n="1">walk out</arg>
 			</example>
 		</roleset>
 		<roleset id="melakukan.02" name="mengadakan, melaksanakan">
@@ -48,10 +38,7 @@
 				<arg f="mod" n="m">akan</arg>
 				<arg f="tmp" n="m">tetap</arg>
 				<rel f="">melakukan</rel>
-				<arg f="" n="1">kontak</arg>
-				<arg f="" n="1">perdagangan</arg>
-				<arg f="" n="1">dengan</arg>
-				<arg f="" n="1">Israel</arg>
+				<arg f="" n="1">kontak perdagangan dengan Israel</arg>
 			</example>
 		</roleset>
 	</predicate>

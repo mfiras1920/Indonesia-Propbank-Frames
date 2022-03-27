@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menyebabkan">
+		<roleset id="menyebabkan.01" name="mendatangkan adanya suatu hal">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="27.1-1, 27.2">cause</alias>
+        		<alias framenet="" pos="n" verbnet="">causation</alias>
+      		</aliases>
+			<roles>
+				<role descr="forcer, causer" f="cau" n="0">
+					<vnrole vncls="27.1-1" vntheta="cause"/>
+					<vnrole vncls="27.2" vntheta="cause"/>
+				</role>
+				<role descr="impelled action" f="ppt" n="1">
+					<vnrole vncls="27.1-1" vntheta="theme"/>
+					<vnrole vncls="27.2" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Warna merah ini menyebabkan Al-Atya lebih dikenal sebagai masjid merah .</text>
+				<arg f="" n="0">Warna merah ini</arg>
+				<rel f="">menyebabkan</rel>
+				<arg f="" n="1">Al-Atya lebih dikenal sebagai masjid merah</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

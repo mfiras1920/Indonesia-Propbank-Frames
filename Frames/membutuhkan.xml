@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membutuhkan">
+		<roleset id="membutuhkan.01" name="sangat perlu menggunakan; memerlukan">
+			<aliases>
+        		<alias framenet="Needing Required_event Have_as_requirement" pos="n" verbnet="">need</alias>
+				<alias framenet="Needing Required_event Have_as_requirement" pos="v" verbnet="">need</alias>
+				<alias framenet="" pos="l" verbnet="">have_need</alias>
+				<alias framenet="Being_necessary" pos="j" verbnet="">needed</alias>
+      		</aliases>
+			<roles>
+				<role descr="needer" f="PAG" n="0">
+					<vnrole vncls="32.1-1-1" vntheta="pivot"/>
+					<vnrole vncls="103" vntheta="pivot"/>
+				</role>
+				<role descr="thing needed" f="ppt" n="1">
+					<vnrole vncls="32.1-1-1" vntheta="theme"/>
+					<vnrole vncls="103" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Jumlah kapal yang lebih sedikit dibanding jumlah pekerja yang membutuhkan pekerjaan di kapal mengancam mereka .</text>
+				<arg f="" n="0">jumlah pekerja</arg>
+				<rel f="">membutuhkan</rel>
+				<arg f="" n="1">pekerjaan</arg>
+				<arg f="loc" n="m">di kapal</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

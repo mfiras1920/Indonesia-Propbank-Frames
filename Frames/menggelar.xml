@@ -14,31 +14,17 @@
 				<text>Sambil menggelar poster dan spanduk , mereka menggelar orasi di depan Kantor DPRD setempat .</text>
 				<arg f="tmp" n="m">Sambil</arg>
 				<rel f="">menggelar</rel>
-				<arg f="" n="1">poster</arg>
-				<arg f="" n="1">dan</arg>
-				<arg f="" n="1">spanduk</arg>
+				<arg f="" n="1">poster dan spanduk</arg>
 				<arg f="" n="0">mereka</arg>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">depan</arg>
-				<arg f="loc" n="m">Kantor</arg>
-				<arg f="loc" n="m">DPRD</arg>
-				<arg f="loc" n="m">setempat</arg>
+				<arg f="loc" n="m">di depan Kantor DPRD setempat</arg>
 			</example>
 			<example name="" src="" type="">
 				<text>Sambil menggelar poster dan spanduk , mereka menggelar orasi di depan Kantor DPRD setempat .</text>
-				<arg f="tmp" n="m">Sambil</arg>
-				<arg f="tmp" n="m">menggelar</arg>
-				<arg f="tmp" n="m">poster</arg>
-				<arg f="tmp" n="m">dan</arg>
-				<arg f="tmp" n="m">spanduk</arg>
+				<arg f="tmp" n="m">Sambil menggelar poster dan spanduk</arg>
 				<arg f="" n="0">mereka</arg>
 				<rel f="">menggelar</rel>
 				<arg f="" n="1">orasi</arg>
-				<arg f="loc" n="m">di</arg>
-				<arg f="loc" n="m">depan</arg>
-				<arg f="loc" n="m">Kantor</arg>
-				<arg f="loc" n="m">DPRD</arg>
-				<arg f="loc" n="m">setempat</arg>
+				<arg f="loc" n="m">di depan Kantor DPRD setempat</arg>
 			</example>
 		</roleset>
 		<roleset id="menggelar.02" name="mempertontonkan, memperkenalkan">
@@ -56,12 +42,8 @@
 				<arg f="tmp" n="m">Selepas</arg>
 				<rel f="">menggelar</rel>
 				<arg f="" n="1">orasi</arg>
-				<arg f="tmp" n="m">selama</arg>
-				<arg f="tmp" n="m">30</arg>
-				<arg f="tmp" n="m">menit</arg>
-				<arg f="" n="0">para</arg>
-				<arg f="" n="0">pengunjuk</arg>
-				<arg f="" n="0">rasa</arg>
+				<arg f="tmp" n="m">selama 30 menit</arg>
+				<arg f="" n="0">para pengunjuk rasa</arg>
 			</example>
 		</roleset>
 	</predicate>

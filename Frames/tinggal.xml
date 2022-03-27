@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tinggal">
+		<roleset id="tinggal.01" name="menetap">
+			<aliases>
+        		<alias framenet="Residence Thriving" pos="v" verbnet="">live</alias>
+				<alias framenet="" pos="n" verbnet="">living</alias>
+				<alias framenet="" pos="j" verbnet="">lived</alias>
+				<alias framenet="" pos="j" verbnet="">living</alias>
+				<alias framenet="" pos="j" verbnet="">alive</alias>
+      		</aliases>
+			<roles>
+				<role descr="alive entity" f="pag" n="0">
+					<vnrole vncls="39.6" vntheta="agent"/>
+					<vnrole vncls="47.1-1" vntheta="theme"/>
+					<vnrole vncls="46" vntheta="theme"/>
+				</role>
+				<role descr="life" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pengusaha yang tinggal di Jalan Pluit Raya , Jakarta Utara , itu diduga sebagai anggota sindikat pengedar shabu-shabu Jakarta-Bandung .</text>
+				<arg f="" n="0">Pengusaha</arg>
+				<rel f="">tinggal</rel>
+				<arg f="loc" n="m">di Jalan Pluit Raya , Jakarta Utara</arg>
+			</example>
+		</roleset>
+		<roleset id="tinggal.02" name="sisanya ..">
+			<aliases>
+        		<alias framenet="Remainder Left_to_do State_continue Existence" pos="v" verbnet="">remain</alias>
+        		<alias framenet="" pos="n" verbnet="">remaining</alias>
+      		</aliases>
+			<roles>
+				<role descr="Thing remaining" f="ppt" n="1">
+					<vnrole vncls="47.1-1" vntheta="Theme"/>
+				</role>
+				<role descr="benefactive, entity who gets the remainder" f="gol" n="2"/>
+				<role descr="attribute of arg1" f="prd" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dari 17 industri yang ada , saat ini hanya tinggal satu yang mampu bertahan .</text>
+				<arg f="tmp" n="m">saat ini</arg>
+				<arg f="adv" n="m">hanya</arg>
+				<rel f="">tinggal</rel>
+				<arg f="" n="1">satu yang mampu bertahan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

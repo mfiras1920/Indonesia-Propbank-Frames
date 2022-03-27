@@ -1,0 +1,20 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="ditetapkan">
+		<roleset id="ditetapkan.01" name="pasif menetapkan">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">set</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity fixed on something" f="ppt" n="1"/>
+        		<role descr="what arg1 is decided/fixed on" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bulan suci Ramadhan ditetapkan jatuh pada hari ini , Senin , 27 November 2000 .</text>
+				<arg f="" n="1">Bulan suci Ramadhan</arg>
+				<rel f="">ditetapkan</rel>
+				<arg f="" n="2">jatuh pada hari ini , Senin , 27 November 2000</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

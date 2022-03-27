@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mempunyai">
+		<roleset id="mempunyai.01" name="memiliki">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">have</alias>
+      		</aliases>
+			<roles>
+				<role descr="owner" f="pag" n="0">
+					<vnrole vncls="100.1" vntheta="pivot"/>
+					<vnrole vncls="39.4" vntheta="agent"/>
+				</role>
+				<role descr="possession" f="ppt" n="1">
+					<vnrole vncls="100.1" vntheta="theme"/>
+					<vnrole vncls="39.4" vntheta="patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Komite Pengawas Persaingan Usaha ( KPPU ) belum mempunyai alasan kuat untuk menyeret Indomart keluar dari usahanya , menyusul indikasi persaingan usaha tak sehat yang dilakukan .</text>
+				<arg f="" n="0">Komite Pengawas Persaingan Usaha ( KPPU )</arg>
+				<arg f="neg" n="m">belum</arg>
+				<rel f="">mempunyai</rel>
+				<arg f="" n="1">alasan kuat untuk menyeret Indomart keluar dari usahanya</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

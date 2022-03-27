@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="punya">
+		<roleset id="punya.01" name="memiliki">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">have</alias>
+      		</aliases>
+			<roles>
+				<role descr="owner" f="pag" n="0">
+					<vnrole vncls="100.1" vntheta="pivot"/>
+					<vnrole vncls="39.4" vntheta="agent"/>
+				</role>
+				<role descr="possession" f="ppt" n="1">
+					<vnrole vncls="100.1" vntheta="theme"/>
+					<vnrole vncls="39.4" vntheta="patient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek , ujar Perez kepada Telecinco .</text>
+				<arg f="" n="0">Dia ( Kaka )</arg>
+				<rel f="">punya</rel>
+				<arg f="" n="1">kualifikasi masuk ke dalam proyek</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tiba">
+		<roleset id="tiba.01" name="datang, sudah datang">
+			<aliases>
+        		<alias framenet="Arriving" pos="v" verbnet="">arrive</alias>
+        		<alias framenet="arriving" pos="n" verbnet="">arrival</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity in motion / 'comer'" f="PPT" n="1">
+					<vnrole vncls="51.1" vntheta="Theme"/>
+				</role>
+				<role descr="extent -- rare)" f="ext" n="2"/>
+				<role descr="start point -- also rare)" f="dir" n="3"/>
+				<role descr="end point, destination" f="LOC" n="4">
+					<vnrole vncls="51.1" vntheta="Destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara itu , calon haji dari Banda Aceh diperkirakan akan tiba di Jedah , Ahad ( 28/1 ) pukul 20 . 30 waktu setempat .</text>
+				<arg f="tmp" n="m">Sementara itu</arg>
+				<arg f="" n="1">calon haji dari Banda Aceh</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">tiba</rel>
+				<arg f="" n="4">di Jedah , Ahad</arg>
+				<arg f="tmp" n="m">( 28/1 ) pukul 20 . 30 waktu setempat</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -14,23 +14,12 @@
 				<role descr="what it's related to" f="ppt" n="2"/>
 			</roles>
 			<example name="" src="" type="">
-				<text>Sementara itu , hal tersebut bisa terkait dengan penangkapan tersangka peristiwa dua pekan lalu di Jakarta Utara ,</text>
-				<arg f="tmp" n="m">Sementara</arg>
-				<arg f="tmp" n="m">itu</arg>
-				<arg f="" n="1">hal</arg>
-				<arg f="" n="1">tersebut</arg>
+				<text>Sementara itu , hal tersebut bisa terkait dengan penangkapan tersangka peristiwa dua pekan lalu di Jakarta Utara .</text>
+				<arg f="tmp" n="m">Sementara itu</arg>
+				<arg f="" n="1">hal tersebut</arg>
 				<arg f="mod" n="m">bisa</arg>
 				<rel f="">terkait</rel>
-				<arg f="" n="">dengan</arg>
-				<arg f="" n="">penangkapan</arg>
-				<arg f="" n="">tersangka</arg>
-				<arg f="" n="">peristiwa</arg>
-				<arg f="" n="">dua</arg>
-				<arg f="" n="">pekan</arg>
-				<arg f="" n="">lalu</arg>
-				<arg f="" n="">di</arg>
-				<arg f="" n="">Jakarta</arg>
-				<arg f="" n="">Utara</arg>
+				<arg f="" n="2">dengan penangkapan tersangka peristiwa dua pekan lalu di Jakarta Utara</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dianggap">
+		<roleset id="dianggap.01" name="dipandang sebagai">
+			<aliases>
+        		<alias framenet="Cogitation" pos="v" verbnet="">consider</alias>
+				<alias framenet="" pos="n" verbnet="">consideration</alias>
+				<alias framenet="" pos="j" verbnet="">considered</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent" f="pag" n="0">
+					<vnrole vncls="29.9-1-1-1" vntheta="agent"/>
+				</role>
+				<role descr="entity under consideration" f="ppt" n="1">
+					<vnrole vncls="29.9-1-1-1" vntheta="theme"/>
+				</role>
+				<role descr="for what/secondary predicate" f="prd" n="2">
+					<vnrole vncls="29.9-1-1-1" vntheta="attribute"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Indah menambahkan , penetapan kenaikan TDL rata-rata sebesar enam persen tersebut , juga dianggap tidak adil karena sangat besar .</text>
+				<arg f="" n="1">penetapan kenaikan TDL rata-rata sebesar enam persen tersebut</arg>
+				<arg f="dis" n="m">juga</arg>
+				<rel f="">dianggap</rel>
+				<arg f="" n="2">tidak adil</arg>
+				<arg f="cau" n="m">karena sangat besar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

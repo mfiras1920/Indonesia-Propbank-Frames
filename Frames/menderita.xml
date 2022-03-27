@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menderita">
+		<roleset id="menderita.01" name="menanggung sesuatu yang tidak menyenangkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">suffering</alias>
+        		<alias framenet="" pos="v" verbnet="31.3">suffer</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity suffering" f="ppt" n="0">
+					<vnrole vncls="31.3" vntheta="experiencer"/>
+				</role>
+				<role descr="malady" f="pag" n="1">
+					<vnrole vncls="31.3" vntheta="stimulus"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pasalnya , lembaganya tidak bisa memastikan apakah korban memang menderita flu burung .</text>
+				<arg f="dis" n="m">Pasalnya</arg>
+				<arg f="" n="0">korban</arg>
+				<arg f="adv" n="m">memang</arg>
+				<rel f="">menderita</rel>
+				<arg f="" n="1">flu burung</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

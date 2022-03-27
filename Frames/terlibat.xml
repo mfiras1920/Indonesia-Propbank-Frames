@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="terlibat">
+		<roleset id="terlibat.01" name="turut terbawa-bawa">
+			<aliases>
+        		<alias framenet="Participation" pos="j" verbnet="">involved</alias>
+				<alias framenet="" pos="n" verbnet="">involvement</alias>
+				<alias framenet="" pos="v" verbnet="">involve</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of inclusion" f="PAG" n="0">
+					<vnrole vncls="107" vntheta="Agent"/>
+				</role>
+				<role descr="theme, thing being included into a group" f="ppt" n="1">
+					<vnrole vncls="107" vntheta="Theme"/>
+					<vnrole vncls="86.2-1" vntheta="co-theme"/>
+					<vnrole vncls="103" vntheta="Theme"/>
+				</role>
+				<role descr="group" f="ppt" n="2">
+					<vnrole vncls="107" vntheta="Goal"/>
+					<vnrole vncls="86.2-1" vntheta="Theme"/>
+					<vnrole vncls="103" vntheta="Pivot"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Pada pertemuan mingguan kemarin , Djamari menegaskan , tak ada pihak luar yang terlibat dalam kasus tersebut .</text>
+				<arg f="" n="1">pihak luar yang</arg>
+				<rel f="">terlibat</rel>
+				<arg f="" n="2">dalam kasus tersebut</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

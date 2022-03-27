@@ -1,0 +1,145 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengeluarkan">
+		<roleset id="mengeluarkan.01" name="membawa keluar (menyebabkan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">burst</alias>
+        		<alias framenet="" pos="n" verbnet="">burst</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing appearing, topic" f="ppt" n="1">
+					<vnrole vncls="48.1.1" vntheta="theme"/>
+				</role>
+				<role descr="further description" f="loc" n="2">
+					<vnrole vncls="48.1.1" vntheta="location"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Informasi yang diperoleh menyebutkan , bom tersebut mengeluarkan api secara tiba-tiba , sebelum mengeluarkan ledakan .</text>
+				<arg f="" n="0">bom tersebut</arg>
+				<rel f="">mengeluarkan</rel>
+				<arg f="" n="1">api</arg>
+				<arg f="mnr" n="m">secara tiba-tiba</arg>
+				<arg f="tmp" n="m">sebelum mengeluarkan ledakan</arg>
+			</example>
+		</roleset>
+		<roleset id="mengeluarkan.02" name="melahirkan perasaan (pendapat, dsb)">
+			<aliases>
+        		<alias framenet="Supply" pos="v" verbnet="">provide</alias>
+        		<alias framenet="Supply" pos="n" verbnet="">provision</alias>
+      		</aliases>
+			<roles>
+				<role descr="provider" f="PAG" n="0">
+					<vnrole vncls="13.4.1-2" vntheta="Agent"/>
+				</role>
+				<role descr="thing provided" f="PPT" n="1">
+					<vnrole vncls="13.4.1-2" vntheta="Theme"/>
+				</role>
+				<role descr="entity provided for (benefactive)" f="GOL" n="2">
+					<vnrole vncls="13.4.1-2" vntheta="Recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Seandainya alat pendeteksi kebakaran dini sudah digunakan sebelum peristiwa tersebut , mungkin temuan mahasiswa Tekhnik Jurusan Elektro , Universitas Negeri Malang , bisa mengeluarkan jawaban .</text>
+				<arg f="adv" n="m">Seandainya alat pendeteksi kebakaran dini sudah digunakan sebelum peristiwa tersebut</arg>
+				<arg f="adv" n="m">mungkin</arg>
+				<arg f="" n="0">temuan mahasiswa Tekhnik Jurusan Elektro , Universitas Negeri Malang</arg>
+				<arg f="mod" n="m">bisa</arg>
+				<rel f="">mengeluarkan</rel>
+				<arg f="" n="1">jawaban</arg>
+			</example>
+		</roleset>
+		<roleset id="mengeluarkan.03" name="memberikan perintah (keputusan, dsb)">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">issue</alias>
+				<alias framenet="Supply Emanating" pos="v" verbnet="">issue</alias>
+				<alias framenet="" pos="n" verbnet="">issuance</alias>
+      		</aliases>
+			<roles>
+				<role descr="issuer" f="PAG" n="0">
+					<vnrole vncls="13.3" vntheta="Agent"/>
+					<vnrole vncls="13.4.1" vntheta="Agent"/>
+				</role>
+				<role descr="thing issued" f="PPT" n="1">
+					<vnrole vncls="13.3" vntheta="Theme"/>
+					<vnrole vncls="48.1.1" vntheta="Theme"/>
+					<vnrole vncls="13.4.1" vntheta="Theme"/>
+				</role>
+				<role descr="issued to" f="GOL" n="2">
+					<vnrole vncls="13.3" vntheta="Goal"/>
+					<vnrole vncls="13.4.1" vntheta="Recipient"/>
+				</role>
+				<role descr="attribute, issued as or at" f="LOC" n="3">
+					<vnrole vncls="48.1.1" vntheta="Location"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Usai pemeriksaan yang berlangsung tertutup bagi wartawan itu , Kepala Polres Aceh Besar Super Intentendent Sayed Hoesaini langsung mengeluarkan surat penahanan .</text>
+				<arg f="tmp" n="">Usai pemeriksaan yang berlangsung tertutup bagi wartawan itu</arg>
+				<arg f="" n="0">Kepala Polres Aceh Besar Super Intentendent Sayed Hoesaini</arg>
+				<arg f="adv" n="m">langsung</arg>
+				<rel f="">mengeluarkan</rel>
+				<arg f="" n="1">surat penahanan</arg>
+			</example>
+		</roleset>
+		<roleset id="mengeluarkan.04" name="membelanjakan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">spend</alias>
+        		<alias framenet="" pos="n" verbnet="">spending</alias>
+      		</aliases>
+			<roles>
+				<role descr="spender, buyer" f="pag" n="0">
+					<vnrole vncls="68" vntheta="agent"/>
+				</role>
+				<role descr="thing bought, commodity" f="ppt" n="1">
+					<vnrole vncls="68" vntheta="theme"/>
+				</role>
+				<role descr="seller" f="dir" n="2"/>
+				<role descr="price paid, money" f="vsp" n="3">
+					<vnrole vncls="68" vntheta="asset"/>
+				</role>
+				<role descr="benefactive" f="gol" n="4"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sedangkan penerima surat perintah atas nama Andi telah mengeluarkan biaya Rp 200 juta untuk membeli surat penguasaan .</text>
+				<arg f="dis" n="m">Sedangkan</arg>
+				<arg f="" n="0">penerima surat perintah atas nama Andi</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">mengeluarkan</rel>
+				<arg f="" n="1">biaya Rp 200 juta</arg>
+				<arg f="prp" n="m">untuk membeli surat penguasaan</arg>
+			</example>
+		</roleset>
+		<roleset id="mengeluarkan.05" name="menghasilkan (barang, dsb)">
+			<aliases>
+        		<alias framenet="removing" pos="n" verbnet="">removal</alias>
+        		<alias framenet="Undressing Removing" pos="v" verbnet="">remove</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity removing" f="pag" n="0">
+					<vnrole vncls="10.2" vntheta="agent"/>
+					<vnrole vncls="10.1" vntheta="agent"/>
+					<vnrole vncls="10.10" vntheta="agent"/>
+				</role>
+				<role descr="thing being removed" f="ppt" n="1">
+					<vnrole vncls="10.2" vntheta="theme"/>
+					<vnrole vncls="10.1" vntheta="theme"/>
+					<vnrole vncls="10.10" vntheta="theme"/>
+				</role>
+				<role descr="removed from" f="dir" n="2">
+					<vnrole vncls="10.2" vntheta="source"/>
+					<vnrole vncls="10.1" vntheta="source"/>
+					<vnrole vncls="10.10" vntheta="source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Menurut Roy , importir itu sengaja mengeluarkan barang sebelum menerima perintah pengeluaran barang dari Bea Cukai .</text>
+				<arg f="" n="0">importir itu</arg>
+				<arg f="adv" n="m">sengaja</arg>
+				<rel f="">mengeluarkan</rel>
+				<arg f="" n="1">barang</arg>
+				<arg f="tmp" n="m">sebelum menerima perintah pengeluaran barang dari Bea Cukai</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

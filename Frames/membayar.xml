@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="membayar">
+		<roleset id="membayar.01" name="memberikan uang (untuk pengganti harga barang yang diterima, melunasi utang, dan sebagainya)">
+			<aliases>
+        		<alias framenet="" pos="j" verbnet="">paid</alias>
+				<alias framenet="" pos="v" verbnet="">pay</alias>
+				<alias framenet="commerce_pay" pos="n" verbnet="">payment</alias>
+				<alias framenet="" pos="l" verbnet="">make_payment</alias>
+				<alias framenet="commerce_pay" pos="n" verbnet="">repayment</alias>
+      		</aliases>
+			<roles>
+				<role descr="payer or buyer" f="pag" n="0">
+					<vnrole vncls="68-1" vntheta="agent"/>
+				</role>
+				<role descr="money or attention" f="vsp" n="1">
+					<vnrole vncls="68-1" vntheta="asset"/>
+				</role>
+				<role descr="person being paid, destination of attention" f="gol" n="2"/>
+				<role descr="commodity, paid for what" f="ppt" n="3">
+					<vnrole vncls="68-1" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Oleh karena itu , diharapkan Perusahaan Listrik Negara tidak secara kaku memutuskan aliran listrik bagi industri yang masih membayar dengan TDL lama .</text>
+				<arg f="" n="0">industri</arg>
+				<arg f="tmp" n="m">masih</arg>
+				<rel f="">membayar</rel>
+				<arg f="" n="1">dengan TDL lama</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

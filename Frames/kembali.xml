@@ -20,15 +20,8 @@
 				<arg f="" n="0">mereka</arg>
 				<arg f="mod" n="m">akan</arg>
 				<rel f="">kembali</rel>
-				<arg f="tmp" n="m">10</arg>
-				<arg f="tmp" n="m">hari</arg>
-				<arg f="tmp" n="m">lagi</arg>
-				<arg f="prp" n="m">untuk</arg>
-				<arg f="prp" n="m">melihat</arg>
-				<arg f="prp" n="m">tindak</arg>
-				<arg f="prp" n="m">lanjut</arg>
-				<arg f="prp" n="m">Kapolresta</arg>
-				<arg f="prp" n="m">Padang</arg>
+				<arg f="tmp" n="m">10 hari lagi</arg>
+				<arg f="prp" n="m">untuk melihat tindak lanjut Kapolresta Padang</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menjalani">
+		<roleset id="menjalani.01" name="melakukan atau mengalami">
+			<aliases>
+        		<alias framenet="Undergoing" pos="v" verbnet="">undergo</alias>
+        		<alias framenet="" pos="v" verbnet="">under_go</alias>
+      		</aliases>
+			<roles>
+				<role descr="experiencer" f="ppt" n="1"/>
+        		<role descr="experienced" f="pag" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kali ini , calon ketua tak lagi menjalani uji kelayakan dan kepatutan , namun para calon wajib menjalani pemeriksaan secara administratif , klarifikasi , dan dialog .</text>
+				<arg f="tmp" n="m">Kali ini</arg>
+				<arg f="" n="1">calon ketua</arg>
+				<arg f="neg" n="m">tak</arg>
+				<arg f="adv" n="m">lagi</arg>
+				<rel f="">menjalani</rel>
+				<arg f="" n="2">uji kelayakan dan kepatutan</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

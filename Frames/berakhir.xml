@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berakhir">
+		<roleset id="berakhir.01" name="selesai, habis">
+			<aliases>
+        		<alias framenet="Cause_to_end Process_end" pos="v" verbnet="">end</alias>
+				<alias framenet="Cause_to_end Process_end" pos="n" verbnet="">end</alias>
+				<alias framenet="" pos="n" verbnet="">ending</alias>
+      		</aliases>
+			<roles>
+				<role descr="Agent/cause of ending" f="pag" n="0">
+					<vnrole vncls="55.4-1" vntheta="agent"/>
+				</role>
+				<role descr="Thing ending" f="ppt" n="1">
+					<vnrole vncls="55.4-1" vntheta="theme"/>
+				</role>
+				<role descr="Explicit instrument, thing ended with, end portion" f="mnr" n="2">
+					<vnrole vncls="55.4-1" vntheta="instrument"/>
+				</role>
+				<role descr="point at which something ends" f="tmp" n="m"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Setelah berada sekitar tiga minggu di Jakarta , Ana dan Nadya sepakat berakhir pekan ke Anyer jika cuaca cerah .</text>
+				<arg f="tmp" n="m">Setelah berada sekitar tiga minggu di Jakarta</arg>
+				<arg f="" n="0">Ana dan Nadya</arg>
+				<rel f="">berakhir</rel>
+				<arg f="" n="1">pekan</arg>
+				<arg f="dir" n="m">ke Anyer</arg>
+				<arg f="adv" n="m">jika cuaca cerah</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

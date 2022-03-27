@@ -19,18 +19,9 @@
 			<example name="" src="" type="">
 				<text>Saat tim yang terdiri dari anggota TNI /Polri dan Pertamina datang ke lokasi , tempat pengoplosan di pinggir sawah itu ditemukan bersama lima mobil tangki .</text>
 				<arg f="tmp" n="m">Saat</arg>
-				<arg f="" n="1">tim</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">terdiri</arg>
-				<arg f="" n="1">dari</arg>
-				<arg f="" n="1">anggota</arg>
-				<arg f="" n="1">TNI</arg>
-				<arg f="" n="1">/Polri</arg>
-				<arg f="" n="1">dan</arg>
-				<arg f="" n="1">Pertamina</arg>
+				<arg f="" n="1">tim yang terdiri dari anggota TNI /Polri dan Pertamina</arg>
 				<rel f="">datang</rel>
-				<arg f="" n="4">ke</arg>
-				<arg f="" n="4">lokasi</arg>
+				<arg f="" n="4">ke lokasi</arg>
 			</example>
 		</roleset>
 		<roleset id="datang.02" name="berasal">
@@ -47,14 +38,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Karena itu , Amien berharap , insiatif membentuk komisi tersebut datang dari F-PDIP MPR .</text>
-				<arg f="" n="1">insiatif</arg>
-				<arg f="" n="1">membentuk</arg>
-				<arg f="" n="1">komisi</arg>
-				<arg f="" n="1">tersebut</arg>
+				<arg f="" n="1">insiatif membentuk komisi tersebut</arg>
 				<rel f="">datang</rel>
-				<arg f="" n="2">dari</arg>
-				<arg f="" n="2">F-PDIP</arg>
-				<arg f="" n="2">MPR</arg>
+				<arg f="" n="2">dari F-PDIP MPR</arg>
 			</example>
 		</roleset>
 	</predicate>

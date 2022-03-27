@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mendesak">
+		<roleset id="mendesak.01" name="meminta dengan sangat, memaksa untuk segera dilakukan">
+			<aliases>
+        		<alias framenet="Attempt_suasion Request" pos="v" verbnet="">urge</alias>
+        		<alias framenet="" pos="n" verbnet="">urging</alias>
+      		</aliases>
+			<roles>
+				<role descr="urger" f="PAG" n="0">
+					<vnrole vncls="58.1" vntheta="Agent"/>
+				</role>
+				<role descr="impelled agent" f="PPT" n="1">
+					<vnrole vncls="58.1" vntheta="Recipient"/>
+				</role>
+				<role descr="impelled action" f="PPT" n="2">
+					<vnrole vncls="58.1" vntheta="Topic"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Kendati begitu , Kuasa Hukum Karyawan PT Kadera AR Indonesia tetap mendesak polisi untuk menangkap pelaku utama tersebut .</text>
+				<arg f="adv" n="m">Kendati begitu</arg>
+				<arg f="" n="0">Kuasa Hukum Karyawan PT Kadera AR Indonesia</arg>
+				<arg f="tmp" n="m">tetap</arg>
+				<rel f="">mendesak</rel>
+				<arg f="" n="1">polisi</arg>
+				<arg f="" n="2">menangkap pelaku utama tersebut</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Para sopir juga mendesak pihak manajemen Bali Taksi untuk menambah uang tunjangan kesepian sebesar Rp 10 ribu dalam sehari .</text>
+				<arg f="" n="0">Para sopir</arg>
+				<arg f="dis" n="m">juga</arg>
+				<rel f=""> mendesak</rel>
+				<arg f="" n="1">pihak manajemen Bali Taksi</arg>
+				<arg f="" n="2">untuk menambah uang tunjangan kesepian sebesar Rp 10 ribu dalam sehari</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

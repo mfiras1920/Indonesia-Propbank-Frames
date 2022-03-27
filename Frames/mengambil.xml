@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mengambil">
+		<roleset id="" name="memegang sesuatu lalu dibawa, mengambil sebagai, memberikan, mempertunjukkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">taking</alias>
+        		<alias framenet="Removing Ingest_substance Taking Bringing" pos="v" verbnet="">take</alias>
+      		</aliases>
+			<roles>
+				<role descr="Taker" f="pag" n="0">
+					<vnrole vncls="10.5" vntheta="agent"/>
+					<vnrole vncls="11.3" vntheta="instrument"/>
+				</role>
+				<role descr="thing taken" f="ppt" n="1">
+					<vnrole vncls="10.5" vntheta="theme"/>
+					<vnrole vncls="11.3" vntheta="theme"/>
+				</role>
+				<role descr="taken FROM, SOURCE of thing taken" f="dir" n="2">
+					<vnrole vncls="10.5" vntheta="source"/>
+				</role>
+				<role descr="destination" f="gol" n="3">
+					<vnrole vncls="11.3" vntheta="destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Tersangka diketahui telah mengambil buku catatan dan sejumlah berkas lain milik Udin , tak lama setelah peristiwa pembunuhan tanggal 16 Agustus 1996 .</text>
+				<arg f="" n="0">Tersangka</arg>
+				<arg f="adv" n="m">diketahui</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">mengambil</rel>
+				<arg f="" n="1">buku catatan dan sejumlah berkas lain milik Udin</arg>
+				<arg f="tmp" n="m">tak lama setelah peristiwa pembunuhan tanggal 16 Agustus 1996</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Alhasil , materi pameran lukisan anak-anak dalam rangka memperingati Hari Pahlawan yang digelar di Surabaya , baru-baru ini , banyak mengambil objek kerja bakti dan pasukan kuning Dinas Kebersihan yang sedang membuang sampah .</text>
+				<arg f="" n="0">materi pameran lukisan anak-anak dalam rangka memperingati Hari Pahlawan yang digelar di Surabaya , baru-baru ini</arg>
+				<arg f="adv" n="m">banyak</arg>
+				<rel f="">mengambil</rel>
+				<arg f="" n="1">objek kerja bakti dan pasukan kuning Dinas Kebersihan yang sedang membuang sampah</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Bahkan , jika perlu , bagi mereka yang masih bertahan sampai 1 Maret 2005 , pemerintah akan mengambil tindakan tegas .</text>
+				<arg f="" n="0">pemerintah</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">mengambil</rel>
+				<arg f="" n="1">tindakan tegas</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

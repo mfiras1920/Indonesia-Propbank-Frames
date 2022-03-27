@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dilaporkan">
+		<roleset id="dilaporkan.01" name="pasif melaporkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">report</alias>
+				<alias framenet="Statement Reporting" pos="v" verbnet="">report</alias>
+				<alias framenet="" pos="n" verbnet="">reporting</alias>
+      		</aliases>
+			<roles>
+				<role descr="Reporter" f="PAG" n="0">
+					<vnrole vncls="37.7-1" vntheta="Agent"/>
+					<vnrole vncls="29.9-1" vntheta="Agent"/>
+					<vnrole vncls="29.2-1-2" vntheta="Agent"/>
+				</role>
+				<role descr="thing reported" f="PPT" n="1">
+					<vnrole vncls="37.7-1" vntheta="Topic"/>
+					<vnrole vncls="29.9-1" vntheta="Theme"/>
+					<vnrole vncls="29.9-1" vntheta="Attribute"/>
+					<vnrole vncls="29.2-1-2" vntheta="Theme"/>
+					<vnrole vncls="29.2-1-2" vntheta="Attribute"/>
+				</role>
+				<role descr="entity reported to" f="GOL" n="2">
+					<vnrole vncls="37.7-1" vntheta="Recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain itu , sejumlah rumah dilaporkan hanyut dan memutuskan jalur transportasi Sinjai , Bone , dan Bulukumba .</text>
+				<arg f="adv" n="m">Selain itu</arg>
+				<arg f="" n="1">sejumlah rumah</arg>
+				<rel f="">dilaporkan</rel>
+				<arg f="" n="1">hanyut dan memutuskan jalur transportasi Sinjai , Bone , dan Bulukumba</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

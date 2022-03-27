@@ -17,13 +17,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Saat sang pengemudi mobil berhasil dirayu untuk turun , tersangka langsung memberi minuman dalam kotak Lexotan kepada korban .</text>
-				<arg f="" n="0">sang</arg>
-				<arg f="" n="0">pengemudi</arg>
-				<arg f="" n="0">mobil</arg>
+				<arg f="" n="0">sang pengemudi mobil</arg>
 				<rel f="">berhasil</rel>
-				<arg f="" n="1">dirayu</arg>
-				<arg f="" n="1">untuk</arg>
-				<arg f="" n="1">turun</arg>
+				<arg f="" n="1">dirayu untuk turun</arg>
 			</example>
 		</roleset>
 	</predicate>

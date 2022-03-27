@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="meninggalkan">
+		<roleset id="meninggalkan.01" name="membiarkan tinggal">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">leave</alias>
+				<alias framenet="" pos="n" verbnet="-">leave</alias>
+				<alias framenet="" pos="l" verbnet="-">take_leave</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity in motion" f="pag" n="0">
+				</role>
+				<role descr="starting point, location vacated" f="dir" n="1">
+				</role>
+				<role descr="destination (must also be a location)" f="gol" n="2">
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Mereka tidak akan meninggalkan kantor gubernur , sebelum Pemerintah Daerah turun tangan secara aktif mendamaikan pertentangan itu .</text>
+				<arg f="" n="0">Mereka</arg>
+				<arg f="neg" n="m">tidak</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">meninggalkan</rel>
+				<arg f="" n="1">kantor gubernur</arg>
+				<arg f="tmp" n="m">sebelum Pemerintah Daerah turun tangan secara aktif mendamaikan pertentangan itu</arg>
+			</example>
+		</roleset>
+		<roleset id="meninggalkan.02" name="pergi dari, menghindar dari">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="-">leave</alias>
+      		</aliases>
+			<roles>
+				<role descr="abandoner, entity leaving the relationship/organization" f="pag" n="0"/>
+				<role descr="person, thing abandoned (CANNOT be a location; use leave.11 instead)" f="ppt" n="1"/>
+				<role descr="in exchange for; greener pastures" f="gol" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Iwan mengaku meninggalkan dunia preman setelah sahabatnya tewas diterjang polisi .</text>
+				<arg f="" n="0">Iwan</arg>
+				<rel f="">meninggalkan</rel>
+				<arg f="" n="1">dunia preman</arg>
+				<arg f="tmp" n="m">setelah sahabatnya tewas diterjang polisi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

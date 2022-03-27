@@ -22,31 +22,10 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek , ujar Perez kepada Telecinco .</text>
-				<arg f="" n="1">Dia</arg>
-				<arg f="" n="1">(</arg>
-				<arg f="" n="1">Kaka</arg>
-				<arg f="" n="1">)</arg>
-				<arg f="" n="1">adalah</arg>
-				<arg f="" n="1">salah</arg>
-				<arg f="" n="1">satu</arg>
-				<arg f="" n="1">pemain</arg>
-				<arg f="" n="1">yang</arg>
-				<arg f="" n="1">layak</arg>
-				<arg f="" n="1">bermain</arg>
-				<arg f="" n="1">di</arg>
-				<arg f="" n="1">Real</arg>
-				<arg f="" n="1">Madrid</arg>
-				<arg f="" n="1">karena</arg>
-				<arg f="" n="1">punya</arg>
-				<arg f="" n="1">kualifikasi</arg>
-				<arg f="" n="1">masuk</arg>
-				<arg f="" n="1">ke</arg>
-				<arg f="" n="1">dalam</arg>
-				<arg f="" n="1">proyek</arg>
+				<arg f="" n="1">Dia ( Kaka ) adalah salah satu pemain yang layak bermain di Real Madrid karena punya kualifikasi masuk ke dalam proyek</arg>
 				<rel f="">ujar</rel>
 				<arg f="" n="0">Perez</arg>
-				<arg f="" n="2">kepada</arg>
-				<arg f="" n="2">Telecinco</arg>
+				<arg f="" n="2">kepada Telecinco</arg>
 			</example>
 		</roleset>
 	</predicate>

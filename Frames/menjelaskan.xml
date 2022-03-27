@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menjelaskan">
+		<roleset id="menjelaskan.01" name="menerangkan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">explanation</alias>
+        		<alias framenet="Explaining_the_facts Statement Justifying" pos="v" verbnet="">explain</alias>
+      		</aliases>
+			<roles>
+				<role descr="explainer" f="PAG" n="0">
+					<vnrole vncls="37.1.1" vntheta="Agent"/>
+					<vnrole vncls="78-1" vntheta="Cause"/>
+				</role>
+				<role descr="thing explained" f="PPT" n="1">
+					<vnrole vncls="37.1.1" vntheta="Topic"/>
+					<vnrole vncls="78-1" vntheta="Topic"/>
+				</role>
+				<role descr="explained to" f="GOL" n="2">
+					<vnrole vncls="37.1.1" vntheta="Recipient"/>
+					<vnrole vncls="78-1" vntheta="Recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Saat rapat , Zarkasih menjelaskan , dari tahun ke tahun , kucuran dana KUT berada di kisaran Rp 800 miliar .</text>
+				<arg f="tmp" n="m">Saat rapat</arg>
+				<arg f="" n="0">Zarkasih</arg>
+				<rel f="">menjelaskan</rel>
+				<arg f="" n="1">dari tahun ke tahun , kucuran dana KUT berada di kisaran Rp 800 miliar</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

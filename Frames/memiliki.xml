@@ -17,15 +17,9 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Sebagian besar musibah terjadi di Kabupaten Indramayu yang memiliki banyak titik rawan kemacetan dan kecelakaan .</text>
-				<arg f="" n="">Kabupaten</arg>
-				<arg f="" n="">Indramayu</arg>
+				<arg f="" n="">Kabupaten Indramayu</arg>
 				<rel f="">memiliki</rel>
-				<arg f="" n="1">banyak</arg>
-				<arg f="" n="1">titik</arg>
-				<arg f="" n="1">rawan</arg>
-				<arg f="" n="1">kemacetan</arg>
-				<arg f="" n="1">dan</arg>
-				<arg f="" n="1">kecelakaan</arg>
+				<arg f="" n="1">banyak titik rawan kemacetan dan kecelakaan</arg>
 			</example>
 		</roleset>
 	</predicate>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="diberikan">
+		<roleset id="diberikan.01" name="pasif memberikan">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">giving</alias>
+        		<alias framenet="Giving" pos="v" verbnet="">give</alias>
+      		</aliases>
+			<roles>
+				<role descr="giver" f="pag" n="0">
+					<vnrole vncls="13.1-1" vntheta="agent"/>
+				</role>
+				<role descr="thing given" f="ppt" n="1">
+					<vnrole vncls="13.1-1" vntheta="theme"/>
+				</role>
+				<role descr="entity given to" f="gol" n="2">
+					<vnrole vncls="13.1-1" vntheta="recipient"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara mengenai berapa besar nilai diskon yang akan diberikan , sejauh ini pihak PLN belum memutuskan .</text>
+				<arg f="" n="1">diskon</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">diberikan</rel>
+				<arg f="" n="0">pihak PLN</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Bila dana untuk pembangunan 80 RS dan RSS itu telah diterima , rencananya sebagian dari duit tersebut akan diberikan kepada Bank Tabungan Negara .</text>
+				<arg f="adv" n="m">Bila dana untuk pembangunan 80 RS dan RSS itu telah diterima</arg>
+				<arg f="" n="1">sebagian dari duit tersebut</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">diberikan</rel>
+				<arg f="" n="2">kepada Bank Tabungan Negara</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="">
+		<roleset id="menemui.01" name="1.menjumpai; bertemu dengan">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">meet</alias>
+				<alias framenet="discussion social_event" pos="n" verbnet="">meeting</alias>
+				<alias framenet="" pos="l" verbnet="">have_meeting</alias>
+      		</aliases>
+			<roles>
+				<role descr="one party" f="pag" n="0">
+					<vnrole vncls="36.3-1" vntheta="agent"/>
+				</role>
+				<role descr="other party" f="com" n="1">
+					<vnrole vncls="36.3-1" vntheta="co-agent"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Wakil Ketua Komisi A DPRD Jawa Barat Makki Yuliawan , yang menemui para petani berjanji bakal segera menemui jajaran Pemerintah Daerah Tasikmlaya .</text>
+				<arg f="" n="0">Wakil Ketua Komisi A DPRD Jawa Barat Makki Yuliawan</arg>
+				<rel f="">menemui</rel>
+				<arg f="" n="1">para petani</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Wakil Ketua Komisi A DPRD Jawa Barat Makki Yuliawan , yang menemui para petani berjanji bakal segera menemui jajaran Pemerintah Daerah Tasikmlaya .</text>
+				<arg f="" n="0">Wakil Ketua Komisi A DPRD Jawa Barat Makki Yuliawan , yang menemui para petani</arg>
+				<arg f="mod" n="m">bakal</arg>
+				<arg f="tmp" n="m">segera</arg>
+				<rel f="">menemui</rel>
+				<arg f="" n="1">jajaran Pemerintah Daerah Tasikmlaya</arg>
+			</example>
+		</roleset>
+		<roleset id="menemui.02" name="2. mengalami; menderita (kegagalan dan sebagainya)">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">encounter</alias>
+       			<alias framenet="" pos="v" verbnet="">encounter</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity encountering something" f="PAG" n="0"/>
+        		<role descr="entity encountered" f="PPT" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Selain permintaan pasar terhadap marmer belakangan meningkat dan para perajin juga tak menemui kesulitan memperoleh bahan baku .</text>
+				<arg f="" n="0">para perajin</arg>
+				<arg f="dis" n="m">juga</arg>
+				<arg f="neg" n="m">tak</arg>
+				<rel f="">menemui</rel>
+				<arg f="" n="1">kesulitan memperoleh bahan baku</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

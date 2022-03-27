@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="menuntut">
+		<roleset id="menuntut.01" name="meminta dengan keras, menagih">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">demand</alias>
+        		<alias framenet="request" pos="n" verbnet="">demand</alias>
+      		</aliases>
+			<roles>
+				<role descr="asker" f="pag" n="0">
+					<vnrole vncls="60-1" vntheta="agent"/>
+					<vnrole vncls="103" vntheta="pivot"/>
+				</role>
+				<role descr="favor" f="ppt" n="1">
+					<vnrole vncls="60-1" vntheta="topic"/>
+					<vnrole vncls="103" vntheta="theme"/>
+				</role>
+				<role descr="hearer" f="gol" n="2">
+					<vnrole vncls="60-1" vntheta="recipient"/>
+					<vnrole vncls="103" vntheta="source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Mereka menuntut persamaan Upah Minimum Regional Sidoarjo dengan UMR Kota Surabaya , yakni sebesar Rp 330 . 700 per bulan [ baca : Ribuan Buruh Menuntut Persamaan UMR , 28/11/2000 ] .</text>
+				<arg f="" n="0">Mereka</arg>
+				<rel f="">menuntut</rel>
+				<arg f="" n="1">persamaan Upah Minimum Regional Sidoarjo dengan UMR Kota Surabaya , yakni sebesar Rp 330 . 700 per bulan</arg>
+			</example>
+		</roleset>
+		<roleset id="menuntut.02" name="menggugat">
+			<aliases>
+        		<alias framenet="" pos="n" verbnet="">charge</alias>
+				<alias framenet="" pos="l" verbnet="">make_charge</alias>
+				<alias framenet="Notification_of_charges Imposing_obligation" pos="v" verbnet="">charge</alias>
+      		</aliases>
+			<roles>
+				<role descr="assigner" f="pag" n="0"/>
+				<role descr="assigned" f="ppt" n="1"/>
+				<role descr="role or crime" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sebelumnya , pada persidangan Januari silam , Jaksa Penuntut Umum Pardan Rachim telah menuntut keenam terdakwa itu dengan 15 tahun hukuman penjara .</text>
+				<arg f="tmp" n="m">Sebelumnya</arg>
+				<arg f="tmp" n="m">pada persidangan Januari silam</arg>
+				<arg f="" n="0">Jaksa Penuntut Umum Pardan Rachim</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">menuntut</rel>
+				<arg f="" n="1">keenam terdakwa itu</arg>
+				<arg f="" n="2">dengan 15 tahun hukuman penjara</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

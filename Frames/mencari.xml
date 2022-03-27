@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="mencari">
+		<roleset id="mencari.01" name="berusaha mendapatkan">
+			<aliases>
+        		<alias framenet="Scrutiny Seeking" pos="v" verbnet="">search</alias>
+				<alias framenet="" pos="n" verbnet="">searching</alias>
+				<alias framenet="" pos="n" verbnet="">search</alias>
+      		</aliases>
+			<roles>
+				<role descr="searcher" f="pag" n="0">
+					<vnrole vncls="35.2" vntheta="agent"/>
+				</role>
+				<role descr="Area searched" f="loc" n="1">
+					<vnrole vncls="35.2" vntheta="location"/>
+				</role>
+				<role descr="searched for" f="ppt" n="2">
+					<vnrole vncls="35.2" vntheta="theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sementara itu , masih banyak kaum ibu yang mencari bumbu penyedap Ajinomoto karena mereka sudah biasa menggunakan produk tersebut .</text>
+				<arg f="tmp" n="m">Sementara itu</arg>
+				<arg f="" n="0">banyak kaum ibu</arg>
+				<rel f="">mencari</rel>
+				<arg f="" n="1">bumbu penyedap Ajinomoto</arg>
+				<arg f="cau" n="m">karena mereka sudah biasa menggunakan produk tersebut</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Suasana di bengkel tampak berantakan setelah polisi mencari barang bukti yang berkaitan dengan para pelaku pengeboman .</text>
+				<arg f="" n="0">polisi</arg>
+				<rel f="">mencari</rel>
+				<arg f="" n="1">barang bukti yang berkaitan dengan para pelaku pengeboman</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

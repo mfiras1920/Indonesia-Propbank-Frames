@@ -1,0 +1,101 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="keluar">
+		<roleset id="keluar.01" name="bergerak dari sebelah dalam ke sebelah keluar">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">leave</alias>
+				<alias framenet="" pos="n" verbnet="-">leave</alias>
+				<alias framenet="" pos="l" verbnet="-">take_leave</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity in motion" f="pag" n="0">
+				</role>
+				<role descr="starting point, location vacated" f="dir" n="1">
+				</role>
+				<role descr="destination (must also be a location)" f="gol" n="2">
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sesaat setelah itu , karyawan sekretariat dewan dan anggota DPRD yang mengetahui ancaman itu pulang dan keluar ruangan dengan panik .</text>
+				<arg f="tmp" n="m">Sesaat setelah itu</arg>
+				<arg f="" n="0">karyawan sekretariat dewan dan anggota DPRD yang mengetahui ancaman itu</arg>
+				<rel f="">keluar</rel>
+				<arg f="" n="1">ruangan</arg>
+				<arg f="mnr" n="m">dengan panik</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Jika benar , maka Husni telah keluar dari GAM sebelum pemberlakuan Darurat Militer .</text>
+				<arg f="adv" n="m">Jika benar , maka</arg>
+				<arg f="" n="0">Husni</arg>
+				<arg f="lvb" n="m">telah</arg>
+				<rel f="">keluar</rel>
+				<arg f="" n="">dari GAM</arg>
+				<arg f="" n="">sebelum pemberlakuan Darurat Militer</arg>
+			</example>
+		</roleset>
+		<roleset id="keluar.02" name="berhenti dari perkumpulan">
+			<aliases>
+        		<alias framenet="removing" pos="n" verbnet="">removal</alias>
+        		<alias framenet="Undressing Removing" pos="v" verbnet="">remove</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity removing" f="pag" n="0">
+					<vnrole vncls="10.2" vntheta="agent"/>
+					<vnrole vncls="10.1" vntheta="agent"/>
+					<vnrole vncls="10.10" vntheta="agent"/>
+				</role>
+				<role descr="thing being removed" f="ppt" n="1">
+					<vnrole vncls="10.2" vntheta="theme"/>
+					<vnrole vncls="10.1" vntheta="theme"/>
+					<vnrole vncls="10.10" vntheta="theme"/>
+				</role>
+				<role descr="removed from" f="dir" n="2">
+					<vnrole vncls="10.2" vntheta="source"/>
+					<vnrole vncls="10.1" vntheta="source"/>
+					<vnrole vncls="10.10" vntheta="source"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Komite Pengawas Persaingan Usaha ( KPPU ) belum mempunyai alasan kuat untuk menyeret Indomart keluar dari usahanya , menyusul indikasi persaingan usaha tak sehat yang dilakukan .</text>
+				<arg f="" n="0">Indomart</arg>
+				<rel f="">keluar</rel>
+				<arg f="" n="1">dari usahanya</arg>
+			</example>
+		</roleset>
+		<roleset id="keluar.03" name="diumumkan">
+			<aliases>
+        		<alias framenet="coming_up_with" pos="v" verbnet="">come_up</alias>
+      		</aliases>
+			<roles>
+				<role descr="deviser" f="pag" n="0"/>
+        		<role descr="thing devised, brought forth, come up with" f="ppt" n="1"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Di sela rapat pimpinan DPR , Rabu ( 13/12 ) , Arifin Panigoro , menilai pernyataan itu keluar karena persoalan yang harus dihadapi Gus Dur memang sangat berat .</text>
+				<arg f="tmp" n="m">Di sela rapat pimpinan DPR , Rabu ( 13/12 )</arg>
+				<arg f="" n="1">pernyataan itu</arg>
+				<rel f="">keluar</rel>
+				<arg f="cau" n="m">karena persoalan yang harus dihadapi Gus Dur memang sangat berat</arg>
+			</example>
+		</roleset>
+		<roleset id="keluar.04" name="muncul sbg pecundang dsb">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">come_out</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent, originator of arg1" f="pag" n="0"/>
+				<role descr="thing appearing" f="ppt" n="1">
+					<vnrole vncls="48.1.1" vntheta="theme"/>
+				</role>
+				<role descr="attribute of arg1" f="prd" n="2"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Dari empat pertemuan terakhir , tiga di antaranya berakhir imbang , sedangkan satu kali keluar sebagai pecundang .</text>
+				<arg f="" n="0">Dari empat pertemuan terakhir</arg>
+				<arg f="tmp" n="m">satu kali</arg>
+				<rel f="">keluar</rel>
+				<arg f="" n="1">sebagai pecundang</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

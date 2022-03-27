@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="bergabung">
+		<roleset id="bergabung.01" name="menjadi satu (dengan); berkumpul menjadi satu">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">join</alias>
+        		<alias framenet="" pos="n" verbnet="">joining</alias>
+      		</aliases>
+			<roles>
+				<role descr="agent, entity doing the tying" f="pag" n="0">
+					<vnrole vncls="22.1-2-1" vntheta="agent"/>
+				</role>
+				<role descr="first thing being tied" f="ppt" n="1">
+					<vnrole vncls="22.1-2-1" vntheta="patient"/>
+				</role>
+				<role descr="second thing, tied to what" f="ppt" n="2">
+					<vnrole vncls="22.1-2-1" vntheta="co-patient"/>
+				</role>
+				<role descr="instrument, string" f="mnr" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Bahkan Jumat ( 11/05 ) siang tadi , puluhan orang yang bergabung dalam Masyarakat Muslim Maluku ( MMM ) berunjuk rasa di Markas Besar Polri .</text>
+				<arg f="tmp" n="m">Bahkan Jumat ( 11/05 ) siang tadi</arg>
+				<arg f="" n="0">puluhan orang</arg>
+				<rel f="">bergabung</rel>
+				<arg f="" n="1">dalam Masyarakat Muslim Maluku ( MMM )</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

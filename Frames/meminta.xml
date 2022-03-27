@@ -24,22 +24,12 @@
 			</roles>
 			<example name="" src="" type="">
 				<text>Selain itu , Hidayat Nurwahid juga meminta Kejagung untuk terus melakukan pelebaran penyidikan terhadap sejumlah kasus KKN .</text>
-				<arg f="adv" n="m">Selain</arg>
-				<arg f="adv" n="m">itu</arg>
-				<arg f="" n="0">Hidayat</arg>
-				<arg f="" n="0">Nurwahid</arg>
+				<arg f="adv" n="m">Selain itu</arg>
+				<arg f="" n="0">Hidayat Nurwahid</arg>
 				<arg f="dis" n="m">juga</arg>
 				<rel f="">meminta</rel>
 				<arg f="" n="2">Kejagung</arg>
-				<arg f="" n="1">untuk</arg>
-				<arg f="" n="1">terus</arg>
-				<arg f="" n="1">melakukan</arg>
-				<arg f="" n="1">pelebaran</arg>
-				<arg f="" n="1">penyidikan</arg>
-				<arg f="" n="1">terhadap</arg>
-				<arg f="" n="1">sejumlah</arg>
-				<arg f="" n="1">kasus</arg>
-				<arg f="" n="1">KKN</arg>
+				<arg f="" n="1">untuk terus melakukan pelebaran penyidikan terhadap sejumlah kasus KKN</arg>
 			</example>
 		</roleset>
 	</predicate>

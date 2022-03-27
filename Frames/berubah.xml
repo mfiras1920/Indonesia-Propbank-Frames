@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berubah">
+		<roleset id="berubah" name="menjadi lain (berbeda) dari semula">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">change</alias>
+				<alias framenet="" pos="n" verbnet="">change</alias>
+				<alias framenet="" pos="l" verbnet="">make_change</alias>
+				<alias framenet="" pos="n" verbnet="">changing</alias>
+      		</aliases>
+			<roles>
+				<role descr="causer of transformation" f="PAG" n="0">
+					<vnrole vncls="26.6.1-1" vntheta="Agent"/>
+					<vnrole vncls="45.4" vntheta="Agent"/>
+				</role>
+				<role descr="thing changing" f="PPT" n="1">
+					<vnrole vncls="26.6.1-1" vntheta="Patient"/>
+					<vnrole vncls="45.4" vntheta="Patient"/>
+				</role>
+				<role descr="end state" f="PRD" n="2">
+					<vnrole vncls="26.6.1-1" vntheta="Result"/>
+				</role>
+				<role descr="start state" f="VSP" n="3">
+					<vnrole vncls="26.6.1-1" vntheta="Material"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Namun , keputusan itu belakangan berubah sehingga pada pukul 11 . 30 siang , sebuah mobil rongsokan diambil pemiliknya .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="" n="1">keputusan itu belakangan</arg>
+				<rel f="">berubah</rel>
+				<arg f="prp" n="m">sehingga pada pukul 11 . 30 siang , sebuah mobil rongsokan diambil pemiliknya</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Namun dalam pertemuan yang dipimpin oleh Ketua Pansus Andi Matalatta akhirnya persyaratan itu berubah .</text>
+				<arg f="dis" n="m">Namun</arg>
+				<arg f="loc" n="m">dalam pertemuan yang dipimpin oleh Ketua Pansus Andi Matalatta</arg>
+				<arg f="adv" n="m">akhirnya</arg>
+				<arg f="" n="1">persyaratan itu</arg>
+				<rel f="">berubah</rel>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

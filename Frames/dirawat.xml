@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="dirawat">
+		<roleset id="dirawat.01" name="dipelihara, diurus, dijaga">
+			<aliases>
+        		<alias framenet="Cure" pos="v" verbnet="">treat</alias>
+				<alias framenet="Cure" pos="n" verbnet="">treatment</alias>
+				<alias framenet="" pos="l" verbnet="">give_treatment</alias>
+				<alias framenet="" pos="n" verbnet="">treating</alias>
+      		</aliases>
+			<roles>
+				<role descr="doctor (etc)" f="pag" n="0"/>
+				<role descr="patient" f="ppt" n="1"/>
+				<role descr="illness or injury" f="ppt" n="2"/>
+				<role descr="instrument" f="mnr" n="3"/>
+			</roles>
+			<example name="" src="" type="">
+				<text>Sembilan korban luka-luka akibat bentrokan antara massa pendukung Soeharto dengan kelompok mahasiswa , yang dirawat di Rumah Sakit Umum Fatmawati , Jakarta Selatan , Kamis ( 29/9 ) pagi , telah kembali ke rumah masing-masing .</text>
+				<arg f="" n="0">Sembilan korban luka-luka akibat bentrokan antara massa pendukung Soeharto dengan kelompok mahasiswa</arg>
+				<rel f="">dirawat</rel>
+				<arg f="loc" n="m">di Rumah Sakit Umum Fatmawati , Jakarta Selatan</arg>
+				<arg f="tmp" n="m">Kamis ( 29/9 ) pagi</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

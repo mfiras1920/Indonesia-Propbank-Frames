@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="berangkat">
+		<roleset id="berangkat.01" name="mulai berjalan (pergi, bepergian)">
+			<aliases>
+        		<alias framenet="Departing" pos="v" verbnet="">depart</alias>
+        		<alias framenet="Departing" pos="n" verbnet="">departure</alias>
+      		</aliases>
+			<roles>
+				<role descr="entity leaving, agent" f="PAG" n="0">
+					<vnrole vncls="51.1-1" vntheta="Theme"/>
+					<vnrole vncls="10.11" vntheta="Agent"/>
+				</role>
+				<role descr="departed from" f="DIR" n="1">
+					<vnrole vncls="51.1-1" vntheta="Initial_Location"/>
+					<vnrole vncls="10.11" vntheta="Source"/>
+				</role>
+				<role descr="departed for, destination" f="GOL" n="2">
+					<vnrole vncls="51.1-1" vntheta="Destination"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Rencananya , tambah Wimar , rombongan akan berangkat dari Jakarta ke Aceh pada hari Selasa ( 19/12 ) , pukul 6 . 30 WIB .</text>
+				<arg f="" n="m">rombongan</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">berangkat</rel>
+				<arg f="" n="1">dari Jakarta</arg>
+				<arg f="" n="2">ke Aceh</arg>
+				<arg f="tmp" n="m">pada hari Selasa ( 19/12 ) , pukul 6 . 30 WIB</arg>
+			</example>
+			<example name="" src="" type="">
+				<text>Pasalnya , polisi tidak dapat mengantisipasi kegiatan latihan dan pengisian ilmu kebal para pendukung Presiden Abdurrahman Wahid , yang sedianya akan berangkat ke Jakarta .</text>
+				<arg f="dis" n="m">Pasalnya</arg>
+				<arg f="" n="0">para pendukung Presiden Abdurrahman Wahid</arg>
+				<arg f="mod" n="m">akan</arg>
+				<rel f="">berangkat</rel>
+				<arg f="" n="">ke Jakarta</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

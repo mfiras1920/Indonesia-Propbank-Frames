@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="tampak">
+		<roleset id="tampak.01" name="dapat dilihat">
+			<aliases>
+        		<alias framenet="" pos="v" verbnet="">appear</alias>
+				<alias framenet="" pos="n" verbnet="">appearance</alias>
+				<alias framenet="" pos="l" verbnet="">make_appearance</alias>
+      		</aliases>
+			<roles>
+				<role descr="thing appearing" f="ppt" n="1">
+					<vnrole vncls="48.1.1" vntheta="Theme"/>
+				</role>
+			</roles>
+			<example name="" src="" type="">
+				<text>Karena pada pukul 11 . 00 WIB , sejumlah polisi mulai tampak di sana .</text>
+				<arg f="cau" n="m">Karena pada pukul 11 . 00 WIB</arg>
+				<arg f="" n="1">sejumlah polisi</arg>
+				<arg f="tmp" n="m">mulai</arg>
+				<rel f="">tampak</rel>
+				<arg f="loc" n="m">di sana</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>
